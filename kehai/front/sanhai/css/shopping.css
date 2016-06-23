@@ -1,0 +1,8 @@
+.border{ border:1px solid #fcb314}
+.cont{ padding:40px}
+.logoBar{ height:100px}
+.logoBar .logo{ background:red; float:left; width:150px; height:100px}
+.logoBar h3{ float:left; line-height:100px; height:100px}
+.main_l{ min-height:800px;}
+.main_r .cont40{ min-height:800px;}
+.main_r h4{ background:#fff9eb; font-size:18px; height:40px; line-height:40px; text-indent:40px}

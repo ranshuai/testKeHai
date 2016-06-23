@@ -1,0 +1,30 @@
+
+.classes_sel_sel{ width:1200px; margin:0 auto; font-size:14px; color:#666; margin-bottom: 14px;}
+.classes_sel_sel a{ color:#666;}
+.classes_sel_sel .sele_cont {line-height:50px; overflow:hidden; font-family:宋体;}
+.classes_sel_sel .sele_cont .sele_c_tit{ width:120px; color:#999;  text-align:right; float:left;}
+.classes_sel_sel .sele_cont .sele_c_list{ float:left; width:1080px; }
+.classes_sel_sel .sele_cont .sele_c_list li{ float:left; margin:0 5px;*padding-top:8px;}
+.classes_sel_sel .sele_cont .sele_c_list li i{ background:url(../images/select_classes.png) no-repeat;width: 10px;height: 10px;top: 50%;margin-left:6px ;}
+.classes_sel_sel .sele_cont .sele_c_list li .span_bor span{ color: #666;}
+.classes_sel_sel .sele_cont .sele_c_list li .span_bor .del{cursor:pointer; width:20px;height:22px; background: url(../images/select_classes.png) no-repeat 5px 5px;*background: url(../images/select_classes.png) no-repeat 5px 7px;
+} 
+/*list item*/
+.classes_sel_sel .sele_list_warp { border: 1px solid #dcdcdc;}
+.classes_sel_sel .sele_list{ overflow:hidden;line-height:40px; border-top:1px dashed #ccc;}
+.classes_sel_sel .sele_list .sele_li_tit{ width:104px; color:#ff8000; text-align:right; float:left; }
+.classes_sel_sel .sele_list .sele_li_list { float:left; width:1010px; height:40px;}
+.classes_sel_sel .sele_list .sele_li_list li{ float:left; margin:0 25px;}
+.classes_sel_sel .sele_list .sel_more{ width:84px; float:left;}
+/*控制样式*/
+.classes_sel_sel .no_border_t{ border-top:none !important;}
+.classes_sel_sel .h_auto{ height:auto !important;}
+.classes_sel_sel .ac{ color:#ff8000 !important;}
+.classes_sel_sel .span_bor{ border: 1px solid #dcdcdc; padding: 4px; display: inline-block; height:22px; line-height: 22px;}
+.classes_sel_sel .after{ padding: 0 4px;}
+/*背景图小三角*/  
+.classes_sel_sel i.active{ background-position: -210px -50px;}
+.classes_sel_sel .sele_cont ul{ padding-top: 10px}
+.classes_sel_sel .sele_list .sele_li_list{ height: auto;}
+.classes_sel_sel .sel_more i.active{ background-position: -210px -50px;}
+

@@ -1,0 +1,21 @@
+
+#siteSubsidiaryBanner .banner_bottom {
+    height: 135px;
+}
+#siteSubsidiaryBanner .banner_cont {
+    margin-left: 240px;
+}
+#siteSubsidiaryBanner .banner_item {
+    width: 310px;
+    margin-right: 7px;
+    border: 1px solid #ffffff;
+}
+#siteSubsidiaryBanner .banner_item_img, #siteSubsidiaryBanner .banner_item_img img {
+    width: 316px;
+    height: 130px;
+}
+#siteSubsidiaryBanner .banner_item_img img {
+    display: block;
+    width: 316px;
+    height: 130px;
+}

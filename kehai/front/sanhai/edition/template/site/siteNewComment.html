@@ -1,0 +1,100 @@
+<div class="all_comment">
+    <div class="newest_discuss_top clearfix">
+        <h3>最新评论</h3>
+    </div>
+    <ul id="sereva" class="dialogList">
+        <script type="text/template" id="evaluate">
+            <%
+                var dataArr = this.model.attributes.evaluate.data;
+                var evaluateRey = this.model.attributes.evaluateRey;
+                for(var i=0;i<6;i++){
+                    var item = dataArr[i];
+                    if(item.ppResId){
+                        var _src = "/file/loadImage/"+item.ppResId+"/60/60.r";
+                    }else{
+                        var _src = "/front/sanhai/images/person.png";
+                    }
+                    var time = new Date(parseFloat(item['time'])).format("yyyy-MM-dd hh:mm:ss");
+            %>
+                    <li class="dialogItem ">
+                        <div class="head_img"><a href="/site/student/<%= item['userId']%>/toStudentIndex.htm"><img
+                                style="width:60px; height:60px;" src="<%= _src%>"><%= item.userName%></a></div>
+                        <i class="arrow"></i>
+                        <div class="title_r fr"><span>课程：<%= item['sourceScore']%>分</span><span>老师：<%= item['teaScore']%>分</span><span>服务：<%= item['orgScore']%>分</span></div>
+                        <div class="dialogCont"><%= item['des']%></div>
+                        <div class="bottom_tools">
+                            <span><%= time%></span>&nbsp;&nbsp;&nbsp;<span><a href="/site/course/<%= item['courseId']%>/courseContent.htm"><%= item['courseName']%></a></span>
+                            <%
+                                var num = 0;
+                                for(var j=0;j < evaluateRey.length; j++){
+                                    var itemRey = evaluateRey[j];
+                                    if(itemRey.evaid == item.evaid ){
+                                        num++;
+                                    }
+                                }
+                            %>
+                            <div class="bottom_r"><a><em>查看回复</em>(<span class="bot_span" ><%= num%></span>)</a></div>
+                        </div>
+                        <div class="view_reply hide">
+                                <%
+                                if(evaluateRey.length>0){
+                                    for(var j=0;j < evaluateRey.length; j++){
+                                        var itemRey = evaluateRey[j];
+                                        if(item.ppResId){
+                                            var _src = "/file/loadImage/"+itemRey.ppResId+"/60/60.r";
+                                        }else{
+                                            var _src = "/front/sanhai/images/person.png";
+                                        }
+                                        var timeRey = new Date(parseFloat(itemRey['reTime'])).format("yyyy-MM-dd hh:mm:ss");
+                                        if(itemRey.evaid == item.evaid ){
+                                            num++;
+                                %>
+                                            <dl class="clearfix">
+                                                <dt><img style="width:60px; height:60px;" src="<%= _src%>"></dt>
+                                                <dd>
+                                                    <em><%= timeRey.reUserName%>：</em> <%= itemRey['content'] %>
+                                                </dd>
+                                                <dd>
+                                                    <span><%= timeRey%></span>
+                                                </dd>
+                                            </dl>
+                                <%      }
+                                    }
+                                }
+                                %>
+                        <!--</div>-->
+                        <!--<div class="view_reply hide">-->
+                        </div>
+                    </li>
+            <%}%>
+
+
+
+
+        <!--<li class="dialogItem ">-->
+            <!--<div class="head_img"><a href="/site/student/23041460366497419/toStudentIndex.htm"><img-->
+                    <!--style="width:60px; height:60px;" src="/front/sanhai/images/person.png">请叫我学生</a></div>-->
+            <!--<i class="arrow"></i>-->
+            <!--<div class="title_r fr"><span>课程：5分</span><span>老师：5分</span><span>服务：5分</span></div>-->
+            <!--<div class="dialogCont">不喜欢新老师</div>-->
+            <!--<div class="bottom_tools"><span>2016-04-11 18:30:07</span>&nbsp;&nbsp;&nbsp;<span><a-->
+                    <!--href="/site/course/23211460366761981/courseContent.htm">《04111111下午换老师》</a></span>-->
+                <!--<div class="bottom_r"><a><em>查看回复</em>(<span class="bot_span">0</span>)</a></div>-->
+            <!--</div>-->
+            <!--<div class="view_reply  hide"></div>-->
+        <!--</li>-->
+        <!--<li class="dialogItem ">-->
+            <!--<div class="head_img"><a href="/site/student/23041457661018648/toStudentIndex.htm"><img-->
+                    <!--style="width:60px; height:60px;" src="/file/loadImage/23131459229839863/60/60.r">LC测试学生2</a></div>-->
+            <!--<i class="arrow"></i>-->
+            <!--<div class="title_r fr"><span>课程：5分</span><span>老师：5分</span><span>服务：5分</span></div>-->
+            <!--<div class="dialogCont">很好啊 我喜欢的风格</div>-->
+            <!--<div class="bottom_tools"><span>2016-04-08 16:23:53</span>&nbsp;&nbsp;&nbsp;<span><a-->
+                    <!--href="/site/course/23211457668161870/courseContent.htm">《LC测试课程2》</a></span>-->
+                <!--<div class="bottom_r"><a><em>查看回复</em>(<span class="bot_span">0</span>)</a></div>-->
+            <!--</div>-->
+            <!--<div class="view_reply  hide"></div>-->
+        <!--</li>-->
+        </script>
+    </ul>
+</div>

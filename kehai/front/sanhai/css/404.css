@@ -1,0 +1,18 @@
+@charset "utf-8";
+.error_warp{width: 450px; height: 450px; border-radius: 225px;position: absolute; left: 50%; top: 50%; margin-top: -250px; margin-left: -225px;}
+.go_back{position: absolute; left: 50%; bottom: -100px; margin-left: -100px; width: 198px; height: 48px; border: 1px solid #4aacf3; border-radius: 25px; background-color: #fff; color: #4aacf3; font-size: 18px; height: 48px; line-height: 48px; text-align: center;}
+.go_back:hover{background-color: #4aacf3; color: #fff;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

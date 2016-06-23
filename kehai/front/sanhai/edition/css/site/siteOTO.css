@@ -1,0 +1,20 @@
+#siteOTO .more {
+    line-height: 39px;
+    right: 0px;
+    top: 0px;
+    position: absolute;
+    color: #ff8000;
+}
+#siteOTO .oneToneMains {
+    margin-left: -20px;
+}
+#siteOTO hr {
+    border: 1px solid #eee!important;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+#siteOTO .terdayCour{
+    margin-left: 25px;
+}
+.tody_l img{ margin-top: 16px}

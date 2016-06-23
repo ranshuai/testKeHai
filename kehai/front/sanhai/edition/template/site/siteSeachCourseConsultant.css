@@ -1,0 +1,19 @@
+
+
+.hands_up{width: 162px;height: 179px;background: url(../../images/handsup.png) no-repeat;background: url(../../images/handsup1.png) no-repeat\0;background-size: 100%;position: fixed;bottom: 112px;right: 6%;z-index: 100;cursor: pointer}
+.cht_dialog_box{position: relative;background: #fff;border-radius: 10px}
+.cht_dialog_box .ui-widget-header{height: 80px;overflow: hidden;line-height: 80px;background: transparent !important;color: #333 !important;font-size: 18px}
+.cht_dialog_box .ui-widget-content{background: transparent !important}
+.cht_dialog_box .ui-dialog-content{padding: 0 20px !important}
+.cht_dialog_box .ui-dialog-buttonpane{padding-top: 0 !important}
+.cht_dialog_box .ui-button{background: transparent !important;margin: 31px 22px 0 0 !important}
+.cht_dialog_box .ui-button:hover{background: transparent !important}
+.cht_dialog_box .ui-dialog-title{padding-left: 18px;color: #444}
+.cht_dialog_box .w80{color: #333}
+.cht_dialog_box .headsup{width: 282px;height: 311px;background: url(../../images/handsup.png) no-repeat;position: absolute;top: -155px;right: 60px}
+.cht_dialog_box .select_plus{margin-right: 2px}
+.cht_dialog_box .popCont{padding-top: 0 !important}
+.cht_dialog_box .popbox_item{padding: 0 !important}
+.cht_dialog_box .ui-button-icon-only .ui-icon{display: inline-block;top: 0;margin: 0;width: 22px;height: 22px;padding: 0;background: url(../../images/ico.png) no-repeat -360px -560px !important}
+.cht_dialog_box .error_message_phone em.error{left: 200px}
+.cht_dialog_box .ui-dialog-buttonpane{display: none}

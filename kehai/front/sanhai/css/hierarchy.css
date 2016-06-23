@@ -1,0 +1,21 @@
+@charset "utf-8";
+/* CSS Document */
+/*层级*/
+.z_0{ position:relative; z-index:0;}
+.z_10{ position:relative; z-index:10;}
+/*表单列表中字体的颜色*/
+.form_list_left_666 .formL{ color:#666}
+.form_list_left_666 .formR{ color:#333}
+.form_list_left_666 .formR textarea{ color:#333}
+.form_list_left_333 .formL{ color:#333}
+.form_list_left_333 .formR{ color:#666}
+.form_list_left_333 .formR input{ color:#666}
+.form_list_left_333 .formR em{color:#666}
+.form_list_left_333 .formR textarea{ color:#666}
+.select_plus em{ color:#666 !important;}
+.tab_nav .add_course{ color:#666; font-size:16px;}
+.tab_nav .add_wrong_course{ color:#666; font-size:16px;}
+/*标题下面的提示信息*/
+.tit_p{padding:11px 0px 16px 0}
+.sele_label{ padding-top:4px;}
+.click_open li.click_open_title:hover h5{ color:#fff;}

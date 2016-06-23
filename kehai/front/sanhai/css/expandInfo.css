@@ -1,0 +1,34 @@
+/*推广*/
+.expand_info .search_wrap{width: 222px;margin-bottom: 5px}
+.expand_info .search_wrap .input_wrap{width: 145px}
+.expand_info .record_row{line-height: 36px}
+.expand_info .sh_table span{display: block}
+.expand_info .sh_table p{display: inline-block}
+.expand_info .tabItem1,
+.expand_info .tabItem3{margin-top: 10px}
+.expand_info .tabItem2 .clearfix{padding: 24px 0 14px}
+.expand_info .formL{min-width: 60px}
+.expand_info .row{padding-bottom: 0}
+
+/*推送名单*/
+.push_subject h5{margin-top: 10px}
+.push_subject h4{text-align: center;padding-bottom: 18px}
+.push_subject .subjectShowView{/*height: 40px;*/width: 878px;background: #e5e5e5;overflow-x: auto;overflow-y: hidden}
+.push_subject .subjectShow{min-height: 200px}
+.push_subject .subjectShowView ul{}/*定义宽度才可横向滑动*/
+.push_subject .subjectShowView ul li{float: left;height: 40px;line-height: 40px;padding: 0 20px}
+.push_subject .subjectShowView ul li.ac{background: #fcb314}
+.push_subject .subjectShowView ul li.ac a{color: #fff}
+.push_subject .subjectShowView ul li:hover{background: #fcb314}
+.push_subject .subjectShowView ul li:hover a{color: #fff}
+.push_subject .sh_table span{padding-right: 10px}
+.push_subject .sh_table tr .tl{padding-left: 40px}
+.push_subject .sh_table tr button{height: 24px !important;line-height: 24px !important;border-radius: 2px !important;margin-right: 10px}
+.push_subject form .formR span{margin-right: 15px}
+
+.page{overflow: hidden;padding: 0 20px}
+.page p{display: inline-block;text-align: left}
+.page p span{font-size: 14px}
+.page p input{width: 62px;height: 26px;border: 1px solid #dcdcdc;margin: 0 5px}
+.screen_timer {line-height: 34px;top: 0;left: 330px}
+.ssvFixed{position: fixed;top: 0}

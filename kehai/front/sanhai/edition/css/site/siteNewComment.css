@@ -1,0 +1,92 @@
+
+#siteNewComment .newest_discuss_top {
+padding-top: 17px;
+border-bottom: 2px solid #eee;
+}
+#siteNewComment .newest_discuss_top h3 {
+    font-size: 22px;
+    height: 50px;
+    line-height: 50px;
+    color: #575757;
+}
+#siteNewComment .all_comment .dialogList .dialogItem {
+    float: none;
+}
+#siteNewComment .dialogItem .head_img {
+    width: 60px;
+    position: absolute;
+    left: -85px;
+    top: 0;
+    text-align: center;
+}
+#siteNewComment .dialogItem .head_img img {
+    display: block;
+    border-radius: 30px;
+    margin-bottom: 5px;
+    width: 60px;
+    height: 60px;
+}
+#siteNewComment .dialogItem {
+    margin-left: 110px;
+    padding: 15px 20px!important;
+    position: relative;
+    min-width: 401px;
+    border: 1px solid #dcdcdc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    zoom: 1;
+}
+#siteNewComment .dialogList {
+    padding: 20px 0;
+}
+.dialogItem .dialogCont {
+    line-height: 24px;
+    min-height: 30px;
+    color: #666;
+}
+.dialogItem .bottom_tools {
+    height: 30px;
+    line-height: 30px;
+    padding-top: 13px;
+    color: #999;
+}
+.all_comment .dialogList .dialogItem .bottom_tools span a {
+    padding-left: 20px;
+}
+.all_comment .dialogList .dialogItem .bottom_tools a {
+    color: #4aacf3;
+}
+.dialogItem .bottom_r {
+    float: right;
+}
+.all_comment .dialogList .dialogItem .bottom_r a {
+    color: #4aacf3;
+}
+.all_comment .dialogList .dialogItem .view_reply {
+    border: 1px solid #fcb314;
+    background: #fff9ea;
+    padding: 10px 15px 0px 24px;
+}
+.all_comment .dialogList .dialogItem .view_reply dl {
+    border-bottom: 1px dashed #dcdcdc;
+    padding: 15px 0px;
+}
+.all_comment .dialogList .dialogItem .view_reply .last_dialogItem {
+    border-bottom: none !important;
+}
+.all_comment .dialogList .dialogItem .view_reply dl {
+    padding: 15px 0px;
+}
+.all_comment .dialogList .dialogItem .view_reply img {
+    border-radius: 50px;
+    float: left;
+    margin-right: 10px;
+    width: 60px;
+    height: 60px;
+}
+.all_comment .dialogList .dialogItem .view_reply dd {
+    margin-left: 70px;
+}
+.all_comment .dialogList .dialogItem .view_reply em {
+    font-size: 16px;
+}

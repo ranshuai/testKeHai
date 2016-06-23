@@ -1,0 +1,209 @@
+@charset "utf-8";
+
+/*---------------------公用样式---------------------*/
+/*导航开始*/
+.left_menu{ background-color: #FFF9EB;}
+.left_menu li .li_1 span.menu_icon_1 {background: url(../images/ico.png) -870px 15px no-repeat;}
+.left_menu li .li_1 span.menu_icon_6 {background: url(../images/ico.png) -870px -65px no-repeat;}
+/*导航结束*/
+/*---------------------公用样式---------------------*/
+
+/*-------------------------college_student------------------------*/
+/*右侧开始*/
+
+.college_student .tab .tabCont .tabItem{padding: 20px 0;}
+.right_main_mid_table .right_main_mid_table_nav{background-color: #DCDCDC; height: 36px;}
+.right_main_mid_table_nav th{width: 178px; text-align: center; font-size: 14px; height: 36px; line-height: 36px; color: #333333;}
+.right_main_mid_table tr{font-size: 14px; height: 70px; line-height: 70px; color: #656565; border-bottom: 1px solid #DCDCDC;}
+.right_main_mid_table td{width: 178px; padding: 0; text-align: center;}
+
+.last{border-bottom: none;}
+.new_peidu{padding-top: 25px;}
+.new_peidu li{height: 36px; margin-bottom: 23px;}
+.new_peidu li input{ width: 132px; height: 34px; border: 1px solid #DCDCDC; padding: 0 8px;font-size: 14px; height: 34px; line-height: 34px; color: #575757;}
+.peidu_label{float: left;font-size: 14px; height: 36px; line-height: 36px; color: #575757; text-align: right; width: 80px; margin-right: 15px;}
+.peidu_label span{font-size: 14px; height: 36px; line-height: 36px; color: #FE0303; padding-right: 12px;}
+.peidu_select_cont{width: 100%; left: -1px; top: 34px; border: 1px solid #DCDCDC; background-color:#fff;}
+.peidu_select_cont option{ font-size: 14px; height: 34px; line-height: 34px; color: #575757; padding: 0 8px;}
+
+.w148{width: 148px;} 
+.every_hour{ font-size: 14px; height: 36px; line-height: 36px; color: #575757; }
+.self{ font-size: 14px; line-height: 36px;}
+.self span{float: left; color: #575757; margin-right: 20px;}
+.self div{margin-left: 90px; color: #FFFFFF; margin-bottom: 20px;}
+.self span, .self em{display: inline-block; height: 36px; margin-bottom: 20px;}
+.self em{background-color: #CBCBCB; border-radius: 4px; padding: 0 22px; margin-right: 20px;}
+.self .orange{background-color: #FBB313; color: #ffffff !important;}
+
+.accompany_list .formL{ width:100px}
+.accompany_list .formR{ width:700px}
+
+/*改变下拉框的背景色*/
+.js-bg{background:#f5f5f5;}
+.js-zIndex{ z-index:1;}
+
+
+
+/*右侧结束*/
+
+
+/*---------------------college_student end----------------------------*/
+
+
+
+/*-----------------------acccmpany_studying_list------------------------*/
+
+/*右侧部分 ly*/
+.acccmpany_studying_list .padding_reset{padding:50px 24px 15px 24px ;}
+.acccmpany_studying_list .right_main_title{line-height: 51px;margin: 0 24px; border-bottom: 2px solid #DCDCDC; padding: 0 15px;}
+.acccmpany_studying_list .search_wrap{margin-left: 230px; margin-bottom: 40px; width: 428px; height: 36px; background-color: #FCB314;}
+.acccmpany_studying_list .input_wrap{width: 364px; height: 32px; background-color: #fff; left: 2px; top: 2px; padding: 0 8px; }
+.acccmpany_studying_list .search_wrap button{  right: 0; width: 61px; height: 36px !important;background: #fcb314 !important;}
+.acccmpany_studying_list .search_wrap button i{ width: 22px; height: 21px; background: url(../images/ico.png) -320px 0px no-repeat; display: inline-block;}
+
+
+
+
+.acccmpany_studying_list .tabItem{padding: 0 ! important;}
+.acccmpany_studying_list .tabItem h5{line-height: 36px; padding: 0 9px; color: #656565;}
+.acccmpany_studying_list .table_head{ font-size: 14px; height: 36px; line-height: 36px; color: #333333; background-color: #DCDCDC; text-align: left;}
+.acccmpany_studying_list .ellipsis{width: 439px;overflow: hidden; white-space: nowrap; text-overflow:ellipsis; }
+.acccmpany_studying_list .order_num th{font-size: 14px; height: 36px; line-height: 36px; text-align: left; padding: 0 10px; background-color: #F4F4F4;}
+.acccmpany_studying_list .acccmpany_studying_list .order_table td{font-size: 14px; height: 70px; line-height: 70px; color: #656565;}
+.acccmpany_studying_list .order_table span{color: #BBA573;}
+.acccmpany_studying_list .look_detail{ font-size: 14px; height: 24px; line-height:24px; margin: 23px 0; width: 80px; height: 24px; background-color:#4AACF3}
+
+/*--------------------acccmpany_studying_list-------------------------*/
+
+
+
+/*-------------------acccmpany_studying_list_detail-----------------------*/
+.bg{background-image: url(../images/ico.png); background-repeat: no-repeat;}
+
+.as_list_detail .header_mid{margin-bottom: 5px;}
+.student_title{font-size: 18px; height: 47px; line-height: 47px;}
+.student_title i{ width: 20px; height: 23px; margin: 12px 17px 12px 0;}
+.bg_student{background-position: -200px -120px;}
+.student_content{height: 120px; background-color: #F4F4F4; border-radius: 8px; margin-bottom: 26px;}
+.student_cont{padding: 25px 27px;}
+.student_cont dt{float: left; width: 70px; height: 70px; background-color: #EDF1F4; border-radius: 18px;}
+.student_cont dt img{width: 60px; height: 60px; padding: 5px; border-radius: 18px; display: block;}
+.student_cont dd{margin-left: 100px; }
+.student_base_message p{ font-size: 0; margin-bottom: 11px;}
+.student_base_message span{font-size: 14px; height: 32px; line-height: 32px; color: #333333; margin-right: 60px;}
+.talk{ display: block; width: 98px; height: 22px; border: 1px solid #FCB314; border-radius: 2px; font-size: 14px; height: 22px; line-height: 22px; color: #FCB314;}
+.talk i{width: 22px; height: 22px; background-color: #FCB314; border-radius: 2px; background-position: -198px -156px; margin-right: 10px;margin-top: -2px;}
+.look_detail{width: 90px; height: 24px; border-radius: 2px; background-color: #4AACF3; margin: 4px 7px 0 0; font-size: 14px;height: 24px; line-height: 24px;}
+.look_detail i{ width: 7px; height: 11px; overflow: hidden; background-position: -360px 0; margin: -2px 0 0 7px;}
+
+/*列表*/
+.acccmpany_studying_list_detail .order_message{margin-bottom: 23px;}
+.acccmpany_studying_list_detail .bg_order{background-position: -240px -120px;}
+.acccmpany_studying_list_detail .order_table{border: 1px solid #DCDCDC; width: 100%}
+.acccmpany_studying_list_detail .order_table .text_in33{ text-indent: 33px;}
+.acccmpany_studying_list_detail .table_head{font-size: 16px; height: 36px; line-height: 36px; color: #656565; background-color: #DCDCDC;}
+.acccmpany_studying_list_detail .order_num{background-color: #F4F4F4; text-indent: 33px; height: 36px; line-height: 36px; text-align: left;}
+.acccmpany_studying_list_detail .acccmpany_studying_list_detail .order_num th{ font-size: 14px; height: 36px; line-height: 36px; color: #333333; text-align: left;}
+.acccmpany_studying_list_detail .order_table td{height: 97px; color: #656565; border-right: 1px solid #DCDCDC;}
+
+.border_none{border-right: none;}
+/*列表*/
+
+
+/*--------------------------------acccmpany_studying_list_detail end----------------------------------*/
+
+
+/*登陆注册 - 注册大学生*/
+
+.basic_information_college .main_cont30{ position:relative;}
+.basic_information_college .main_cont30 .main_cont30_l{ width:140px; height:194px; position:absolute;top:30px; left:30px;}
+.basic_information_college .user_logo_warp{width: 120px; height: 120px; background: #dbeefd; border-radius: 15px; margin-bottom: 20px;}
+.basic_information_college .user_logo_warp img{width: 100px; height: 100px;border-radius: 15px;margin: 10px;}
+.basic_information_college .main_cont30_l button {background-color: #4aacf3; height: 28px;width: 100px;border-radius: 5px; margin-left: 10px;}
+.basic_information_college .main_cont30 .main_cont30_r{ margin-left:140px;}
+.basic_information_college .main_cont30 .main_cont30_r .form_list .formL{ width:104px;}
+.basic_information_college .main_cont30 .main_cont30_r .form_list .row .formR input.width270{   width: 236px;height: 34px;padding-right: 30px;}
+.basic_information_college .main_cont30 .main_cont30_r .form_list .row .formR input.ac_red{ border:1px solid red;}
+.basic_information_college .main_cont30 .main_cont30_r .form_list .row .formR input.ac_green{ border:1px solid #7ecef4;}
+.basic_information_college .main_cont30 .main_cont30_r .form_list .formR .name { width: 20px; height: 24px;background: url(../images/ico.png) -358px -200px no-repeat;right: 7px;top: 10px; position:absolute;}
+.basic_information_college .main_cont30 .main_cont30_r .form_list .formR .Email { width: 20px; height: 24px;background: url(../images/ico.png) -400px -200px no-repeat;right: 7px;top: 10px; position:absolute;} 
+.formR .verification {width: 13px;height: 13px;background: url(../images/ico.png) -400px -239px no-repeat;right: -29px;top: 13px; position:absolute;}
+/*.basic_information_college .form_list .error_message{width: 208px;height: 30px;background: #fff9ea;border: 1px solid #fcb314;top: -14px;left: 357px;line-height: 30px;color: #ff8000;}
+.basic_information_college .form_list .error_message i{width: 13px;height: 13px;background: url(../images/ico.png) -310px -200px no-repeat;padding: 0px 10px;}
+.basic_information_college .form_list .error_message b{width: 12px;height: 8px;background: url(../images/ico.png) -160px -240px no-repeat;position: absolute;bottom: -8px;left: 11px;}*/
+.form_list .formL {min-width: 40px;}
+
+.basic_information_college .form_list .formR .btn { margin-left: 10px;width: 100px;background-color: #4AACF3;border-radius: 5px;}
+/*默认的大学生的基础信息*/
+.Basic_information_default .open_editor_cont{ padding-left:70px; padding-bottom:30px; line-height:38px; padding-top:20px;}
+.Basic_information_default .click_open{ padding-left:70px;}
+.Basic_information_default .title_edit a{ color:#4aabf0; background:none;}
+.Basic_information_default .form_list .row{ padding-bottom:0;}
+.Basic_information_default .main_cont30 .title_edit h3{background-color:#ffffff;border-bottom: 1px solid #dcdcdc; }
+.Basic_information_default .click_open .click_open_cont .form_list .row{ padding-bottom:24px;}
+.Basic_information_default .click_open .click_open_cont.pad0{ padding-top:0;}
+.Basic_information_default .form_list .formR .btn { margin-left: 10px;width: 100px;background-color: #4AACF3;border-radius: 5px;}
+.edit_cont_warpper .click_open .click_open_cont p{ text-align:left;}
+
+/*资金统计*/
+.fund_statistics .tab .tabCont .tab1{padding:33px 0px;border-top: 1px dashed #dcdcdc;margin-top: 38px;}
+.fund_statistics .tab .tabList li a,.fund_statistics .tab1 .tabList1 li a{padding: 0 42px;}
+.fund_statistics .tabList1 .view_record{float: right;}
+.fund_statistics .tabList1 .view_record a{padding: 0px !important;font-size: 14px;color: #4aacf3 !important;}
+.fund_statistics .tab1 .tabList1 .view_record a:hover{color: #fcb314 !important;border-bottom: none !important;}
+.fund_statistics .tab1 .tabList1 .view_record_orange{color: #fcb314 !important;border-bottom:none !important;}
+.fund_statistics .tab .tabItem .form_list .row{padding-bottom: 0px !important;}
+.fund_statistics .details a{padding-left: 10px;}
+.fund_statistics .details a i{width: 10;height: 6px;background: url(../images/ico.png) -396px -320px no-repeat;display: inline-block;}
+.fund_statistics table td a .down{height: 6px;background: url(../images/ico.png) -314px -120px no-repeat;display: inline-block;}
+.fund_statistics .details_main{width: 381px;border: 1px solid #fcb314;background: #fff9ea;left: -253px;top: 58px;z-index: 20;padding: 5px 0px;}
+.fund_statistics .details_main i{width: 14px;height: 7px;background: url(../images/ico.png) -160px -360px no-repeat;position: absolute;top: -7px;right: 30px;}
+.fund_statistics .details_main table{width: 100%;}
+.fund_statistics .details_main table th{background: none !important;color: #333;font-weight: bold;}
+.fund_statistics .details_main table td{border: none !important;padding: 4px 0px;}
+.fund_statistics .account_balance .account_balance_right{padding-left: 45px;}
+.fund_statistics .account_balance .formR button{height: 30px !important;line-height: 30px !important;margin-left: 15px;}
+.fund_statistics .account_balance .account_balance_left{border-right: 1px dashed #fcb314;padding:20px 83px 20px 23px;}
+.fund_statistics .account_balance{width: 590px;}
+.fund_statistics .form_list {margin-left: 0px;}
+.fund_statistics .form_list .row {padding-bottom: 0px;}
+.fund_statistics .account_balanceR{border: 1px dashed #fcb314;width: 258px;height: 100px;margin-left: 26px;margin-top: 13px;height: 171px;}
+.fund_statistics .account_balanceR h5 {height: 53px; line-height: 53px; border-bottom:  1px dashed #fcb314; padding-left: 20px; margin-bottom: 24px;}
+.fund_statistics .account_balanceR .add_card a{display: block;}
+.fund_statistics .account_balanceR .add_card i{width: 36px; height: 36px; background:url(../images/ico.png) -440px -840px no-repeat; margin: 0 auto; display: block;text-align: center; }
+.fund_statistics .account_balanceR .add_card span{font-size: 12px; display: block; padding-top: 10px; color:#666666; text-align: center;}
+.fund_statistics .account_balanceR .cancel_card span{margin-bottom: 20px;}
+.fund_statistics .account_balanceR .cancel_card span, .fund_statistics .account_balanceR .cancel_card button{display: block; margin-left: auto; margin-right: auto; text-align: center;}
+.fund_statistics .account_balanceR .cancel_card span i{width: 106px; height: 21px; background: url(../images/bank.png) 0 -9px no-repeat; margin-right: 10px;}
+.fund_statistics .tab .tabList li .ac,.fund_statistics .tab .tabList li a:hover {border-bottom: 2px solid #fcb314 !important;color: #fcb314 !important;}
+.fund_statistics .tab1 .tabList1 li .ac,.fund_statistics .tab1 .tabList1 li a:hover {border-bottom: 2px solid #fcb314;color: #fcb314 !important;}
+.fund_statistics .account_balance{border: 1px dashed #fcb314;margin-top: 13px;color: #666;}
+.fund_statistics .account_balance .account_balance_left h2{font-size: 30px;padding: 23px 0px 20px;}
+.fund_statistics .account_balance .account_balance_left a{width: 112px;height: 40px;display: block;text-align: center;line-height: 40px;border-radius: 4px;}
+.fund_statistics .account_balance_right {padding-top: 50px;margin-left: 20px;}
+.fund_statistics .right_main_mid{margin: 0px;padding: 20px 0px 0px;}
+.fund_statistics .right_main_mid .type{padding-top:30px;padding-bottom: 50px;}
+.fund_statistics .type .formR .select_plus {width: 132px;}
+.fund_statistics .type .search_wrap input {width: 414px;height: 32px;border: none;padding-left: 10px;margin-top: 2px;margin-left: 2px;}
+.fund_statistics .type .search_wrap input{*width: 390px;line-height: 28px;*margin-right:23px;*margin-top: 1px}
+.fund_statistics .type .search_wrap button{*right: -10px}
+.fund_statistics .type .form_list{padding-top: 0px;}
+.fund_statistics .type .form_list .row {padding: 0 25px;margin-left: 80px;}
+.fund_statistics .lectureNotes .classes_name span {overflow: hidden;white-space: nowrap;text-overflow: ellipsis;width: 195px;display: block;}
+.fund_statistics .lectureNotes .classes_name em {color: #bca574;padding-right: 5px;}
+.financeUnbundling .form_list{padding-left: 45px;padding-top: 15px;}
+.financeUnbundling .form_list .formR p{padding-top: 12px;}
+.financeUnbundling .formL i{width: 49px;height: 66px;background: url(../images/ico.png) -720px 0px no-repeat;display: inline-block;margin-left: 78px;}
+.financeUnbundling .formR p{line-height: 30px;color: #ff7f00;font-size: 16px;}
+.fund_statistics .placeholder{top: 5px !important}
+
+/*tab嵌套tab1*/
+.tab1 .tabList1{ height:40px; border-bottom:1px solid #ddd}
+.tab1 .tabList1 li{float:left;margin:0 !important;padding:0 !important}
+.tab1 .tabList1 li a {height: 38px;line-height: 38px; border: none; padding: 0 20px;background: white;font-size: 16px;color: #666 !important;}
+.tab1 .tabList1 li a{display:block;*float:left;height:38px;line-height:38px;padding:0 20px;border:none;position:relative;top:1px;background:white;}
+.tab1 .tabList1 li .ac {background: none; border-bottom: 2px solid #ff7f00; color: #ff8000 !important;}
+.tab1 .tabList1 li a:hover{border-bottom: 2px solid #ff7f00;; color: #ff8000 !important;}
+.tab1 .tabCont1{border:1px solid #E7E7E7}
+.tab1 .tabCont1 .tabItem1{padding:20px 0px; position:relative}
+

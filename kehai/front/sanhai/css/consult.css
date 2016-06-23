@@ -1,0 +1,120 @@
+/*选择咨询*/
+/*.csc{width: 960px;height: 730px}*/
+.csc{width: 100%;height: 100%;min-width: 900px;min-height: 730px}
+.csc .cs_head{width: 100%;height: 90px;background: #4aacf3}
+.csc .cs_head h6{line-height: 90px;color: #fff;padding-left: 30px}
+
+.csc .cs_headinfo{padding-top: 23px;height: 50px;line-height: 50px;color: #fff}
+.csc .cs_headinfo img{width: 45px;height: 45px;border: 5px solid #fff;background-color: #fff;border-radius: 50%;margin-right: 15px;float: left;margin-left: 30px;display: inline-block}
+.csc .cs_headinfo b,
+.csc .cs_headinfo span{float: left;padding-right: 20px}
+
+.csc .cs_main{min-height: 640px;position: relative;padding-right: 300px}
+.consult_change .cs_ml{overflow-y: auto}
+.csc .cs_ml {width: 100%;height: 100%;position: relative;min-height: 640px}
+.csc .cs_list{width: 100%}
+.csc .cs_list dl{width: 100%;height: 40px;padding: 10px 0;border-bottom: 1px solid #dcdcdc;clear: both; position: relative;}
+.csc .cs_list dl:hover{background: #fff9ea}
+.csc .cs_list dl dt{float: left;padding: 0 10px 0 30px}
+.csc .cs_list dl dt span{display: inline-block;width: 40px;height: 40px;background: url(../images/consultmen1.png) no-repeat;background: url(../images/ico.png) -320px -1080px no-repeat\0;background-size: 100%}
+.csc .cs_list dl dd{float: left;padding-top: 7px}
+.csc .cs_list dl dd b{padding-right: 25px}
+.csc .cs_list dl dd span{padding-right: 25px;color: #999}
+.csc .cs_list dl dd i{width: 20px;height: 20px;background: url(../images/ico.png) -200px -200px no-repeat;margin: 0 8px 0 13px}
+
+.csc .cs_list dl.offline dd i{display: none}
+.csc .cs_list dl.offline dt span{background: url(../images/consultmen2.png) no-repeat;background: url(../images/ico.png) -320px -1160px no-repeat\0;background-size: 100%}
+
+/*dialog发送*/
+.csc .cs_ml .cs_pic,
+.csc .cs_ml .send_btn,
+.csc .cs_mr .saveinfro_btn{display: inline-block;width: 100%;height: 50px;background: #dcdcdc}
+.csc .cs_mr .saveinfro_btn i{width: 1px;height: 34px;background: #fff;margin-top: 8px}
+.csc .cs_ml .cs_pic{position: absolute;left: 0;bottom: 230px}
+.csc .cs_ml .cs_pic span{width: 36px;height: 27px;margin: 13px 0 0 30px;display: inline-block;background: url(../images/consultpic.png) no-repeat;cursor: pointer}
+.csc .cs_ml .send_btn{text-align: right;position: relative;}
+.csc .cs_ml .send_btn span{margin: 7px 30px 0 0}
+.csc .cs_ml .send_main{position: absolute;left: 0;width: 100%;height: 230px;bottom: 0}
+.csc .cs_ml .send_main .send_mbox textarea{height: 138px;padding: 20px 0;width: 100%;border: none 0}
+.csc .cs_ml .send_main .send_mbox{margin: 0 30px}
+.csc .cs_ml .dialog_boxs{height: 100%;width: 100%}
+.csc .cs_ml .dialog_boxs .pa{width: 100%;height: 100%;top: 0;left: 0}
+.csc .cs_ml .info {display: inline-block; position: absolute; top: -40px; right: -15px;background: #dcdcdc;width: 200px;height: 30px;}
+
+.csc .cs_mrmain{overflow-y: auto}
+.csc .cs_mr {width: 299px;height: 100%;border-left: 1px solid #dcdcdc;position: absolute;right: 0}
+.csc .cs_mr .cs_mrnav{width: 100%;height: 60px;border-bottom: 1px solid #dcdcdc}
+.csc .cs_mr .cs_mrnav li{float: left;width: 148px;height: 38px;line-height: 38px;text-align: center;margin: 11px 0;cursor: pointer}
+.csc .cs_mr .cs_mrnav li:first-child{border-right: 1px solid #dcdcdc}
+.csc .cs_mr .cs_mrnav li:hover{color: #4aacf3}
+.csc .cs_mr .cs_mrnav li.cs_high{color: #4aacf3}
+.csc .cs_mr .cs_classinfro{width: 240px;padding-left: 28px}
+.csc .cs_mr .cs_classinfro li{line-height: 30px}
+.csc .cs_mr .cs_classinfro li img{width: 240px;height: 160px;padding: 11px 0 0 0;}
+
+/*消息显示*/
+.consult_person .dialog_message{/*padding-top: 70px;*/padding-bottom: 10px}
+.consult_person .dialog_message .dialog_message_left,
+.consult_person .dialog_message .dialog_message_right{margin-top: 20px;clear: both}
+.consult_person .dialog_message img{display: inline-block;width: 30px;height: 30px;float: left}
+.consult_person .dialog_message p{max-width: 500px;display: inline-block;padding: 10px;border-radius: 5px;position: relative}
+.consult_person .dialog_message i{position: absolute;width: 9px;height: 8px;background: url("../images/ico.png") no-repeat}
+.consult_person .dialog_message_left img{margin: 0 15px 0 15px}
+.consult_person .dialog_message_left p{background: #f4f4f4;color: #444}
+.consult_person .dialog_message_left i{background-position: -120px -400px;left: -9px}
+.consult_person .dialog_message_right i{background-position: -160px -400px;right: -9px}
+.consult_person .dialog_message_right p{float: right;background: #8fd06a;color: #fff}
+.consult_person .dialog_message_right img{float: right;margin: 0 15px 0 15px}
+.consult_person .dialog_message .chat_pic {height:200px; width:200px}
+
+.consult_person .wrap{position:relative;width: 100%;height: 360px;min-height: 360px;overflow:hidden/*;background: #7ecef4*/}
+.consult_person .cont{position:absolute;width: 100%;height: auto}
+.consult_person .scroll_bar{ width:10px; background:#dcdcdc; height:50px; position:absolute; top:0; right:0; cursor:pointer; display:none; border-radius:10px}
+
+/*咨询师*/
+.cst{min-width: 1260px;min-height: 730px}
+.cst .cs_main{padding-left: 300px}
+.cst .cs_headinfo img{margin-left: 330px}
+.cst .cs_mr .cs_custominfro ul{padding-left: 75px;padding-top: 80px}
+.cst .cs_mr .cs_remarks{height: 325px;width: 100%;background: #fff;position: absolute;bottom: 0;right: 0}
+.cst .cs_mr .cs_remarks h6{height: 45px;width: 100%;line-height: 45px;border-bottom: 1px solid #dcdcdc}
+.cst .cs_mr .cs_remarks .remarks_main{width: 238px;height: 185px;border: 1px solid #dcdcdc;margin: 20px auto}
+.cst .cs_mr .cs_remarks .remarks_main textarea{width: 90%;height: 88%;padding: 4%;border: none 0}
+.cst .cs_mr .cs_remarks .remarks_aditor{border: 1px solid #4AACf3}
+.cst .cs_mr .cs_remarks .remarks_main span{margin: 78px 0 0 80px}
+.cst .cs_mr .cs_remarks .saveinfro_btn span{margin: 7px 0 0 80px}
+.cst .cs_mc{border-right: 1px solid #dcdcdc;left: 0}
+.cst .cs_mc .cs_mrnav{position: absolute;top: -70px;border: none 0}
+.cst .cs_mc .cs_mrnav li:hover{color: #fff}
+.cst .cs_mc .cs_mrnav li.cs_high{color: #fff}
+/*正在联系和历史联系人*/
+.cst .cs_mr .cs_talking dl{position: relative}
+.cst .cs_mr .cs_talking dl.talking,.cst .cs_mr .cs_recent dl.talking{background:#fff9ea}
+
+/*提示联系人发送几条信息*/
+.cst .cs_mr .cs_talking .unread_info{content: '';display: inline-block;width: 25px;height: 25px;background: #ff8000;text-align: center;border-radius: 50%;position: absolute;
+    right: 20px;top: 17px;font-size: 12px;line-height: 25px;color: #fff}
+
+/*删除正在联系*/
+.cst .cs_mr .cs_talking dl .del_taking{content: '';display: inline-block;width: 9px;height: 9px;background: url(../images/ico.png) -120px -520px;position: absolute;
+    left: 8px;top: 26px;cursor:pointer;}
+
+.cst .cs_list dl dt span{background: none}
+.cst .cs_list dl.offline dt span{background: none}
+.cst .cs_list dl dt span img{width: 100%;height: 100%;border-radius: 50%}
+.cst .cs_list dl dt span:after{content: '';display: inline-block;width:12px;height: 12px;position: absolute;top: 38px;left: 60px}
+.cst .cs_list dl.online dt span:after{background: url(../images/ico.png) -400px -240px no-repeat;}
+.cst .cs_list dl.offline dt span:after{background: url(../images/ico.png) 0 -160px no-repeat;}
+.cst .cs_list dl.offline dt span img{ -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+    filter: grayscale(100%);
+    filter: gray}
+.gray {
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+    filter: grayscale(100%);
+    filter: gray}

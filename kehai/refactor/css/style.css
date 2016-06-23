@@ -1,0 +1,79 @@
+html, body {
+    position: relative;
+    height: 100%;
+}
+
+body {
+    background: #eee;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+}
+
+.displayNone{
+    display: none;
+}
+
+.swiper-container {
+    width: 500px;
+    height: 350px;
+    background: #c0c0c0;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+.result p{
+    text-indent: 2em;
+    margin: 10px;
+}
+
+.nav{
+    background: #c48b99;
+    margin-bottom: 15px;
+}
+
+.nav a{
+    color: #fff;
+}
+
+.bg-img{
+    background: url("../images/test.jpg");
+}
+
+.image-box-1,
+.image-box-2{
+    width:100px;
+    height:100px;
+    float: left;
+    border: 1px solid #cccc99;
+    margin: 10px;
+    background-size: 100px 100px;
+}
+
+.image-box-1{
+    background-image: url("../images/test.jpg");
+}
+
+.image-box-2{
+    background-image: url("../images/byteicon.png");
+}

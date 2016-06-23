@@ -1,0 +1,21 @@
+@require('header.hbs')
+<div class="entry">
+    <ul>
+        {{#each student}}
+           <li>
+               {{#compare name '===' 'lisi'}}
+                   {{name}}
+               {{else}}
+                   'noName'
+               {{/compare}}
+
+               {{sex}}
+               {{#compare age '==' 24 }}
+                   'young'
+               {{else}}
+                   {{ age }}
+               {{/compare}}
+           </li>
+        {{/each}}
+    </ul>
+</div>

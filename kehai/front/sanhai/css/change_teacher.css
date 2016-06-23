@@ -1,0 +1,42 @@
+/*换老师*/
+.change_teacher .right_main_mid{margin: 0px;}
+.change_teacher .right_main_mid .type{text-align:center;padding-top:15px}
+.change_teacher .right_main_mid .form_list .row{padding:0 25px 0px 60px}
+.change_teacher .type .form_list .formL{width:30px}
+.change_teacher .type .form_list .formR{width:150px}
+.change_teacher .formR .select_plus{width:132px}
+.change_teacher .formR .select_plus em{text-align:left}
+
+.change_teacher .search_wrap{width:428px;height:36px;background-color:#FCB314;margin-top:4px}
+
+.change_teacher .input_wrap input{width:100%;height:100%;border:none}
+.change_teacher .search_wrap button{right:0;width:61px;height:36px !important;background:#fcb314 !important}
+.change_teacher .search_wrap button i{width:22px;height:21px;background:url(../images/ico.png) -320px 0px no-repeat;display:inline-block}
+
+
+.change_teacher .right_main_mid .type p{width:428px;background:#fcb314;display:inline-block;margin-left:27px}
+.change_teacher .right_main_mid input{width:345px;border:0 none;height: 20px}
+.change_teacher .right_main_mid button{right:0;width:61px;*width:40px;height:36px !important;background:#fcb314 !important}
+.change_teacher .right_main_mid button i{width:22px;height:21px;background:url(../images/ico.png) -320px 0px no-repeat;display:inline-block}
+.change_teacher .right_main_mid h5{margin-top:50px}
+.change_teacher .right_main_mid .type label{padding:10px 96px 10px 20px;border:1px solid #ccc}
+.change_teacher .right_main_mid .type label i{width:10px;height:6px;background:url(../images/ico.png) -320px -80px no-repeat;display:inline-block;right:15px;top:15px}
+.change_teacher .right_main_mid .type ul{width:149px;border:1px solid #ccc;background:white;left:138px;text-align:left;text-indent:20px}
+.change_teacher .right_main_mid .type ul li{line-height:33px}
+.change_teacher .reject_reason_main .reason{height: 20px;display: block;}
+.change_teacher .reject_reason{width:400px;border:2px solid #4aacf3;padding:10px;right:0px;top:25px;background:white;text-align:left;z-index:20}
+.change_teacher .reject_reason h5{margin-top:0px;color:#4aacf3}
+.change_teacher .reject_reason i{width:13px;height:8px;background:url(../images/ico.png) -400px -120px no-repeat;display:inline-block;top:-8px;right:40px}
+textarea {width:445px;height:125px}
+.pushNotice_agree .popCont,.pushNotice .popCont{text-align:center}
+.pushNotice_agree .popCont p{padding-top:10px;color:#ff7f00;font-size:18px}
+.pushNotice_agree .popCont .row .formL{width:110px;margin-left:85px;color:#666}
+.pushNotice_agree .popCont .row{padding:25px}
+.pushNotice_agree .popCont .row .formR input{padding:4px 0px;border:1px solid #dcdcdc}
+
+
+
+
+
+
+

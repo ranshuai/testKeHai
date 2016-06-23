@@ -1,0 +1,145 @@
+.right_main{
+    width: auto;
+    height: 900px;
+
+}
+
+
+.right_main_top{
+			  height:50px; background:#fcb314; font-size:16px; border-bottom:2px solid #dcdcdc;
+			filter:alpha(opacity=50); 
+	 		-moz-opacity:0.2;   
+	 		-khtml-opacity: 0.2;   
+	 		opacity: 0.2;
+            width:845px;
+             position: relative;
+            right:25px;
+	 		}
+.right_main_mid{
+	position: relative;left:50px; top:-40px;
+}
+.right_main_mation{
+	position: relative;left:320px; top:-255px;width: 400px;
+}
+.right_main_shu{
+	        text-align: center;
+
+            font-size: 32px;
+
+            width: 500px;
+
+            color: white;
+
+            padding: 10px;
+
+            margin: 10px;
+
+            -webkit-border-radius: 15px;
+
+            -moz-border-radius: 15px;
+}
+.account-con{
+    width:400px;
+    margin:70px auto;
+    padding:0.5em;
+   /* line-height:2;*/
+    font-size:14px;
+   height:250px;
+    border: 1px solid #E8E7E4;
+    border-radius: 2em;
+    -moz-box-shadow:2px 2px 5px #E8E7E4;
+    -webkit-box-shadow:2px 2px 5px #E8E7E4;
+    box-shadow:2px 2px 5px #E8E7E4;
+    position: relative;
+   right:5%;
+   top:-30px;
+}
+.bord{
+    width:80px; height:30px;border: 1px solid darkgreen; float: right; background-color: white;
+}
+.tea{
+    POSITION:absolute; left:30px; top:150px;width:410px; height:100px; float: right;overflow:auto;
+}
+
+/*退课*/
+.main{
+    width: 900px;
+    height:690px;
+    border: 1px solid #fcb314;
+
+}
+
+body,table{
+    font-size:12px;
+}
+table{
+    table-layout:fixed;
+    empty-cells:show;
+    border-collapse: collapse;
+    margin:0 auto;
+}
+td{
+    height:30px;
+}
+h1,h2,h3{
+    font-size:12px;
+    margin:0;
+    padding:0;
+}
+.table{
+
+    color:#666;
+}
+.table th {
+    background-repeat:repeat-x;
+    background-color:#E8E7E4;
+    height:30px;
+}
+.table td,.table th{
+
+    padding:0 1em 0;
+}
+.table tr.alter{
+    background-color:#f5fafe;
+}
+
+.color_select{color:black; text-decoration:none;font-weight:bold;}/*链接设置*/
+.color{color:darkgreen; text-decoration:none;font-weight:bold;}/*访问过的链接设置*/
+.ce-banner a:hover {
+    background-color: rgba(0,0,0,0.2);
+}
+/*评论*/
+.c_right{  position: relative;top:0px; left:0px; height:650px; width:950px;border:1px solid #fcb314;}
+
+.c_right_div{  width: 948px;height: 45px; background-color: #fcb314; filter:alpha(opacity=50);  -moz-opacity:0.5;   -khtml-opacity: 0.5;   opacity: 0.5;}
+
+/* .row {
+		width:320px;
+		background-color: #F0F0F0;
+	} */
+.pull-left-1{
+    position: relative; left:320px;
+}
+.pull-right-1{
+    position: relative; left:240px;
+}
+
+.wrapper{width:300px; margin:10px auto; font:14px/1.5 arial;}
+/*tab*/
+#star1{overflow:hidden;}
+#star1 li{float:left; width:20px; height:20px; margin:2px; display:inline; color:#999; font:bold 18px arial; cursor:pointer}
+#star1 .act{color:#c00}
+#star_word1{width:80px; height:30px; line-height:30px; border:1px solid #ccc; margin:10px; text-align:center; display:none}
+
+#star2{overflow:hidden;}
+#star2 li{float:left; width:20px; height:20px; margin:2px; display:inline; color:#999; font:bold 18px arial; cursor:pointer}
+#star2 .act{color:#c00}
+#star_word2{width:80px; height:30px; line-height:30px; border:1px solid #ccc; margin:10px; text-align:center; display:none}
+
+#star3{overflow:hidden;}
+#star3 li{float:left; width:20px; height:20px; margin:2px; display:inline; color:#999; font:bold 18px arial; cursor:pointer}
+#star3 .act{color:#c00}
+#star_word3{width:80px; height:30px; line-height:30px; border:1px solid #ccc; margin:10px; text-align:center; display:none}
+
+.main_right{  position: relative;top:0px; left:0px; height:1150px; width:950px;border:1px solid #fcb314;}
+

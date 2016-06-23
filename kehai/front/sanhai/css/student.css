@@ -1,0 +1,445 @@
+@charset "utf-8";
+/* CSS Document */
+/*等饭上课 wait_attendClass_list*/
+.wait_attendClass_list .right_main_mid{margin-left:0}
+.wait_attendClass_list .bg{width:80px; height:20px; background:#CCCCCC; color:#FFF!important; display:inline-block; line-height:20px}
+.wait_attendClass_list .bg_color{background:#4AACf3}
+.wrap_search_top .search_select em{position:absolute;top:50%;margin-top:-11px;right:-2px;height:22px;border-left:1px solid #fcb314}
+/*导航开始*/
+/*.left_menu li .li_1 .menu_icon_1{background:url(../images/ico.png) -870px 15px no-repeat!important}*/
+/*.left_menu li .li_1 .menu_icon_4{background:url(../images/ico.png) -870px -65px no-repeat!important}*/
+.left_menu li .li_1 .menu_icon_7{background:url(../images/ico.png) -870px -143px no-repeat!important}
+.left_menu li .li_1 .menu_icon_8{background:url(../images/ico.png) -870px -225px no-repeat!important}
+
+/*学生-基本信息   slg*/
+.Basic_information .main_cont30{position:relative}
+.Basic_information .main_cont30 .main_cont30_l{width:140px; height:194px; position:absolute;top:30px; left:30px}
+.Basic_information .main_cont30 .main_cont30_r{margin-left:140px}
+.Basic_information .main_cont30 .main_cont30_r .form_list .formL{width:104px}
+.Basic_information .user_logo_warp{width:138px; height:138px; background:#f4f4f4;border: 1px dashed #ddd;margin-bottom:6px}
+.Basic_information .user_logo_warp img{width:138px;height:138px}
+.Basic_information .uploadJsBtn{background:#35cafb;border-radius:2px}
+.Basic_information .uploadJsBtn:hover{background:#00bbf9!important}
+.Basic_information .main_cont30_l button{background-color:#4aacf3; height:28px; width:100px; border-radius:5px; margin-left:10px}
+.Basic_information .main_cont30 .main_cont30_r .form_list .row .formR input{position:relative;border:1px solid #dcdcdc}
+.Basic_information .main_cont30 .main_cont30_r .form_list .row .formR i{position:absolute}
+.Basic_information .main_cont30 .main_cont30_r .form_list .row .formR input.width270{width:228px; height:34px;padding-right:30px}
+.Basic_information .main_cont30_r .form_list .formL em{color:red;padding-right:10px}
+.Basic_information .form_list .formR .name{width:20px;height:24px;background:url(../images/ico.png) -358px -200px no-repeat;right:7px;top:10px}
+.Basic_information .form_list .formR .Email{width:18px;height:13px;background:url(../images/ico.png) -400px -200px no-repeat;right:7px}
+.Basic_information .form_list .formR .verification{width:13px;height:13px;background:url(../images/ico.png) -400px -239px no-repeat;right:-29px;top:13px}
+.Basic_information .form_list .formR label{padding-right:15px}
+/*.Basic_information .form_list .formR .grade{width:134px!important}*/
+.Basic_information .form_list .formR .year{width:132px}
+.Basic_information .form_list .formR .place{width:248px!important}
+.Basic_information .error_show_introduce .error_message em{top: 125px}
+.Basic_information_default .error_show_introduce .error_message em{top: 203px}
+
+
+/*登陆后默认的学生基本信息*/
+.Basic_information_default {min-height:876px}
+.Basic_information_default .edit_cont_warpper .open_editor_cont{padding-left:70px}
+.Basic_information_default .edit_cont_warpper .open_editor_cont .form_list .row{padding-bottom: 16px}
+.Basic_information_default .edit_cont_warpper .open_editor_cont .form_list .formL,
+.Basic_information_default .edit_cont_warpper .open_editor_cont .form_list .formR {min-height: 14px;line-height:14px}
+.Basic_information_default .edit_cont_warpper .click_open_cont {padding-left:70px}
+.Basic_information_default .form_list .formR textarea{width:568px; height:190px}
+.Basic_information_default .title_edit a { width:140px;}
+
+/*个人设置-密码修改 slg*/
+.password_change .form_list{margin:10px 210px;}
+.password_change .form_list h4{color:#ff8000;padding-bottom:20px;padding-left:74px}
+.password_change .form_list .row .formL{width:89px}
+.password_change .form_list .row em{color:red;padding-right:10px;vertical-align: middle;}
+.password_change .form_list .row input{width:270px;height:26px;padding: 4px 8px; border:1px solid #dcdcdc}
+.password_change .form_list .row button{margin-right:30px;margin-top:20px}
+
+/*学生-个人中心   wy*/
+.header_data{padding:40px 0 30px}
+.header_data .header_data_left .pic{width:100px;height:100px;margin:53px 0 15px 65px;border-radius:10px;background:#dee2e5}
+.header_data .header_data_left .pic img{width:100px;height:100px;border-radius:10px}
+.header_data .header_data_left .star{color:#a0a0a0;margin-left:42px}
+.header_data .header_data_left .star i{width:18px;height:17px;display:inline-block;background:url(../images/bg.png) -160px 0px;padding:0 2px}
+.header_data .header_data_right{position:relative}
+.header_data .header_data_right .font18{padding:0 0 20px 20px}
+.header_data .header_data_right .sanjiao{width:14px;height:7px;margin-left:126px;background:url(../images/ico.png) -160px -360px;position:absolute;z-index:1}
+.header_data .header_data_right .main_border{margin-top:6px;padding-top:37px;background:#fff9ea;color:#a0a0a0}
+.header_data .header_data_right .main_border em{padding:0 12px 0 56px;*float:left;*line-height:20px}
+.header_data .header_data_right .main_border .main_border_rate{*float:left}
+.header_data .header_data_right .main_border .progress_bar_g{*margin:7px 7px 0 7px}
+.header_data .header_data_right .main_border .progress_bar_g{display:inline-block;width:550px;height:12px;background:#cfd8e6;border-radius:4px;position:relative;*float:left}
+.header_data .header_data_right .main_border .progress_bar_o{display:inline-block;height:12px;background:#ff8000;border-radius:4px; position:absolute; left: 0;top:0;} /*宽度比例*/
+.header_data .header_data_right .main_border .progress_bar_rate{width:42px;height:24px;text-align:center;color:#fff;font-size:10px;position:absolute;top:-27px;margin-left:-21px}
+.header_data .header_data_right .main_border .progress_bar_rate strong{display:block;height:20px;line-height:20px;border-radius:4px;background:#999;text-align:center}
+.header_data .header_data_right .main_border .progress_bar_rate i{background:url(../images/ico.png) -200px -360px no-repeat}
+.header_data .header_data_right .main_border .data_text{padding:13px 0 40px 152px;color:#4aacf3;clear:both}
+.header_data .header_data_right .main_border .data_text a{color:#4aacf3}
+.header_data .header_data_right .main_border .data_text i{margin-left:8px;margin-top:-2px;*float:left}
+.header_data .header_data_right .main_border .data_text b a{color:#4aacf3;padding-left:0}
+.header_data .header_data_right .main_border .data_text span{*float:right}
+.header_data .header_data_right .main_border .data_text b{*float:left;margin-top:-8px}
+.header_data .header_data_right .main_border .progress_bar_rate i{margin-left:-4px;margin-left:15px\0;margin-right:3px;width:18px;height:13px;position: absolute;top: 20px}
+.header_data .header_data_right .main_border b{color:#a0a0a0}
+.header_data .header_data_right .main_border span{float:right;padding-right:24px}
+.header_data .header_data_right .main_border .data_text_g{background:url(../images/ico.png) -400px -240px no-repeat}
+.header_data .header_data_right .main_border .data_text_o{background:url(../images/ico.png) -320px -200px no-repeat}
+.header_data .header_data_right .main_border .data_text_ol{width:26px;height:26px;border-radius:50%;background:#fcb314}
+.header_data .header_data_right .main_border .data_text_ol i{width:16px;height:14px;background:url(../images/ico.png) 1.5px -360px no-repeat;margin:5px}
+.personal_center_main h4{height:33px;margin:23px 0 31px 0;border-bottom:1px solid #cccccc}
+.personal_center_main h4 i{width:26px;height:26px;border-radius:50%;background:#FCB314 url(../images/ico.png) -34px -355px no-repeat;margin-right:6px}
+.personal_center_main .date_form{width:770px;/*height:326px;*/padding:0 0 25px 61px}
+/*.personal_center_main .date_form div{height:324px;background:#CCCCCC;border:1px solid #ccc}*/
+.personal_center_main h4.title_two{border:none!important;margin-bottom:0!important}
+.personal_center_main h4.title_two i{background:#FCB314 url(../images/ico.png) -74px -355px no-repeat!important}
+.personal_center_main .history_search{width:890px;height:283px;padding-bottom:28px;overflow:hidden}
+.personal_center_main .history_search .hs_one{border:1px solid #ccc;overflow: hidden}
+.personal_center_main .history_search .hs_two{display:inline-block;*float:left;width:292px;padding-top:30px;padding-bottom:10px;text-align:center}
+.personal_center_main .history_search .hs_one .express{border-left:1px solid #ccc;border-right:1px solid #ccc}
+.personal_center_main .history_search .hs_two i{width:90px;height:90px;border-radius:50%}
+.personal_center_main .history_search .hs_two h6{height:45px;line-height:45px;font-size:16px}
+.personal_center_main .history_search .hs_two p{height:80px;line-height:22px;color:#999}
+.personal_center_main .history_search .hs_two p em{font-size:24px;color:#76b852}
+.personal_center_main .history_search .hs_two a{color:#4aacf3}
+.personal_center_main .history_search .hs_one .order i{background: url(../images/ico.png) -840px -600px no-repeat}
+.personal_center_main .history_search .hs_one .express i{background: url(../images/ico.png) -520px -760px no-repeat}
+.personal_center_main .history_search .hs_one .class i{background: url(../images/ico.png) -840px -480px no-repeat}
+.header_data .header_data_right .font14 strong {font-weight: normal;  color: #4aacf3}
+.header_data .header_data_right .font14 .school_logo{width:19px;height: 22px;margin-right: 10px;background: url(../images/ico.png) -160PX -320PX;top:-4px;left:24px;}
+#orgName{ margin-left: 44px;}
+
+/*添加银行卡*/
+.add_bank_card .title{line-height:53px;color:#333!important;padding:0 24px;height:53px}
+.add_bank_card .title h4{color:#333!important}
+.add_bank_card .form_list{/*margin-left:76px;*/width:710px;margin:auto}
+.add_bank_card .form_list .formR input{border:1px solid #dcdcdc;height:34px;width:148px}
+.add_bank_card .form_list .formR .obtainBtn{height:36px;width:110px;background-color:#ff8000}
+.add_bank_card .form_list .formR .binDingBtn{font-size:18px;margin-top:16px}
+/* 财务管理 上课记录  slg */
+.tab .tabCont .tabItem{padding:0px}
+.right_main_mid{margin:0;padding:20px 0px 0px}
+.payroll .tab .tabList li a,.time_fee .tab .tabList li a{padding:0 42px}
+.payroll .tab .tabList li .ac,.payroll .tab .tabList li a:hover{border-bottom:2px solid #fcb314!important;color:#fcb314!important}
+.payroll .right_main_mid .type{text-align:center; padding-top:30px;padding-bottom:50px}
+.payroll .right_main_mid .form_list .row{padding:0 25px;margin-left:40px}
+.payroll .type .form_list .formL{width:30px}
+.payroll .type .form_list .formR{width:150px}
+.payroll .formR .select_plus{width:132px;*margin-right: 10px !important}
+.payroll .formR .select_plus em{text-align:left}
+.payroll .search_wrap{margin-top:4px}
+.payroll .search_wrap input{*width: 390px !important;*margin-right:23px !important;*margin-top: 1px !important}
+.payroll .search_wrap button{*right: -10px !important}
+.payroll .placeholder{top: 5px !important}
+.payroll .right_main_mid .type input{width:414px;height:32px;border:none;padding-left:10px; margin-top:2px}
+.payroll table tr td span{display:block;text-align:left}
+.payroll table tr td .span_dib{display:inline-block; padding:0 6px}
+.payroll table tr td span, .payroll table tr td p{line-height:30px}
+.payroll table tr td span a{color:#666}
+.payroll table tr .classes_name span{overflow:hidden;white-space:nowrap;text-overflow:ellipsis;width:180px!important}
+.payroll table tr .classes_name em{color:#bca574;padding-right:5px}
+/*资金统计*/
+/*.payroll .account_balance{padding:50px 0;color:#666; border-bottom:1px dashed #dcdcdc; margin-bottom:25px}*/
+
+.payroll .account_balance{padding:50px 0;color:#666; margin-bottom:25px}
+.payroll .account_balance .account_balance_left{padding:45px 0;padding-left: 95px;width: 482px;overflow:hidden}
+.payroll .account_balance .account_balance_left h4{font-size:18px; height:18px; line-height:18px; margin-bottom:20px}
+.payroll .account_balance .account_balance_left{border:1px dashed #fcb314; margin-right:42px; *margin-right:36px}
+.payroll .account_balance .account_balance_right{border:1px dashed #fcb314; width:255px; height:170px}
+.payroll .account_balance .account_balance_left h2 span{font-size:24px; height:40px; line-height:40px;width: 190px;font-size: 30px;vertical-align: middle;}
+.payroll .account_balance .account_balance_left h2 span, .payroll .account_balance .account_balance_left h2 a{display:inline-block}
+.payroll .account_balance .account_balance_left h2 a{display:inline-block;font-size: 14px;}
+.payroll .account_balance .account_balance_left a{margin-right:7px}
+.payroll .account_balance_right h5{height:53px; line-height:53px; border-bottom:1px dashed #fcb314; padding-left:20px; margin-bottom:24px}
+.payroll .account_balance_right .add_card a{display:block}
+.payroll .account_balance_right .add_card i{width:36px; height:36px; background:url(../images/ico.png) -440px -840px no-repeat; margin:0 auto; display:block;text-align:center}
+.payroll .account_balance_right .add_card span{font-size:12px; display:block; padding-top:10px; color:#666666; text-align:center}
+.payroll .account_balance_right .cancel_card span{margin-bottom:20px}
+.payroll .account_balance_right .cancel_card span, .payroll .account_balance_right .cancel_card a{display:block; margin-left:auto; margin-right:auto; text-align:center}
+.payroll .account_balance_right .cancel_card span i{width:106px; height:21px; background:url(../images/bank.png) 0 -9px no-repeat; margin-right:10px}
+.all_record{height:48px; line-height:48px; border-bottom:2px solid #dcdcdc; color:#666666!important}
+
+/*评价弹窗*/
+.popBox .evaluation_cont{text-align:center}
+.pop_evaluation .p_right{text-align:left}
+.pop_evaluation .p_right em{padding:11px 0 11px 0; line-height:14px; display:block; font-size:14px}
+.pop_evaluation .p_right em label, .pop_evaluation .p_right em i, .pop_evaluation .p_right em span{vertical-align:middle}
+.evaluation_cont label{width:100px; text-align:right; display:inline-block; color:#333333; font-size:14px}
+.pop_evaluation .p_right i{display:inline-block;width:18px;height:18px;background:url(../images/ico.png) -40px -320px;padding:0 3px}
+.pop_evaluation .p_right i:hover{background-position:-280px -360px}
+.pop_evaluation .p_right i.ac{background-position:-280px -360px}
+.pop_evaluation .p_right i.active{background-position:-280px -360px}
+.popCont .evaluation_text{width:420px}
+
+/*解绑*/
+.tch_bundling .formL i{width:49px;height:66px;background:url(../images/ico.png) -720px 0px no-repeat;display:inline-block;margin-left:130px}
+.tch_bundling .formR{padding-left:5px;padding-top:5px}
+.tch_bundling .formR p{line-height:60px;color:#ff7f00;font-size:16px}
+.tch_bundling .sure{padding-left:155px}
+.tch_bundling .popCont{text-align:left!important}
+
+/*---------------teacher_index ly--------------*/
+/*左侧*/
+.teacher_index .teacher_index_l{width:278px;border:1px solid #dcdcdc;float:left}
+.teacher_index .teacher_index_l .teacher_index_l_main{padding:10px}
+
+.teacher_index .teach_cont_list{border-bottom:1px solid #dcdcdc;padding-bottom:10px}
+.teacher_index .teach_cont_list li{width:129px;height:36px;line-height:36px;font-size:14px;color:#666;float:left}
+.teacher_index .teach_cont_list li i{background-image:url(../images/ico.png);background-repeat:no-repeat;width:23px;height:23px;margin:6px  4px 6px 3px}
+.teacher_index .teach_cont_list li .tc1{background-position:-320px -280px}
+.teacher_index .teach_cont_list li .tc2{background-position:0 -320px}
+.teacher_index .teach_cont_list li .tc3{background-position:-280px -320px}
+.teacher_index .teach_cont_list li .tc4{background-position:-358px -320px}
+.teacher_index .teach_cont_list li .tc5{background-position:-40px -200px}
+.teacher_index .teach_cont_list li .tc6{background-position:-40px -320px}
+.teacher_index .teach_cont_list li .add{display:inline-block;width:5px;height:5px;overflow:hidden;background:url(../images/ico.png) -400px -440px no-repeat;margin:0 0 12px 5px }
+
+
+.teacher_index .attestation_list{border-bottom:1px solid #dcdcdc;padding-bottom:10px;padding:20px 0}
+.teacher_index .attestation_list li{width:64px;height:48px;float:left}
+.teacher_index .attestation_list li i{width:30px;height:25px;background-image:url(../images/ico.png);background-repeat:no-repeat;margin:0 17px}
+.teacher_index .attestation_list li .at1{background-position:0 -280px}
+.teacher_index .attestation_list li .at2{background-position:-80px -280px}
+.teacher_index .attestation_list li .at3{background-position:-40px -280px}
+.teacher_index .attestation_list li .at4{background-position:-120px -280px}
+
+.teacher_index .personal_experience{padding-bottom:13px;border-bottom:1px solid #dcdcdc;overflow: hidden;}
+.teacher_index .personal_experience h4{height:45px;line-height:45px;color:#666;margin-bottom:3px;font-weight:bold}
+.teacher_index .personal_experience i{width:6px;height:6px;overflow:hidden}
+.teacher_index .personal_experience .point{background:url(../images/ico.png) -280px -80px;margin:0px 7px 0 2px}
+.teacher_index .personal_experience h5{font-weight:bold;height:24px;line-height:24px;color:#666;margin-left:15px}
+.teacher_index .personal_experience p{line-height:24px;color:#666666;margin-left:15px}
+.teacher_index .personal_experience p a:hover{color: #ff8000 !important;}
+.teacher_index .personal_experience .more{display:block;height:24px;line-height:24px;float: right;}
+.teacher_index .personal_experience .more:hover{color: #ff8000 !important;}
+
+.teacher_index .colleague_list li{float:left;margin-bottom:8px}
+.teacher_index .colleague_list li a{display:block;width:100px;padding:0 14px}
+.teacher_index .colleague_list li img{width:98px;height:98px;display:block;border:1px solid #dcdcdc}
+.teacher_index .colleague_list li span{display:block;text-align:center;font-size:14px;height:34px;line-height:34px;color:#666666}
+.teacher_index .colleague_list li span:hover{color: #ff8000}
+
+.student_index .personal_experience p{padding: 10px 0}
+/*右侧*/
+.teacher_index .teacher_index_r{border:1px solid #dcdcdc;width:898px;margin-left:300px}
+.teacher_index .tch_evaluation_main{padding:0px 18px}
+
+
+/*老师-评价   slg*/
+.last_dialogItem{border-bottom: none !important;}
+.school_tch_list dl{padding:29px 0px 19px;position:relative}
+.school_tch_list dl dt{float:left;width:160px}
+.school_tch_list dl img{width:140px;height:140px}
+.school_tch_list dl dt i{width:16px;height:16px;background:url(../images/bg.png) -160px 0px no-repeat;display:inline-block;padding-right:3px}
+.school_tch_list dl dd{float:left}
+.school_tch_list .tch_main{width:670px}
+.school_tch_list .tch_main a{font-size:20px;font-weight:bold;padding-right:10px;line-height:50px}
+.school_tch_list .tch_main em{display:inline-block;padding:0px 5px;border:1px solid #4aacf3;background:#4aacf3;color:white}
+.school_tch_list .tch_main span{display: block;}
+.school_tch_list .tch_main .tch_main_label{width: 365px;}
+.school_tch_list .tch_main .tch_main_label span{display:inline-block;padding:0px 5px;border:1px solid #fcb314;background:#fff9ea;color:#fcb314;margin-right: 5px;margin-bottom: 5px;}
+.school_tch_list .tch_main p{padding:15px 0px}
+.school_tch_list dd button{margin-top:105px;margin-left:30px;height:28px!important;line-height:28px!important}
+.school_tch_list .cancelAttention:hover{background-color: #559233 !important;}
+
+.school_stu_list .tch_main em{display:inline-block;width: 22px;height: 23px;border: none}
+.school_stu_list .tch_main em.girl{background: url(../images/ico.png) -80px -240px no-repeat}
+.school_stu_list .tch_main em.boy{background: url(../images/ico.png) -400px -160px no-repeat}
+
+/*老师-个人经历   sly*/
+.tch_personal{color:#666}
+.tch_personal .tch_authentication{padding:20px 0px}
+.tch_personal .tch_authentication i{width:30px;height:25px;background:url(../images/ico.png) 0px -280px;padding-right:7px}
+.tch_personal .tch_authentication b{width:24px;height:24px;background:url(../images/ico.png) -40px -280px;display:inline-block;vertical-align:middle;padding-right:7px}
+.tch_personal .tch_authentication s{width:20px;height:22px;background:url(../images/ico.png) -80px -280px;display:inline-block;vertical-align:middle;padding-right:7px}
+.tch_personal .tch_authentication em{width:24px;height:24px;background:url(../images/ico.png) -120px -280px;display:inline-block;vertical-align:middle;padding-right:7px}
+.tch_personal .tch_authentication label {margin-top:20px;margin-right:15px;display:inline-block;height:35px;width:110px;border:1px solid #fcb314;background:#fff9ea;text-align:center;line-height:35px;border-radius:4px}
+.tch_personal .tch_authentication p span{padding-right:20px}
+.tch_personal .tch_authentication p .tchName{font-weight:bold}
+.tch_personal .stu_perExperience{padding:30px 0 30px 40px}
+.tch_personal .tch_achievements h5{padding-top:30px;font-weight:bold;font-size:16px;font-family:"微软雅黑"}
+.nav_line{border-top:2px solid #ddd;margin-bottom:23px}
+.tch_evaluation{border:1px solid #dcdcdc;margin-top:23px}
+.tch_evaluation .tch_evaluation_main{padding:0px 18px 20px}
+.tch_evaluation .detail h4{padding:20px 0px ;color:#333!important}
+.tch_evaluation .all_comment .dialogCont{width:500px}
+
+/*导航*/
+.tch_search{width:50px;height:50px;background:url(../images/ico.png) -440px -600px;top:55px;right:4%;z-index:100}
+.tch_shoppingCart{top:110px;right:4%;z-index:100}
+.tch_shoppingCart i{width:50px;height:50px;background:url(../images/ico.png) -440px -680px}
+.tch_shoppingCart b{position:absolute;width:16px;height:16px;background:url(../images/ico.png) -160px -80px;top:3px;right:3px;color:white;line-height:16px;text-align:center;font-family:"微软雅黑";font-size:12px}
+
+.mainNavWrap ul li a{display:block;padding:0px 55px}
+.mainNavWrap ul li.ac a{color: white;}
+.mainNavWrap ul li.ac,.mainNavWrap ul li:hover{background:#fcb314;}
+.mainNavWrap ul li:hover a{color: white !important;}
+
+/*导航条*/
+.student_class{min-height: 300px}
+.student_class,.stu_personal,.student_index{margin-bottom: 70px}
+.teacher_class{margin-top:22px}
+.teacher_class_warp{padding:0 22px;border:1px solid #dcdcdc}
+.teacher_class .one_to_one{margin-bottom:20px}
+.teacher_class .one_to_one h4{height:50px;line-height:50px;border-bottom:1px solid #dcdcdc;margin-bottom:20px}
+.teacher_class .one_to_one table{width:100%}
+.teacher_class .one_to_one table tr{font-size:14px;height:50px;line-height:50px}
+.teacher_class .one_to_one table tr i{width:20px;height:17px;background:url(../images/ico.png) -280px -280px no-repeat;margin:16px 5px 16px 15px}
+.teacher_class .one_to_one table tr:hover{background-color:#f5f5f5}
+.teacher_class .one_to_one table tr:hover i{background-position:-320px -280px}
+.teacher_class .one_to_one table .ac{background-color:#f5f5f5}
+.teacher_class .one_to_one table .ac i{background-position:-320px -280px}
+.teacher_class .one_to_one table tr a{font-size:16px;color:#4aacf3}
+.teacher_class .one_to_one table tr a:hover{color:#fcb314!important;text-decoration:underline}
+.teacher_class .one_to_one table .ac a{color:#fcb314!important;text-decoration:underline}
+
+.student_class .one_to_one div{padding-top: 30px}
+.student_class .one_to_one div:last-child{padding-bottom: 30px}
+.student_class .one_to_one div table tr{border-bottom: none}
+.student_class .one_to_one table tr{height: 70px;line-height: 40px;border-bottom: 1px dashed #dcdcdc}
+.student_class .one_to_one table tr img{width: 66px;height: 40px;padding-top: 10px}
+.student_class .one_to_one table .student_class_introduct{height: 40px;line-height: 40px;border-bottom: 1px solid #dcdcdc}
+.student_class .one_to_one table .student_class_introduct td{text-align: center;border: 1px solid #dcdcdc }
+.student_class .one_to_one table .student_class_introduct td:first-child{border-left: none}
+.student_class .one_to_one table .student_class_introduct td:last-child{border-right: none}
+.student_class .one_to_one table .student_class_introduct img{width: 180px;height: 110px}
+.student_class .one_to_one table .student_class_introduct button{width: 80px;height: 24px !important;line-height: 24px !important;border-radius: 0}
+.student_class .one_to_one table .student_class_introduct button:hover{background-color: #4aacf3!important}
+.student_class .one_to_one table .student_class_introduct button.ac{background-color: #4aacf3!important}
+
+.student_class .completed td{height: 70px;border-bottom: 1px dashed #dcdcdc}
+.student_class .completed tr img{width: 66px;height: 44px;display: block}
+/*学生-个人经历   wy*/
+.stu_personal .tch_authentication div{padding-left: 7px;padding-bottom: 20px}
+.stu_personal .tch_authentication div p{display: inline;padding-right: 40px;color: #333}
+.stu_personal .tch_authentication div p span{display: inline-block}
+.stu_personal .brief_introduction p{padding-left: 3px !important;padding-right: 0 !important;width: 890px;float: left}
+.stu_personal .brief_introduction span{float: left}
+
+/*学生-个人资料-所有课程    wy*/
+.stu_evaluation_content{padding: 30px 0;border-bottom: 1px dashed #dcdcdc;overflow: hidden}
+.stu_evaluation_content:last-child{border: none}
+.stu_evaluation_main h4{line-height: 46px}
+.stu_evaluation_main div h4{width: 110px;height: 100%;line-height: 36px;position: absolute;left: 0;top: 50%;margin-top: -18px}
+.stu_evaluation_main div.pr{padding-left: 110px}
+.stu_evaluation_main div.pr p{border-left: 2px solid orange}
+.stu_evaluation_main div p{height: 36px;line-height: 36px;padding-left: 28px;padding-bottom: 14px}
+.stu_evaluation_main div p:last-child{padding-bottom: 0}
+.stu_evaluation_main div p span{display: inline-block;vertical-align: top;/*top 是后来添加的*/}
+.stu_evaluation_main div p .stu_em_date{width: 100px}
+.stu_evaluation_main div p .stu_em_classname{width: 430px;white-space: nowrap;overflow: hidden;text-overflow: ellipsis;padding-right: 60px;}
+.stu_evaluation_main div p .stu_em_classtime{width: 120px}
+
+/*账户设置 slg*/
+.account_setup ul{margin-top: -30px;}
+.account_setup ul li{border-bottom: 1px solid #dcdcdc;padding: 40px 0 42px;}
+.account_setup ul li span{font-size: 18px;color: #333;float: left;}
+.account_setup ul li strong{padding-left: 87px;float: left;}
+.account_setup ul li a{font-size: 16px;color: #4aacf3;float: right;}
+.account_setup ul li input{margin-right: 16px;}
+.account_setup ul li i{padding-right: 9px;}
+.account_setup ul li i.mobile{width: 18px;height: 23px;background: url(../images/ico.png) -400px -480px no-repeat;}
+.account_setup ul li i.lock{width: 18px;height: 25px;*height: 20px;background: url(../images/ico.png) -400px -560px no-repeat;}
+.account_setup ul li .form_list{margin: 0 auto;width: 450px;padding-top: 25px;}
+.account_setup ul li .form_list .formL{width: 85px;}
+.account_setup ul li .phone_button button{width: 85px;height: 30px !important;line-height: 30px !important;margin-left: 30px;}
+.account_setup ul li .form_list .phone_button{margin-left: -15px;}
+.modify_phone_hide .modify_phone{display: none;}
+.binding_phone_hide .binding_phone{display: none;}
+
+.account_setup .forget_password strong{float: right;padding-right: 54px;}
+
+.account_setup ul li .account_binding i{width: 20px;height: 24px;*height: 20px;background: url(../images/ico.png) -400px -520px no-repeat;}
+.account_setup ul li .chat{padding-left: 197px;padding-top: 25px;}
+.account_setup ul li .chat a{float: left;font-size: 14px;padding-right: 80px;width: 80px;text-align: center;}
+.account_setup ul li .chat i{width: 80px;height: 94px;background: url(../images/ico.png) no-repeat;display: block;}
+.account_setup ul li .chat .qq i{background-position: -520px -880px;}
+.account_setup ul li .chat .wechat i{background-position: -520px -1000px;}
+.account_setup ul li .chat .sina i{background-position: -520px -1120px;}
+
+/*学生档案 wy*/
+.record_student .add {padding-right: 25px}
+.record_student .add a{font-size: 14px}
+.record_student .add i {width: 32px;height: 32px;background: url(../images/ico.png) -680px 0px no-repeat;margin-right: 7px}
+.record_student .add:hover i {background: url(../images/ico.png) -680px -40px no-repeat}
+.record_student .add_onenew a{color: #3097e1}
+.record_student .add_onenew i{background-position: 0 -560px}
+.record_student .add_onenew:hover i{background-position: 0 -560px}
+.record_student .add_onenew:hover a{text-decoration: underline;}
+.record_student .record_title{padding-bottom: 40px}
+.record_student table{margin-bottom: 10px}
+.record_student table input{width: 76px;height: 26px;background: #fff}
+.record_student table input.no_edit{border: none;text-align: center}
+.record_student .sh_table td:last-child{color: #4aacf3}
+.record_student table a{padding-right: 3px;color: #4aacf3}
+.record_student table a.active{color: #fcb314}
+.record_student table a.active:hover{color: #ff8000}
+.record_student table .btn_edit{display: inline-block;width: 60px;text-align: right}
+
+
+/*学生档案详情 wy*/
+.record_info .record_title{text-align: center}
+.record_info .record_title p{line-height: 44px}
+.record_info .record_title p span{padding-right: 70px}
+.record_info .record_title img{width: 630px;height: 480px;margin-top: 20px}
+.record_info h4{line-height: 54px}
+.record_info ul{border-top: 1px solid #dcdcdc}
+.record_info ul li{border-bottom: 1px solid #dcdcdc;overflow: hidden;padding: 16px 0}
+.record_info ul p{display: inline-block;vertical-align: middle}
+.record_info ul p span{display: block;text-align: center}
+.record_info ul p:first-child{width: 142px;float: left}
+.record_info ul p:last-child{width: 710px;float: right;line-height: 18px;color: #666}
+
+
+/*课程中心页面 ly*/
+.main_l_nav_cont_row{border-bottom: 1px solid #DCDCDC; padding: 13px 0}
+.main_l_nav_cont_row dt, .main_l_nav_cont_row dt img{width:180px; height:110px}
+.main_l_nav_cont_row dt{margin-right:15px}
+.main_l_nav_cont_row dt img{display:block}
+.main_l_nav_cont_row dd{width:443px}
+.class_detail h3{font-size:16px; line-height:24px; margin-bottom:8px}
+.class_detail h3 em{ vertical-align: middle;width: 53px; height: 20px; display: inline-block; background: url(../images/ico.png) -120px -440px no-repeat; text-align: center; margin-left: 8px; font-size: 12px; line-height: 20px; color: #999999; white-space: nowrap;}
+.class_detail h3 a{vertical-align: middle;color:#333}
+.class_detail h3 a:hover{color:#FF7F00 !important}
+.class_detail p{font-size:14px; line-height:26px; color:#666; width: 430px;}
+
+.main_l_nav_cont_row .fr{text-align: right}
+.com_sel_role{padding-top: 10px}
+.com_sel_role p{font-size: 12px;line-height: 12px}
+.com_sel_role li{padding-left: 19px;text-align: center}
+.com_sel_role img{width: 60px;height: 60px;border-radius: 50%}
+/*我的视频卡slg*/
+.videoCard .videoBg{width: 890px;height: 174px;background-image: url(../images/videobg.png);padding-top: 12px}
+.videoCard .videoBuy{width: 567px;height: 95px;border-right: 1px dashed #BBBBBB;text-align: center;padding-top: 70px}
+.videoCard .videoBuy i{width: 60px;height: 40px;background: url(../images/ico.png) -320px -920px no-repeat;}
+.videoCard .videoBuy span{font-size: 16px;}
+.videoCard .activationBtn{margin:74px 92px}
+.videoCard .tab .tabList{height: 50px}
+.videoCard .sh_table{margin-top: 20px}
+/*我的视频列表*/
+.myVideo .main_cont30 {padding: 30px 25px;}
+.myVideo .videoListMain{min-height: 340px;margin-left: -24px}
+.myVideo dl{float: left;width: 240px;height: 265px;padding: 20px;margin-left: 24px}
+.myVideo dl:hover {background: white;box-shadow: 0 0 10px #ccc;}
+.myVideo dl img{width: 240px;height: 135px;}
+.myVideo dl dd h5 a{width:230px;color: #14191e;font-weight:bold;overflow: hidden;white-space: nowrap;text-overflow: ellipsis;display: inline-block}
+.myVideo dl dd .schName{width: 140px;overflow: hidden;white-space: nowrap;text-overflow: ellipsis;display: inline-block}
+.myVideo dl dd .startStudy{width: 240px;height:36px;line-height:36px;margin-top: 5px;display: block;border-radius: 4px;font-size: 16px;text-align: center}
+.myVideo dl dd .startStudy i{width: 15px;height: 16px;background: url('../images/ico.png') -320px -600px no-repeat;margin-left: 8px}
+
+/*完善信息*/
+.perfectInfo{border: 1px solid #dcdcdc;box-shadow: 0 0 15px #ccc;min-height: 540px;margin: 30px auto;background-color: white;padding: 0px 30px;width: 920px;}
+.perfectInfo .perInfoHeader{border-bottom: 1px dashed #DCDCDC;margin: 30px 0px 22px;}
+.perfectInfo .perInfoHeader h1{color: #fcb314;padding-bottom: 12px;}
+.perfectInfo .border_radius .main_cont30_r{margin-left:35px}
+.Basic_information .form_list .formR .w260{width: 260px!important}
+
+/*验证*/
+.error_message_nickName em,.error_message_school em,.error_message_name em{top: 5px!important;left:415px!important;}
+
+
+
+
+
+
+
+
+

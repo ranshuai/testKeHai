@@ -1,0 +1,13 @@
+<h2>{{courseTitle}}</h2>
+<p>subject:{{subject}}</p>
+<p>price:
+    {{#compare price '>=' 200}}
+        <span class="link-style"><strong>太贵了</strong></span>
+    {{else}}
+        <span>{{price}}</span>
+    {{/compare}}
+</p>
+<p>courseId:{{courseId}}</p>
+<p>advertiseResId:{{advertiseResId}}</p>
+<p>detailAddress:{{detailAddress}}</p>
+<p>{{link orgName orgId}}</p>

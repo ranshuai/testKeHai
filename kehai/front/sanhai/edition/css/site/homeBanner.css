@@ -1,0 +1,161 @@
+#siteCarousel .banner {
+    height: 350px;
+    overflow: hidden;
+    position: relative;
+}
+#siteCarousel .banner .bannerList {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+#siteCarousel .banner .bannerList li {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 350px;
+}
+#siteCarousel .banner .bannerList li img {
+    width: 100%;
+    height: 100%;
+}
+#siteCarousel .banner .prevBtn {
+    width: 28px;
+    height: 62px;
+    background: url(/front/sanhai/edition/images/ico.png) no-repeat -558px 0;
+    position: absolute;
+    top: 181px;
+    left: 240px;
+    margin-top: -31px;
+    opacity: 0;
+    filter: alpha(opacity=0);
+}
+#siteCarousel .banner .nextBtn {
+    width: 28px;
+    height: 62px;
+    background: url(/front/sanhai/edition/images/ico.png) no-repeat -600px 0;
+    position: absolute;
+    top: 181px;
+    right: 230px;
+    margin-top: -31px;
+    opacity: 0;
+    filter: alpha(opacity=0);
+}
+#siteCarousel .banner .slidernav {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 100px;
+    margin-left: -50px;
+    height: 24px;
+    line-height: 24px;
+    cursor: pointer;
+}
+#siteCarousel .banner .slidernav_shadow {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+    border-radius: 24px;
+}
+#siteCarousel .banner .slidernav .slidernav_ul {
+    height: 100%;
+    width: 70px;
+    left: 50%;
+    margin-left: -35px;
+    overflow: hidden;
+}
+#siteCarousel .banner .slidernav .slidernav_ul li.ac {
+    background: #fff;
+}
+#siteCarousel .banner .slidernav .slidernav_ul li {
+    width: 10px;
+    height: 10px;
+    border: 1px solid #fff;
+    margin-left: 9px;
+    border-radius: 50%;
+    margin-top: 5px;
+    float: left;
+}
+#siteCarousel .banner .APPBar {
+    height: 290px;
+    width: 220px;
+    position: absolute;
+    z-index: 1;
+    top: 31px;
+    right: 0;
+}
+
+#siteCarousel .banner .APPBar_bg, #siteCarousel .banner .APPBar_cont {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+#siteCarousel .banner .APPBar_bg_top {
+    background-color: #676b65;
+    opacity: .8;
+    filter: alpha(opacity=80);
+    height: 100%;
+}
+
+#siteCarousel .banner .APPBar_cont h3 {
+    font-size: 16px;
+    line-height: 16px;
+    padding-top: 16px;
+    padding-bottom: 8px;
+    color: #fff;
+    padding-left: 18px;
+}
+#siteCarousel .banner .APPBar_cont_top {
+    padding: 7px 18px;
+}
+#siteCarousel .banner .APPBar_cont_top li a {
+    font-size: 12px;
+    line-height: 24px;
+    color: #fff;
+    display: inline-block;
+}
+#siteCarousel .banner .APPBar_cont_top li a i {
+    float: left;
+    width: 5px;
+    height: 5px;
+    overflow: hidden;
+    background-color: #fff;
+    margin: 9px 12px 0 0;
+}
+#siteCarousel .banner .APPBar_cont_top li a span{
+    float: left;
+    width: 162px;
+    position: relative;
+}
+#siteCarousel .banner .APPBar_cont_top li a:hover {
+    color: #bcbfb9!important;
+}
+
+#siteSubsidiaryBanner .banner_bottom {
+    height: 135px;
+}
+#siteSubsidiaryBanner .banner_cont {
+    margin-left: 240px;
+}
+#siteSubsidiaryBanner .banner_item {
+    width: 310px;
+    margin-right: 7px;
+    border: 1px solid #ffffff;
+}
+#siteSubsidiaryBanner .banner_item_img, #siteSubsidiaryBanner .banner_item_img img {
+    width: 316px;
+    height: 130px;
+}
+#siteSubsidiaryBanner .banner_item_img img {
+    display: block;
+    width: 316px;
+    height: 130px;
+}

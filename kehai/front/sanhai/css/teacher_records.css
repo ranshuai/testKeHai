@@ -1,0 +1,148 @@
+@charset "utf-8";
+.frame_12k .search_bar{margin-bottom: 27px;}
+.crumbs a, .crumbs span {color: #a1a1a1; line-height: 50px;}
+/*主体ly*/
+.main{margin-bottom:25px}
+/*左侧*/
+.main_l_nav{height:40px; background-color:#E5E5E5}
+.main_l_nav li{float:left; height:38px;text-align:center; border-top:2px solid #E5E5E5; position:relative}
+
+.sort_nav{height: 40px; background-color: #e5e5e5;}
+.sort_nav li{float: left;margin-right: 2px;position: relative}
+.sort_nav li a{display: inline-block; color: #666666; font-size: 16px; line-height: 40px; width: 88px;text-align: center}
+.sort_nav li a em{width: 11px;height: 15px;position: absolute;right: 10px;top: 15px;background: url(../images/ico.png) no-repeat;background-position: 0 15px}
+.sort_nav li a em.js-slideDown_upw{background-position: -320px -400px}
+.sort_nav li a em.js-slideDown_upb{background-position: -360px -400px}
+.sort_nav li:hover em.js-slideDown_upb{background-position: -320px -400px}
+.sort_nav li a em.js-slideUp_downw{background-position: -320px -440px}
+.sort_nav li a em.js-slideUp_downb{background-position: -360px -440px}
+.sort_nav li:hover em.js-slideUp_downb{background-position: -320px -440px}
+.sort_nav li a:hover{ color: #ffffff; background-color: #FCB314;}
+.sort_nav li .active{color: #ffffff; background-color: #FCB314;}
+
+
+/*课程中心页面 ly*/
+.main_l_nav_cont_row{border-bottom: 1px solid #DCDCDC; padding: 13px 0}
+.main_l_nav_cont_row dt, .main_l_nav_cont_row dt img{width:180px; height:110px}
+.main_l_nav_cont_row dt{margin-right:15px}
+.main_l_nav_cont_row dt img{display:block}
+.main_l_nav_cont_row dd{width:370px}
+.class_detail h3{font-size:16px; line-height:24px; margin-bottom:8px}
+.class_detail h3 em{ vertical-align: middle;width: 53px; height: 20px; display: inline-block; background: url(../images/ico.png) -120px -440px no-repeat; text-align: center; margin-left: 8px; font-size: 12px; line-height: 20px; color: #999999; white-space: nowrap;}
+.class_detail h3 a{vertical-align: middle;color:#333}
+.class_detail h3 a:hover{color:#FF7F00 !important}
+.class_detail p{font-size:14px; line-height:26px; color:#666; width: 370px;}
+
+.mouseOver .main_l_nav_sel{display:block}
+.main_l_nav_cont_row dl{padding:6px 0; border-right:1px solid #E5E5E5}
+.class_money em{float: right;font-size:14px; line-height:24px; color:#666; width: 128px;text-align: left}
+.class_evaluate{display:block; padding:7px 0; width:170px; text-align:center; border-right: 1px solid #E5E5E5;}
+.persent{display:block;font-size:20px; line-height:20px;  color:#7DCCF3}
+.myd{display:block; font-size:14px; line-height:30px; height: 30px; width: 170px;color:#999;margin-bottom:20px}
+.class_evaluate strong{display:block; font-size:14px; line-height:20px;  color:#999999;font-weight: normal}
+.class_evaluate strong span{color:#7DCCF3;}
+.the_last_div{width:160px; padding-top: 36px;}
+.main_l_nav_cont_row .the_last_div button{padding:0; margin:30px 30px 0 30px; font-size:14px; line-height:34px !important; color:#FF7F00 !important; text-align:center; background-color:#ffffff; width:98px; height:34px !important; border:1px solid #FF7F00; border-radius:2px}
+.the_last_div strong{ float: right;font-size:20px; line-height:24px; color:#FF7F00;display: inline-block; width: 160px;text-align: center}
+.main_l_nav_cont_row .to_ask:hover{background-color:#FF8000 !important;  color:#FFF !important}
+.main_l_nav_cont_row .the_last_div a{background-color: #FF8000 !important; color: #FFF !important;margin:0 20px 10px 20px; font-size:14px; line-height:32px !important; text-align:center;display: block; width:98px; height:32px !important; border:1px solid #FF7F00; border-radius:2px}
+/*课程中心页面 end*/
+    /*右侧*/
+/*.main_r_top{background-color:#fff}
+.main_r_top_title{font-size:18px; line-height:33px; color:#333333; margin-bottom:6px}
+/*.main_r_cont{border:1px solid #DBDBDB; margin-bottom:18px}
+.main_r_cont_item{padding:22px 20px 20px; border-bottom:1px solid #DBDBDB}
+.learn_together, .learn_together img{width:100px; height:56px}
+.learn_together img{display:block}
+.main_r_cont_item dd{margin-left:117px}
+.main_r_cont_item h4{font-size:16px; line-height:17px; margin-bottom:15px}
+.main_r_cont_item h4 a{color:#333333}
+.main_r_cont_item h4 a:hover{color:#FF7F00 !important}
+.main_r_cont_item p{font-size:14px; line-height:15px; color:#ff8000; background-position:0 -250px; padding-left:25px;
+    background-image:url(../images/select_classes.png);    background-repeat:no-repeat}*/
+.main_r_bottom{background-color:#fff}
+.main_r_bottom_title{font-size:18px; line-height:18px; color:#333333}
+.main_r_bottom_cont{padding:12px 11px 0 13px}
+.r_bottom_cont{margin-right:-25px}
+.main_r_bottom_cont_item{margin-right:25px; margin-bottom:9px}
+.main_r_bottom_cont_item dt, .main_r_bottom_cont_item img{width:40px; height:40px}
+.main_r_bottom_cont_item img{display:block}
+.main_r_bottom_cont_item dd{font-size:12px; line-height:22px}
+.main_r_bottom_cont_item dd a{color:#656565}
+.main_r_bottom_cont_item dd a:hover{color:#FF7F00 !important}
+
+.main_l_nav_cont_row .tea_rec_stu{border: none;}
+.main_l_nav_cont_row .tea_rec_stu dt{width: 60px;height: 60px;padding: 8px 5px 0 24px;}
+.main_l_nav_cont_row .tea_rec_stu dt img{width: 60px;height: 60px;display: block; border-radius: 30px;}
+.main_l_nav_cont_row .tea_rec_stu dt span{font-size: 12px; height: 28px;line-height: 28px; display: block; text-align: center; margin-bottom: 10px;}
+.main_l_nav_cont_row .tea_rec_stu dt span:hover{color: #666666;}
+.main_l_nav_cont_row .tea_rec_stu dd p{font-size: 12px; line-height: 22px; color: #999999;}
+.main_l_nav_cont_row .tea_rec_stu dd h3 a{font-size: 16px; line-height: 28px; height: 28px; color: #333333; margin-right: 22px;}
+.main_l_nav_cont_row .tea_rec_stu dd{width: 215px;}
+.main_l_nav_cont_row .tea_rec_stu dd h3 span{font-size: 14px;}
+.teh_icon{padding-top: 8px; padding-bottom: 4px;}
+.teh_icon i{width: 30px;height: 30px;background-image: url(../images/ico.png);background-repeat: no-repeat;margin: 0 5px;}
+.teh_icon .teh_ico1{background-position: 0 -280px;}
+.teh_icon .teh_ico2{background-position: -76px -280px;}
+.teh_icon .teh_ico3{background-position: -40px -280px;}
+.teh_icon .teh_ico4{background-position: -120px -280px;}
+.main_l_nav_cont_row .tea_rec_stu dd .teh_name{padding-top:5px; }
+.tea_tec_audit{text-align: center; padding-top:5px ;}
+.tea_tec_audit p{font-size: 14px; line-height: 24px; height: 24px;color: #999999; }
+.tea_tec_audit p strong{font-size: 16px; color: #ff8000; font-weight: bold;}
+.tea_tec_audit a{width: 90px; height: 28px !important; margin-top: 15px; font-size: 14px; line-height: 28px !important; background-color: #ff8000;}
+.main_r_top_title {font-size: 18px; line-height: 33px; color: #333333; padding-bottom: 10px;}
+.main_r_cont {border: 1px solid #DBDBDB; margin-bottom: 18px; height: 500px;}
+
+/*右侧*/
+
+
+/*主体结束*/
+
+/*分页开始ly*/
+.bottom{text-align:center; height:30px; font-size:0}
+.bottom a{display:inline-block; height:28px; width:28px; font-size:14px; line-height:28px; color:#656565; margin:0 6px; border:1px solid #DCDCDC; vertical-align:middle; border-radius:1px}
+.bottom .w38{width:38px}
+.bottom span{display:inline-block; font-size:14px; line-height:28px;  color:#656565; margin:0 6px; vertical-align:middle}
+.bottom .active{background-color:#FBB313; color:#FFF}
+.bottom .active p{font-size: 14px; line-height: 24px; height: 24px; color: #999999;}
+/*分页结束*/
+.border_none{border:none}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

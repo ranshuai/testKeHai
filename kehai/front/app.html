@@ -1,0 +1,361 @@
+<!DOCUTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title></title>
+        <link rel="shortcut icon" href="sanhai/images/favicon.ico" type="image/x-icon">
+        <link rel="stylesheet" href="sanhai/css/base.css">
+        <link rel="stylesheet" href="sanhai/css/app.css">
+        <script src="sanhai/js/jquery-1.8.3.min.js"></script>
+        <script src="sanhai/js/base.js"></script>
+         <script src="sanhai/js/common.js"></script>
+
+        <style>
+        </style>
+        <script>
+            $(function(){
+                //鼠标移入li 切换
+                $('.app_acc_list li').mouseenter(function(){
+                    //alert(1);
+                   var index = $(this).index();
+                   //alert($('.app_acc_list li').index($(this)));
+                   
+                   var $this = $(this);
+                   $this.addClass('ac').siblings('li').removeClass('ac');
+                   $this.parents('.app_acc').find('.app_acc_cont div:eq('+index+')').removeClass('hide').siblings('div').addClass('hide');
+                });
+                //轮播
+                var num = 0;
+                var timer = null;
+                timer = setInterval(function(){
+                    //alert(1);
+                    move();
+                },1500);
+                function move() {
+                        num++;
+                       $('.app_acc_cont div:eq('+num%2+')').removeClass('hide').siblings('div').addClass('hide');
+                        $('.app_acc_list li:eq('+num%2+')').addClass('ac').siblings('li').removeClass('ac');
+                        //aLi.eq(num % 2).fadeIn(1000);
+                };
+                $('.app_acc').hover(function(){
+                    clearInterval(timer);
+                },function(){
+                      timer = setInterval(function(){
+                        //alert(1);
+                        move();
+                    },1500);
+                });
+                $('.download_load_btn_1 img').hover(function(){
+                    //alert(1);
+                    var $this = $(this);
+                    $this.attr('src','sanhai/images/imgs_app/app_load/load_btn_1_hover.png')
+                            .css("cursor","pointer");
+                  },function(){
+                        var $this = $(this);
+                        $this.attr('src','sanhai/images/imgs_app/app_load/load_btn_1.png')
+                  });
+                 $('.download_load_btn_2 img').hover(function(){
+                    //alert(1);
+                    var $this = $(this);
+                    $this.attr('src','sanhai/images/imgs_app/app_load/load_btn_2_hover.png')
+                             .css("cursor","pointer");
+                  },function(){
+                        var $this = $(this);
+                        $this.attr('src','sanhai/images/imgs_app/app_load/load_btn_2.png')
+                  });
+               
+                    //small nav
+                     Kh.rSelectList('.serviceList');
+               
+                     Kh.rSelectList('.tabRole ');
+
+                          if(true){
+                          
+                              $.ajax({  
+                                type:"post",
+                                dataType:"json",
+                                url:"/perfectInfo/changeIdentity.do",
+                                data:{},
+                                success:function(data){
+                                  if(common.checkResponse(data) == false){
+                                    return;
+                                  }
+                   
+                                  $.each(data.data,function(){
+                                    if(this == 0){
+                                      $('<li><a href="javascript:void(0);" onclick="changeIdentity(0)">切换到教师身份</a></li>').appendTo(".changeIdentity");
+                                    }else if( this ==1 ){
+                                      $('<li><a href="javascript:void(0);" onclick="changeIdentity(1)">切换到大学生身份</a></li>').appendTo(".changeIdentity");
+                                    }else if( this == 2){
+                                      $('<li><a href="javascript:void(0);" onclick="changeIdentity(2)">切换到学生身份</a></li>').appendTo(".changeIdentity");
+                                    }else if(this == 3){
+                                      $('<li><a href="javascript:void(0);" onclick="changeIdentity(3)">切换到学校身份</a></li>').appendTo(".changeIdentity");
+                                    }
+                                 
+                                  });
+                                },
+                                error:function(data){
+                                    alert('失败');
+                                }
+                              });
+                            }else{
+                               // alert(2);
+                              $('.tabRole').addClass('hide');
+                            }
+    
+            });
+            
+              function changeIdentity( identity ){
+                $.ajax({
+                  type:"post",
+                  dataType:"json",
+                  url:"/perfectInfo/toIdentity.do",
+                  data:{identity:identity},
+                  success:function(data){
+                    if(common.checkResponse(data) == false){
+                      return;
+                    }
+                   location.href="/index.htm";
+                  },
+                  error:function(data){}
+                });
+              }
+
+        </script>
+    </head>
+    <body>
+        <!--头部开始-->
+        <div class="r_header_warp pr" style="border-bottom:1px solid #dcdcdc; padding-bottom:12px">
+    <div class="frame_12k">
+        <div class="header_l fl pr">
+            <a href="/index.htm" class="fl"><i class="fl logo_s"></i></a>
+            <ul class="fl h_l_nav">
+                 <li class="fl"><a href="/index.htm">首页</a>
+                    </li>
+                    <li class="fl"><a href="/site/course/selectCourse.htm">课程中心</a>
+                    </li>
+                <!--<li class="fl"><a href="javascript:void(0);">资料库</a>
+                </li>
+                <li class="fl"><a href="javascript:void(0);">答疑大厅</a>
+                </li>-->
+                  <li class="fl"><a href="/site/siteSchoolList.htm">学校</a>
+                    </li>
+                  <li class="fl"><a href="/site/siteTeacherList.htm">名师</a>
+                    </li>
+                <!--<li class="fl"><a href="javascript:void(0);">排行榜</a>
+                </li>-->
+            </ul>
+        </div>
+        <div class="header_r fr">
+            <ul class="clearfix h_r_nav">
+                <!-- <li class="fl"><a href="javascript:void(0);"><em class="login"></em> 150****1234</a></li> -->
+               <!--  <li class="fl hide"><a href="javascript:;">登录</a>&nbsp;| &nbsp;<a href="javascript:;">注册</a></li>
+                <li class="fl">
+                    <strong class="orange">                          
+                                等等                        
+                    </strong>&nbsp;|&nbsp;
+                    <a href="/logout.htm">退出</a>
+<<<<<<< HEAD
+                </li>
+                 <li class="fl tabRole pr">
+                        <a href="javascript:;"><em class="tab_ico3"></em>切换身份</a>
+                         <ul class="pa tab_role hide changeIdentity">
+                                 <em class="app_arrow pa"></em>
+                                <li><a href="javascript:void(0);" onclick="changeIdentity(3)">切换到学校身份</a></li><li class="border_b_n"><a href="javascript:void(0);" onclick="changeIdentity(2)">切换到学生身份</a></li>
+                         </ul>
+                  </li>
+                <li class="fl"><a href="/profile.htm"><em class="person_ico3"></em>个人中心</a></li>
+=======
+                </li> -->
+
+        
+        <li class="fl"><a href="<%=basePath%>/login.htm" class="orange">请登录</a> &nbsp;|&nbsp;<a href="/reg/register.htm;"> 注册</a></li>
+       
+        <li class="fl">
+                <a href="/profile.htm"><em class="person_ico3"></em><strong class="orange">昵称</strong></a>&nbsp;|&nbsp;<a href="/logout.htm">退出</a>
+          </li>
+       
+         <li class="fl tabRole pr">
+                <a href="javascript:;"><em class="tab_ico3"></em>切换身份</a>
+                 <ul class="pa tab_role hide changeIdentity">
+                         <em class="app_arrow pa"></em>
+                 </ul>
+          </li>
+              <!--   <li class="fl"><a href="/profile.htm"><em class="person_ico3"></em>个人中心</a></li> -->
+
+
+                <!--   <li class="fl"><a href="javascript:void(0);"><em class="ext"></em>退出</a></li> -->
+                <!-- <li class="fl pr tabRole tab_role">
+                    <a href="javascript:;"><strong>切换到教师身份</strong></a>
+                    <ul class="pa service_select hide">
+                        <em class="app_arrow pa"></em>
+                        <li><a href="javascript:;">切换到大学生身份</a></li>
+                        <li><a href="javascript:;">切换到学校身份</a></li>
+                        <li><a href="javascript:;">切换到学生身份</a></li>
+                    </ul>
+                </li> -->
+                <li class="fl pr message ">
+                                                               <!--  <em class="pa msg_prɒmpt"></em> -->
+                    <a href="/sysMessage/toSysMessage.htm"><em class="msg_ico3"></em><strong>消息中心</strong></a>
+                    <ul class="pa messageList message_list hide">
+                        <em class="app_arrow pa"></em>
+                        <li><div class="cont"><a href="javascript:;">系统消息<span class="orange">(<strong class="messageNum">99</strong>)</span></a></div></li>
+                        <li><div class="cont"><a href="javascript:;">课程消息<span class="orange"></span></a></div></li>
+                        <li class="border_b_n"><div class="cont"><a href="javascript:;">订单消息<span class="orange"></span></a></div></li>
+                    </ul>
+                </li>
+                <li class="fl pr down_app">
+                    <a href="javascript:;"><em class="app_ico3"></em>APP下载</a>
+                    <ul class="pa app_warp hide">
+                        <li class="clearfix">
+                            <a href="/front/app.html">
+                                <em class="app_arrow pa"></em>
+                                <div class=""><img src="sanhai/images/1.jpg" width="82px" ;="" height="82px"></div>
+                                <div class="app_btn3">
+                                    <button type="button" class="c_btn_size12 c_bg_color5">下载app</button>
+                                </div>
+                            </a>
+                        </li>
+
+                    </ul>
+                </li>
+                <li class="fl pr serviceList">
+                    <a href="javascript:;"><em class="service_ico3"></em> 客服中心</a>
+                    <ul class="pa service_select hide">
+                        <em class="app_arrow pa"></em>
+                        <li><a href="javascript:void(0);">联系客服</a></li>
+                        <li><a href="/site/webBottomLink/toStuIndex.htm">帮助中心</a></li>
+                        <li class="border_b_n"><a href="/site/webBottomLink/tocomplaintsandsuggestions.htm">意见反馈</a></li>
+                    </ul>
+                </li>
+                
+
+            </ul>
+        </div>
+    </div>
+</div>
+        <!--头部结束-->
+        <!-- content 内容开始 -->
+        <div class="content">
+
+            <!-- 轮播图开始 -->
+            <div class="app_acc">
+                <div class="frame_12k pr" style="height:500px;">
+                    <ul class="app_acc_list pa">
+                        <li class="ac">
+                            
+                        </li>
+                        <li>
+                            
+                        </li>
+                    </ul>
+                   
+
+            <!-- 1 开始 -->
+                    <div class="app_acc_cont pa" >
+                        <div class="pr">
+                            <img src="sanhai/images/imgs_app/app_load/phone_1.png" class="cont_phone1 pa">
+                            <img src="sanhai/images/imgs_app/app_load/answer.png" class="cont_answer pa">
+                            <img src="sanhai/images/imgs_app/app_load/solve.png" class="cont_solve pa">
+                        </div>
+                <!-- 1 结束 -->
+                        <div class="pr hide">
+                            <img src="sanhai/images/imgs_app/app_load/phone_2.png" class="cont_phone2 pa">
+                            <img src="sanhai/images/imgs_app/app_load/accompany.png" class="cont_accompany pa">
+                            <img src="sanhai/images/imgs_app/app_load/complete.png" class="cont_complete pa">
+                        </div>
+                    </div>
+            </div>
+            <!-- 轮播图结束 -->
+          </div>
+
+            <!-- download 下载开始 -->
+            <div class="app_download">
+                <div class="frame_12k clearfix">
+                     <div class="download_l fl">
+                        <h2 > 课海大学生版下载 <img src="sanhai/images/imgs_app/app_load/load_1.png"/></h2>   
+
+                        <div class="download_type pr">
+                            <a href="javascript:;" class="pa download_QRcode"><img src="sanhai/images/imgs_app/app_load/example_download.png" class=""  width="264" height="264"/></a>
+
+                            <a href="https://itunes.apple.com/cn/app/ke-hai-bang-yang-da-xue-sheng/id1049209888?mt=8" class="pa download_load_btn_1 noBorder" ><img src="sanhai/images/imgs_app/app_load/load_btn_1.png"/></a>
+
+                            <a href="http://a.app.qq.com/o/simple.jsp?pkgname=com.sanhai.bangyang" class="pa download_load_btn_2 noBorder"><img src="sanhai/images/imgs_app/app_load/load_btn_2.png" /></a>
+                        </div>
+                     </div>
+
+                     <div class="download_l fl">
+                        <h2> 课海学生版下载 <img src="sanhai/images/imgs_app/app_load/load_2.png"/></h2>   
+
+                        <div class="download_type pr">
+                            <a href="javascript:;" class="pa download_QRcode"><img src="sanhai/images/imgs_app/app_load/stu_download.png" class=""  width="264" height="264"/></a>
+                            <a href="https://itunes.apple.com/cn/app/ke-hai/id1031144897?mt=8" class="pa download_load_btn_1 noBorder" ><img src="sanhai/images/imgs_app/app_load/load_btn_1.png"/></a>
+                            <a href="http://a.app.qq.com/o/simple.jsp?pkgname=com.sanhai.nep.student" class="pa download_load_btn_2 noBorder"><img src="sanhai/images/imgs_app/app_load/load_btn_2.png" /></a>
+                        </div>
+                     </div>
+                </div>
+                
+            </div>
+            <!-- download 下载 结束-->
+        </div>
+        <!-- content 内容结束 -->
+        <div class="enter_organization ">
+    <hr>
+    <div class="questions_wrap clearfix frame_12k">
+        <div class="questions_item">
+            <div class="questions_item_cont clearfix">
+                <i class="bg questions_item_bg1"></i>
+                <div class="questions_text">
+                    <p class="questions_head"><a href="/site/webBottomLink/toStuIndex.htm">学生帮助</a></p>
+                    <p><a href="/site/webBottomLink/toStuIndex.htm">关于注册</a></p>
+                    <p><a href="/site/webBottomLink/toStuIndex.htm">关于课程</a></p>
+                    <p><a href="/site/webBottomLink/toStuIndex.htm">关于支付和售后</a></p>
+                </div>
+            </div>
+        </div>
+        <div class="questions_item">
+            <div class="questions_item_cont clearfix">
+                <i class="bg questions_item_bg2"></i>
+                <div class="questions_text">
+                    <p class="questions_head"><a href="/site/webBottomLink/toteacherindex.htm">教师帮助</a></p>
+                    <p><a href="/site/webBottomLink/toteacherindex.htm">关于注册</a></p>
+                    <p><a href="/site/webBottomLink/toteacherindex.htm">关于课程</a></p>
+                    <p><a href="/site/webBottomLink/toteacherindex.htm">关于财务</a></p>
+                </div>
+            </div>
+        </div>
+        <div class="questions_item border_none">
+            <div class="questions_item_cont clearfix">
+                <i class="bg questions_item_bg3"></i>
+                <div class="questions_text">
+                    <p class="questions_head"><a href="/site/webBottomLink/toorganizationIndex.htm">学校帮助</a></p>
+                    <p><a href="/site/webBottomLink/toorganizationIndex.htm">关于注册</a></p>
+                    <p><a href="/site/webBottomLink/toorganizationIndex.htm">关于课程</a></p>
+                    <p><a href="/site/webBottomLink/toorganizationIndex.htm">关于财务</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+        <div class="footer clearfix">
+    <ul class="pr">
+        <li><a href="/site/webBottomLink/toaboutUs.htm">北京三海教育科技有限公司</a> </li>
+        <li>&nbsp;<a href="/index.htm">网站首页</a> |&nbsp;</li>
+        <li><a href="/site/webBottomLink/tocompany_intro.htm">公司简介</a> |&nbsp;</li>
+        <li><a href="/site/webBottomLink/toaboutUs.htm">产品简介</a> |&nbsp;</li>
+        <li><a href="/site/webBottomLink/totheysettled.htm">网校入驻 </a>|&nbsp;</li>
+        <li><a href="/site/webBottomLink/tojoinus.htm">人才招聘 </a>|&nbsp;</li>
+        <li><a href="/site/webBottomLink/tocomplaintsandsuggestions.htm">投诉与建议</a> </li>
+    </ul>
+    <p class="clearBoth">Copyright  2009-2015 <a href="http://b.kehai.com" style="color: #fff;">www.kehai.com</a>&nbsp;All Rights Reserved.&nbsp;&nbsp;&nbsp;&nbsp;京ICP证160315号&nbsp;&nbsp;<a href="http://www.miitbeian.gov.cn/state/outPortal/loginPortal.action" style="color: #fff;">京ICP备14022510号-3</a>&nbsp;&nbsp; 京公网安备 11010802017286</p>
+   <!--  <div class="bottom">
+        <img src="sanhai/images/web_site.png">
+        <img src="sanhai/images/web_site2.png">
+        <img src="sanhai/images/web_site3.png">
+        <img src="sanhai/images/web_site4.png">
+    </div> -->
+</div>
+            
+      
+    </body>
+</html>

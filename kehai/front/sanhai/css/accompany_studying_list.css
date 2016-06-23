@@ -1,0 +1,47 @@
+@charset "utf-8";
+/*导航开始*/
+.left_menu{ height: 729px; background-color: #FFF9EB}
+.left_menu li .li_1 span.menu_icon_1 {background: url(../images/ico.png) -870px 15px no-repeat}
+.left_menu li .li_1 span.menu_icon_6 {background: url(../images/ico.png) -870px -65px no-repeat}
+.left_menu li .li_2 a{text-align: left; width: 140px; padding-left: 20px}
+/*导航结束*/
+
+/*右侧部分 ly*/
+.padding_reset{padding:50px 0 15px 0}
+.right_main_title{line-height: 51px;margin: 0 24px; border-bottom: 2px solid #DCDCDC; padding: 0 15px}
+
+.search_wrap{margin-left: 230px; margin-bottom: 40px; width: 428px; height: 36px; background-color: #FCB314}
+.input_wrap{width: 364px; height: 32px; background-color: #fff; left: 2px; top: 2px; padding: 0 8px}
+.input_wrap input{ width: 100%; height: 100%; }
+.search_wrap button{  right: 0; width: 61px; height: 36px !important;background: #fcb314 !important}
+.search_wrap button i{ width: 22px; height: 21px; background: url(../images/ico.png) -320px 0px no-repeat; display: inline-block;}
+
+
+.tabItem{padding: 0 ! important}
+.tabItem h5{line-height: 36px; padding: 0 9px; color: #656565}
+.table_head{font: 14px/36px "微软雅黑"; color: #333333; background-color: #DCDCDC; text-align: left}
+.ellipsis{width: 439px;overflow: hidden; white-space: nowrap; text-overflow:ellipsis}
+.order_num th{font: 14px/36px "微软雅黑"; text-align: left; padding: 0 10px; background-color: #F4F4F4}
+.order_table td{font: 14px/70px "微软雅黑"; color: #656565}
+.order_table span{color: #BBA573}
+.look_detail{font: 14px/24px "微软雅黑"; margin: 23px 0; width: 80px; height: 24px; background-color:#4AACF3}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

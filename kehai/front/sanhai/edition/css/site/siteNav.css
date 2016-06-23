@@ -1,0 +1,158 @@
+#siteNav .n_border_b {
+    border: none 0 !important;
+}
+
+#siteNav .school_mainNav {
+    background: none !important;
+    margin-top: 0px !important;
+    border-bottom: 2px solid #ffd900;
+}
+
+#siteNav .all_class_type {
+    width: 240px;
+    height: 50px;
+    background-color: #FCB314;
+    z-index: 20;
+    cursor: pointer;
+}
+
+#siteNav .all_class_type .select_classes_bg {
+    font-size: 16px;
+    height: 50px;
+    line-height: 50px;
+    color: #FFFFFF;
+    text-indent: 38px;
+}
+
+#siteNav .all_class_type .select_classes_bg i {
+    width: 28px;
+    height: 24px;
+    background: url(/front/sanhai/edition/images/ico.png) -360px -40px no-repeat;
+    margin-right: 15px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#siteNav .class_type_wrap {
+    left: 0;
+    top: 50px;
+    width: 240px;
+    background-color: #fff;
+    z-index: 10;
+}
+
+#siteNav .class_type {
+    border: 2px solid #FDBD39;
+    border-top: none;
+}
+
+#siteNav .class_type_content {
+    margin: 0 19px;
+    border-bottom: 1px solid #FDBD39;
+    padding: 19px 0 16px 17px;
+}
+
+#siteNav .class_type_content h3 {
+    font-size: 16px;
+    height: 30px;
+    line-height: 30px;
+    color: #333;
+}
+
+#siteNav .class_type_content p {
+    font-size: 14px;
+    height: 14px;
+    line-height: 14px;
+}
+
+#siteNav .class_type_content p a {
+    font-size: 14px;
+    height: 14px;
+    line-height: 14px;
+    margin-right: 15px;
+}
+
+#siteNav .all_class_type .select_classes_bg {
+    font-size: 16px;
+    height: 50px;
+    line-height: 50px;
+    color: #FFFFFF;
+    text-indent: 38px;
+}
+
+#siteNav .more_class_cont {
+    padding: 25px 25px;
+    border: 2px solid #FF8000;
+    width: 342px;
+    right: -414px;
+    top: 0;
+    background-color: #ffffff;
+}
+
+#siteNav .more_class_cont li {
+    float: left;
+    font-size: 14px;
+    height: 16px;
+    line-height: 16px;
+    padding: 0 12px;
+    margin: 8px 0;
+    border-right: 1px solid #959595;
+}
+
+#siteNav .class_type_content .more_class_cont li a {
+    white-space: nowrap;
+    display: inline-block;
+}
+
+#siteNav .mainNav {
+    height: 50px;
+    margin-left: 45px;
+}
+
+#siteNav .school_mainNav .mainNav .ac {
+    background: none !important;
+}
+
+#siteNav .mainNav li {
+    float: left;
+}
+
+#siteNav .mainNav li a {
+    font-size: 16px;
+    height: 50px;
+    line-height: 50px;
+    padding: 0 45px;
+    display: inline-block;
+}
+
+#siteNav .school_mainNav .mainNav .ac a {
+    color: #fcb314 !important;
+}
+
+#siteNav .school_mainNav .mainNav li a:hover {
+    color: #fcb314 !important;
+}
+
+#siteNav .class_type .active .more_class {
+    background-position: -50px -100px;
+}
+
+#siteNav .more_class {
+    display: inline-block;
+    width: 8px;
+    height: 13px;
+    overflow: hidden;
+    background-position: 0 -200px;
+    right: 36px;
+    top: 50%;
+    margin-top: -7px;
+    background-image: url(/front/sanhai/edition/images/select_classes.png);
+}
+#siteNav .class_type .active {
+    background-color: #FF7F00;
+    margin: 0px -2px 0 -2px;
+}
+#siteNav .class_type .active h3, #siteNav .class_type .active p a {
+    color: #ffffff;
+}
+

@@ -1,0 +1,94 @@
+body{margin:0;padding:0}
+
+/*header*/
+
+.header{height:78px}
+.logon .logon_nav{margin:auto;width:960px}
+.logon .logon_nav .nav_l{float:left;line-height:75px}
+.logon .logon_nav .nav_r{float:right;line-height:75px}
+.logon .logon_nav .nav_l .logo{width:95px;height:40px;background:url(../images/ico.png) 0px 0px no-repeat;display:inline-block;vertical-align:middle}
+.logon .logon_nav span{font-size:16px}
+.logon .logon_nav .nav_l span{padding-left:30px}
+.logon .logon_nav .nav_r .school{width:20px;height:21px;background:url(../images/ico.png) -120px 0px no-repeat;display:inline-block;vertical-align:middle}
+.logon .logon_nav .nav_r .phone{width:22px;height:21px;background:url(../images/ico.png) -160px 0px no-repeat;display:inline-block;vertical-align:middle}
+.logon .logon_nav .nav_r span{padding-right:20px}
+/*main*/
+.logon .content{width:100%}
+.logon .bg_banner{width:100%;height:750px;background:#ffcc99}
+.logon .bg_banner .main{width:960px;margin:auto}
+.logon .bg_banner .main .main_l img{margin-top:170px}
+.logon .bg_banner .main .main_r{width:360px;background:white;margin-top:140px;border-radius:10px}
+.logon .bg_banner .main .main_r .right_main{padding:0px 20px 10px;border:none;border-radius:10px}
+.logon .bg_banner .main .main_r .registered{padding:10px 0px 10px 240px}
+.logon .bg_banner .main .main_r .registered a{color:#ff9542}
+.logon .bg_banner .main .main_r .registered a i{width:16px;height:16px;background:url(../images/ico.png) -200px 0px no-repeat;display:inline-block}
+
+.logon .bg_banner .main .main_r .logon_tab{height:40px;background:#fbe0a5;position:relative;border-radius:4px}
+.logon .bg_banner .main .main_r .logon_tab a{width:50%!important;line-height:40px;display:block;text-align:center;font-size:16px}
+.logon .bg_banner .main .main_r .logon_tab a:hover{color:white!important}
+.logon .bg_banner .main .main_r .logon_tab .ac{width:26px;height:13px;background-color:#fcb314;color:white;height:100%;border-radius:5px 0px 0px 5px}
+.logon .bg_banner .main .main_r .logon_tab .student{border-radius:0px 5px 5px 0px}
+.logon .logon_way .logon_mode{margin:20px 0px 6px}
+.logon .logon_way .ac{color:#ff8000}
+.logon .logon_way .normal i{width:12px;height:14px;background:url(../images/ico.png) -240px 0px no-repeat;display:inline-block}
+.logon .logon_way .phone i{width:10px;height:16px;background:url(../images/ico.png) -120px -40px no-repeat;display:inline-block;margin-left:30px}
+.logon .logon_way .input_way{background:#ececec;border-radius:5px;padding:13px 0px}
+.logon .logon_way .input_way hr{margin:12px 20px 14px 35px;*margin:5px 20px 5px 35px;border-bottom: none;}
+.logon .logon_way .input_way .ph_num,.logon .logon_way .input_way .password,.logon .logon_way .input_way .verify_code{height: 34px;}
+.logon .logon_way .input_way .ph_num i{width:24px;height:24px;background:url(../images/ico.png) -200px -40px no-repeat;display:inline-block;margin-left:20px;}
+.logon .logon_way .input_way .password i{width:24px;height:24px; background:url(../images/ico.png) -160px -40px no-repeat;display:inline-block;margin-left:20px;}
+.logon .logon_way .input_way .verify_code i{width:24px;height:24px;background:url(../images/ico.png) -240px -80px no-repeat;display:inline-block;margin-left:20px}
+.logon .logon_way .input_way input{*padding: 8px 0px;border:none;background:#ececec;line-height:16px;width:249px;vertical-align: middle;height: 100%;
+    height: auto\0;position: relative;}
+.logon .logon_way .input_way input:-webkit-autofill {-webkit-box-shadow: 0 0 0px 1000px #ececec inset;}/*去掉input选中黄色背景*/
+.logon .logon_way .input_way .verify_code{display:none}
+.logon .logon_way .send_verify_code .password{display:none}
+.logon .logon_way .send_verify_code .verify_code{display:block}
+
+
+::-webkit-input-placeholder {color:#333}  /* WebKit browsers */
+:-moz-placeholder {color:#333}    /* Mozilla Firefox 4 to 18 */
+::-moz-placeholder {color:#333}   /* Mozilla Firefox 19+ */
+:-ms-input-placeholder {color:#333}   /* Internet Explorer 10+ */
+
+.logon .logon_way .input_way button{height:40px!important;font-size:16px;line-height:40px;top:-7px;right:20px;border-radius:5px;background:#ff8000}
+.logon .logon_way .input_way .send{background:#ccc;color:#666!important;left:165px;height:35px;font-size:14px}
+.logon .bg_banner .main .main_r .remember{margin-top:12px; height:35px}
+.logon .bg_banner .main .main_r .remember .user{color: #666;}
+.logon .bg_banner .main .main_r .remember .user input{*margin-right: 0px;}
+.logon .bg_banner .main .main_r .logonBtn{display:block; width:100%;height:56px!important;background:#f9a551;line-height:56px!important;color:white;font-size:26px;border-radius:5px}
+.logon .bg_banner .main .main_r .logonBtn:hover{background:#ff8000!important}
+.logon .bg_banner .main .main_r .other{color:#666;margin-top:14px}
+.logon .bg_banner .main .main_r .account a{color: #4aacf3; height:30px; display: inline-block}
+.logon .bg_banner .main .main_r .account span{color: #e2e2e2;}
+.logon .footer{margin-top:0px}
+
+/*忘记密码*/
+.account_registration{padding-top: 60px;}
+.frame_12k .frame_r_l .border_radius{border-radius: 30px !important; box-shadow: 4px 4px #E6E5E5;}
+.form_list .row{padding-left: 235px;}
+.popBox .determineBtn{ margin-left: 0;}
+.please_password{line-height:46px;color:#333333;border-bottom:4px solid #F4F4F4; margin-bottom: 30px;}
+
+/*班海登录*/
+.banHaiLog { padding-left:30px; background:url(../images/banhailogo.png) no-repeat }
+.banhaiAccount {line-height:66px; height:66px; padding-top:6px}
+.logon .banhai .logon_way .input_way .ph_num i {
+    width: 24px;
+    height: 24px;
+    background: url(../images/ico.png) -200px -80px no-repeat;
+    display: inline-block;
+    margin-left: 20px;
+}
+#KH{ cursor:pointer}
+.logon .banhai .right_main{ padding-bottom:20px!important;
+}
+#BHTransfer{ text-align:center;}
+#BHTransfer .form_list{ display: inline-block;}
+/*登录页的弹窗*/
+#BHTransfer .form_list{padding-top:14px;}
+#BHTransfer .form_list .formL{width:70px;}
+#BHTransfer .form_list .row{ padding-left:0}
+#BHTransfer .userAgreement { text-align: center}
+
+

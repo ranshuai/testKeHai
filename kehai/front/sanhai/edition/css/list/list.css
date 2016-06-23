@@ -1,0 +1,604 @@
+.main_l_nav {
+    height: 40px;
+    background-color: #E5E5E5;
+}
+.main_l_nav .active {
+    background-color: #FCB314;
+    border-top-color: #FCB314;
+}
+.main_l_nav .p28 {
+    padding: 0 28px;
+}
+.main_l_nav li {
+    float: left;
+    height: 38px;
+    padding: 0 22px;
+    text-align: center;
+    border-top: 2px solid #E5E5E5;
+}
+.main_l_nav .active a {
+    color: #ffffff;
+}
+.main_l_nav a {
+    font-size: 16px;
+    line-height: 38px;
+    color: #666666;
+}
+.school_list_main {
+    margin-right: -30px;
+}
+
+.school_list_main dl {
+    margin-right: 29px;
+    float: left;
+    width: 433px;
+    padding: 20px 0px;
+    border: 1px solid #dcdcdc;
+    margin-top: 25px;
+    height: 216px;
+}
+.school_list_main dl dt {
+    text-align: center;
+    float: left;
+}
+.school_list_main dl dt a, .school_list_main dl dt span, .school_list_main dl dt em {
+    display: block;
+}
+.school_list_main dl dt span {
+    width: 90px;
+    padding-left: 25px;
+}
+.school_list_main dl dt span a {
+    padding-left: 0;
+}
+.school_list_main dl dt span.evaluationsMain {
+    padding-left: 20px;
+}
+.school_list_main dl dt span {
+    width: 90px;
+    padding-left: 25px;
+}
+.sch_main_r .evaluationSmall {
+    width: 130px;
+}
+.evaluationSmall li {
+    margin-bottom: 10px;
+}
+.evaluationSmall .score {
+    width: 88px;
+    height: 13px;
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 8px;
+    margin-right: 0px;
+}
+.evaluationSmall .score .gray_js {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: url(../../images/bg.png) no-repeat -160px -200px;
+    width: 100%;
+    height: 100%;
+}
+.evaluationSmall .score .red_js {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: url(../../images/bg.png) no-repeat -160px -240px;
+    height: 100%;
+}
+.school_list_main dl dd {
+    padding-left: 152px;
+}
+.school_list_main dl dd span {
+    width: 140px;
+    padding-bottom: 15px;
+    display: inline-block;
+    color: #666;
+    float: left;
+}
+.school_list_main dl dd .sch_teacher i {
+    width: 20px;
+    height: 17px;
+    background-position: -320px -320px;
+}
+.school_list_main dl dd .sch_classes i {
+    width: 20px;
+    height: 17px;
+    background-position: -320px -280px;
+}
+.school_list_main dl dd .sch_student i {
+    width: 20px;
+    height: 21px;
+    background-position: -280px -320px;
+}
+.school_list_main dl dd span i {
+    padding-right: 10px;
+    vertical-align: middle;
+    background: url(../../images/ico.png);
+    display: inline-block;
+}
+.school_list_main dl dd p {
+    padding-right: 20px;
+    line-height: 22px;
+    height: 85px;
+    width: 253px;
+    cursor: pointer;
+    color: #666;
+    float: left;
+    overflow: hidden;
+}
+.school_list_main dl dd .allClasses {
+    padding: 5px 16px;
+    border: 1px solid #ff7f00;
+    color: #ff7f00;
+}
+.school_list_main dl dd .schConsultation {
+    color: white;
+    background: #ff8000;
+    padding: 6px 0px;
+    text-align: center;
+    margin-left: 19px;
+}
+.page {
+    text-align: center;
+    margin-top: 20px;
+    padding-bottom: 50px;
+}
+.page a:hover, .page .current {
+    background-color: #fcb314;
+    color: #FFF!important;
+    border-color: #fcb314;
+}
+.page span, .page a {
+    color: #666!important;
+    margin: 0;
+    padding: 0 11px;
+}
+.page a {
+    border-radius: 4px;
+    display: inline-block;
+    margin-right: 10px;
+    height: 30px;
+    line-height: 30px;
+    vertical-align: middle;
+    color: #999;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+
+.page span {
+    display: inline-block;
+    margin-right: 2px;
+    padding: 3px 5px;
+    vertical-align: middle;
+    font-size: 12px;
+}
+.page .jumpBtn {
+    width: 30px;
+    padding: 0;
+    background: url(../../images/bg.png);
+    text-indent: 50px;
+    overflow: hidden;
+}
+.page .next {
+    background-position: -228px -70px;
+}
+.page .jumpInp {
+    width: 40px;
+    height: 30px;
+    text-align: center;
+    border: 1px solid #dcdcdc;
+    border-radius: 4px;
+    line-height: 30px;
+}
+.page button {
+    margin-left: 10px;
+    background: white;
+    border: 1px solid #dcdcdc;
+    color: #666!important;
+    width: 48px!important;
+    height: 30px!important;
+    line-height: 26px!important;
+}
+.page .prev {
+    background-position: -190px -70px;
+}
+.w60 {
+    width: 60px!important;
+    padding-left: 0!important;
+    padding-right: 0!important;
+}
+.school_list_main dl dd .allClasses, .school_list_main dl dd .schConsultation {
+    float: left;
+}
+.school_list_main dl dd a {
+    display: inline-block;
+    margin-top: 17px;
+    border-radius: 4px;
+}
+.w100 {
+    width: 100px!important;
+    padding-left: 0!important;
+    padding-right: 0!important;
+}
+.school_list_main dl dt a {
+    width: 100px;
+    padding-left: 20px;
+    padding-bottom: 8px;
+}
+/*------------------------------------------------------------------------------------------------------------------------*/
+
+.main_l_nav {
+    height: 40px;
+    background-color: #E5E5E5;
+}
+.main .main_l .main_l_nav li {
+    float: left;
+    height: 38px;
+    text-align: center;
+    position: relative;
+    padding: 0;
+}
+.main_l_nav .active {
+    background-color: #FCB314;
+    border-top-color: #FCB314;
+}
+.main_l .main_l_nav .p0_12 {
+    padding: 0 12px;
+}
+.main_l .main_l_nav a {
+    font-size: 16px;
+    line-height: 38px;
+    display: inline-block;
+    padding: 0 28px;
+    color: #656565;
+}
+.main_l_nav .active a {
+    color: #fff !important;
+}
+.main_l_nav a {
+    font-size: 16px;
+    line-height: 38px;
+    display: inline-block;
+    padding: 0 28px;
+    color: #656565;
+}
+.main_l_nav li {
+    float: left;
+    height: 38px;
+    text-align: center;
+    position: relative;
+    padding: 0;
+}
+.main_l_nav li {
+    float: left;
+    height: 38px;
+    text-align: center;
+    border-top: 2px solid #E5E5E5;
+    position: relative;
+}
+.main_l_nav_cont_row {
+    border-bottom: 1px solid #DCDCDC;
+    padding: 13px 0;
+}
+.main_l_nav_cont_row dl {
+    padding: 6px 0;
+}
+.main_l_nav_cont_row dt {
+    margin-right: 15px;
+}
+.main_l_nav_cont_row dt, .main_l_nav_cont_row dt img {
+    width: 180px;
+    height: 110px;
+}
+.main_l_nav_cont_row dt img {
+    display: block;
+}
+.main_l_nav_cont_row dt, .main_l_nav_cont_row dt img {
+    width: 180px;
+    height: 110px;
+}
+.class_evaluate {
+    display: block;
+    padding: 7px 0;
+    width: 120px;
+    text-align: center;
+}
+.persent {
+    display: block;
+    font-size: 20px;
+    line-height: 20px;
+    color: #7DCCF3;
+}
+.myd {
+    display: block;
+    font-size: 14px;
+    line-height: 30px;
+    height: 30px;
+    width: 120px;
+    color: #999;
+    margin-bottom: 30px;
+}
+.class_evaluate strong {
+    display: block;
+    font-size: 14px;
+    line-height: 20px;
+    color: #999999;
+    font-weight: normal;
+}
+.class_evaluate strong span {
+    color: #7DCCF3;
+    font-weight: bold;
+}
+.the_last_div {
+    width: 140px;
+    padding: 23px 0;
+}
+.main_l_nav_cont_row .the_last_div button {
+    padding: 0;
+    margin: 0 20px 10px 20px;
+    font-size: 14px;
+    line-height: 34px !important;
+    color: #FF7F00 !important;
+    text-align: center;
+    background-color: #ffffff;
+    width: 98px;
+    height: 34px !important;
+    border: 1px solid #FF7F00;
+    border-radius: 2px;
+}
+.main_l_nav_cont_row .the_last_div a {
+    background-color: #FF8000 !important;
+    color: #FFF !important;
+    margin: 0 20px 10px 20px;
+    font-size: 14px;
+    line-height: 32px !important;
+    text-align: center;
+    display: block;
+    width: 98px;
+    height: 32px !important;
+    border: 1px solid #FF7F00;
+    border-radius: 2px;
+}
+.main_l_nav_cont_row dd {
+    width: 443px;
+}
+.class_detail h3 {
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 8px;
+}
+.class_detail h3 em {
+    vertical-align: middle;
+    width: 53px;
+    height: 20px;
+    display: inline-block;
+    background: url(/front/sanhai/edition/images/ico.png) -120px -440px no-repeat;
+    text-align: center;
+    margin-left: 8px;
+    font-size: 12px;
+    line-height: 20px;
+    color: #999999;
+    white-space: nowrap;
+}
+.class_detail p {
+    font-size: 14px;
+    line-height: 26px;
+    color: #666;
+    width: 430px;
+}
+.class_money strong {
+    float: right;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FF7F00;
+    display: inline-block;
+    width: 128px;
+    text-align: left;
+}
+.class_money em {
+    float: right;
+    font-size: 14px;
+    line-height: 24px;
+    color: #666;
+    width: 128px;
+    text-align: left;
+}
+.ellipsis {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+/*------------------------------------------------------------------------------------------------------------------------*/
+.PTSelCourse{}
+.PTSelCourse dd {
+    width: 538px!important;
+}
+.PTSelCourse .class_detail h3 a:hover {
+    color: #FF7F00 !important;
+}
+.PTSelCourse .PTStatus {
+    vertical-align: middle;
+    width: 53px;
+    display: inline-block;
+    background: url(/front/sanhai/images/ico.png) -120px -440px no-repeat;
+    text-align: center;
+    margin-left: 8px;
+    font-size: 12px;
+    line-height: 20px;
+    color: #999999;
+}
+.PTSelCourse .PTSelCont p {
+    width: 280px!important;
+}
+.PTSelCourse .com_sel_role {
+    top: 0;
+    right: 0;
+    margin-right: 26px;
+}
+.PTSelCourse .com_sel_role li {
+    text-align: center;
+    margin-left: 18px;
+    cursor: pointer;
+}
+.PTSelCourse .com_sel_role em {
+    right: 0;
+    bottom: 0;
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    background: url(/front/sanhai/images/ico.png) no-repeat;
+}
+.PTSelCourse .com_sel_role .stu {
+    background-position: -200px -560px;
+}
+.PTSelCourse .com_sel_role .tea {
+    background-position: -240px -560px;
+}
+.PTSelCourse .com_sel_role .sch {
+    background-position: -280px -560px;
+}
+.PTSelCourse .com_sel_role li div {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.PTSelCourse .buyAudit {
+    height: 120px;
+    width: 146px;
+    text-align: center;
+}
+.PTSelCourse .buyAudit button {
+    margin-top: 43px;
+}
+
+/*------------------------------------------------------------------------------------------------------------------------*/
+.videoLlistMain{ padding-top: 14px;}
+.videoLlistMain .listMain {
+    padding-top: 20px;
+    margin-left: -24px;
+}
+.videoLlistMain  dl {
+    float: left;
+    width: 240px;
+    height: 217px;
+    padding: 25px 21px;
+    margin-left: 24px;
+    position: relative;
+}
+.videoLlistMain  dl img {
+    width: 240px;
+    height: 135px;
+}
+.videoLlistMain .startStudy {
+    width: 240px;
+    height: 38px;
+    top: 25px;
+    text-align: center;
+    line-height: 38px;
+    font-size: 16px;
+    background: rgba(0, 0, 0, 0.6)!important;
+    filter: Alpha(opacity=60);
+    background: #000;
+}
+.videoLlistMain .startStudy a {
+    color: white;
+}
+.videoLlistMain .startStudy i {
+    width: 15px;
+    height: 17px;
+    background: url('../../images/ico.png') -320px -600px no-repeat;
+    margin-left: 8px;
+}
+.videoLlistMain dl dd h5 a {
+    width: 230px;
+    color: #14191e;
+    font-weight: bold;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    display: inline-block;
+}
+/*------------------------------------------------------------------------------------------------------------------------*/
+.main_l_nav li:hover{ background:#FCB314;color:#fff; border-top: 2px solid #FCB314;}
+.main_l_nav li:hover a{color:#fff;}
+.classes_sel_sel .sele_cont .sele_c_list li {
+    float: left;
+    margin: 0px 3px;
+}
+
+/*弹窗*/
+.ui-widget-header{background:#dbf3fb!important;color:#666!important;border-bottom: 1px solid #ddd;font-size: 18px;}
+
+.ui-widget-content{background:white!important}
+.ui-dialog .ui-dialog-titlebar-close{color:#000;background:#dbf3fb !important;}
+/*.ui-state-default,.ui-widget-content .ui-state-default,.ui-widget-header .ui-state-default{color:#000;background:#dbf3fb !important;}*/
+.ui-state-default,.ui-widget-content .ui-state-default:hover,.ui-widget-header .ui-state-default:hover{color:#000;background:#35cafb !important;border-radius: 0 !important;}
+.ui-state-default:hover .ui-icon{background: url("/front/sanhai/edition/images/icon.png") center -120px!important}
+.ui-state-default .ui-icon{background:url("/front/sanhai/edition/images/icon.png") center -320px!important}
+.popBox .dialog_btn{text-align: center}
+.popBox .dialog_btn button{margin: 40px 30px}
+.popBox .determineBtn,.popBox .cancelBtn{width:100px!important;height:40px!important;margin-top:40px;margin-bottom:40px;border-radius:5px;margin-left:30px;line-height:40px!important;text-align:center!important;}
+.popBox .determineBtn{background:#7ecef4!important}
+.popBox .determineBtn:hover{background:#3097e1!important}
+.popBox .cancelBtn:hover{background:#bbbaba!important}
+.popBox .popCont .join_sc_succeed{text-align: center; font-size: 16px; line-height: 20px; color: #333333;}
+.popBox .popCont .join_sc_succeed i{width: 60px; height: 60px; background: url(/front/sanhai/edition/images/ico.png) -440px -279px no-repeat; margin-right: 10px;}
+.ui-widget-content{color:#959595!important}
+/*点击添加出现弹窗*/
+.popBox .popCont{padding-top:40px;padding-bottom:20px}
+.popBox .popCont .popbox_item{padding: 0 18px;padding-bottom: 10px}
+.popBox .popCont .popbox_item:last-child{padding-bottom: 0 !important}
+.popBox .pop_cont{width:430px;/*height:354px;*/margin:0 auto!important;padding-top: 30px}
+.popBox .pop_cont .form_list textarea{width:460px;height:120px}
+.popBox .pop_cont .form_list .formL{text-align:right;width:90px;color:#333}
+.popBox .pop_cont .form_list .formL em{color:red;vertical-align: middle;}
+.popBox .pop_cont .form_list .formR ul li{float:left;margin-right:20px}
+.popBox .pop_cont .form_list .w270{width:270px}
+.popBox .pop_cont .form_list input{/*height:32px;*/height: 26px;line-height: 26px;padding: 4px 0;border:1px solid #dcdcdc!important}
+.popBox .pop_cont .form_list .orange{background-color:#ff7f00}
+.popBox .pop_cont .form_list .w150{width:150px}
+.popBox .pop_cont .form_list .formR .w114{width:114px;border-radius:4px}
+.popBox .pop_cont .form_list button{color:#fff!important;height:36px!important}
+.popBox .pop_cont .determine_btn_parent{text-align:center;height:110px;padding-top:30px}
+.popBox .pop_cont .determine_btn_parent .determine_btn{width:270px;height:46px!important;background-color:#fcb414;border-radius:4px}
+/*加入购物车*/
+.PTSelCourse .PTStatus{vertical-align: middle;width: 53px;display: inline-block;background: url(/front/sanhai/images/ico.png) -120px -440px no-repeat; text-align: center;
+    margin-left: 8px;font-size: 12px;line-height: 20px;color: #999999;}
+.PTSelCourse .PTSelCont p{ width:280px!important;}
+.PTSelCourse .main_l_nav_cont_row dd {width: 538px!important;}
+.PTSelCourse .buyAudit{height:120px; width:146px; text-align: center}
+.PTSelCourse .buyAudit button { margin-top:43px}
+.PTSelCourse .com_sel_role{top:0; right:0}
+.PTSelCourse .com_sel_role em{right:0;bottom:0;display: inline-block;width:18px;height: 18px;background: url(/front/sanhai/images/ico.png) no-repeat;}
+.PTSelCourse .com_sel_role .stu{ background-position: -200px -560px; }
+.PTSelCourse .com_sel_role .tea{ background-position: -240px -560px; }
+.PTSelCourse .com_sel_role .sch{ background-position: -280px -560px; }
+.popBuyAudit .table_head { height:34px; border-top:1px solid #dcdcdc; border-bottom:1px solid #dcdcdc; margin-bottom: 8px;line-height: 34px;}
+.popBuyAudit h2{padding-bottom:20px;}
+.popBuyAudit tr{ height:34px;}
+.popBuyAudit .popBuyAuditTotal{ border-bottom:1px solid #dcdcdc; }
+.popBuyAudit .popBuyAuditBtn{ text-align: center;}
+.popBuyAudit .popBuyAuditBtn{ margin-top:36px}
+#couserlists{height:200px; overflow-y: auto;}
+#couserlists .courItem {padding:10px 0;}
+/*课海*/
+.videoLlistMain dl:hover {
+    background: white;
+    box-shadow: 0 0 10px #ccc;
+}
+
+.videoLlistMain .startStudy {
+    width: 240px;
+    height: 38px;
+    top: 25px;
+    text-align: center;
+    line-height: 38px;
+    font-size: 16px;
+    background: rgba(0, 0, 0, 0.6)!important;
+    filter: Alpha(opacity=60);
+    background: #000;
+}

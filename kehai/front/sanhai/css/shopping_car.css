@@ -1,0 +1,1389 @@
+@charset "utf-8";
+/*公用样式*/
+body {
+    min-width: 1200px
+}
+
+.bg {
+    background-image: url(../images/ico.png);
+    background-repeat: no-repeat
+}
+
+input {
+    border: none;
+    outline: none;
+    background-color: transparent
+}
+
+td {
+    padding: 0 0
+}
+
+hide {
+    display: none
+}
+
+.select_classes_bg {
+    background-image: url(../images/select_classes.png);
+    background-repeat: no-repeat
+}
+
+.searchBar {
+    height: 125px;
+    background: #ccc
+}
+
+.mainNavWrap {
+    border-bottom: 2px solid #fcb314
+}
+
+.classes_sel {
+    min-height: 200px;
+    background: #ddd
+}
+
+/*---------------shopping_car ly---------------*/
+/*主体开始 ly*/
+.please_login {
+    padding: 105px 0;
+    width: 600px;
+    margin: 0 auto
+}
+
+.please_login dt {
+    width: 85px;
+    height: 78px;
+    float: left;
+    background: url(../images/ico.png) -680px -80px no-repeat
+}
+
+.please_login dd {
+    margin-left: 110px
+}
+
+.please_login h4 {
+    height: 38px;
+    line-height: 38px;
+    color: #656565;
+    margin-bottom: 10px
+}
+
+.please_login .btn {
+    font-size: 18px;
+    height: 30px;
+    line-height: 30px;
+    color: #ffffff;
+    background-color: #FF7F00;
+    margin-right: 20px
+}
+
+.please_login .btn:hover {
+    background-color: #fcb414 !important;
+}
+
+.please_login .select_class {
+    font-size: 16px;
+    color: #49ABF2;
+    height: 30px;
+    line-height: 30px
+}
+
+.please_login .select_class:hover {
+    color: #FBB313 !important
+}
+
+.shopping_car_title {
+    font-size: 18px;
+    height: 47px;
+    line-height: 47px
+}
+
+.shopping_car_title i {
+    width: 26px;
+    height: 23px;
+    margin: 12px 13px 15px 0
+}
+
+.bg_shopping_car {
+    background-position: 0 -200px
+}
+
+.header_list1 {
+    padding: 0 20px;
+    background-color: #f4f4f4;
+    height: 36px;
+    margin-bottom: 20px
+}
+
+.header_list1 li {
+    font-size: 16px;
+    line-height: 36px;
+    color: #666;
+    float: left
+}
+
+.header_list1 input {
+    margin-right: 1px
+}
+
+.header_list2 {
+    border: 1px solid #DCDCDC;
+    background-color: #FFF9EA;
+    padding: 14px 19px;
+    margin-bottom: 20px;
+    position: relative
+}
+.header_list11 {
+    border: 1px solid #DCDCDC;
+    background-color: #FFF9EA;
+    padding: 14px 19px;
+    margin-bottom: 20px;
+    position: relative
+}
+
+.header_list2 li {
+    float: left
+}
+.header_list2 .audit_read .add_save{
+padding-top: 30px;
+}
+.header_list2 .list2_li2{
+    width: 750px;
+    margin-right: 68px;
+}
+
+.header_list2 .change_remark {
+    padding-top: 35px;
+}
+
+.header_list2 .pay_wrong {
+    position: absolute;
+    left: 3px;
+    top: 63px;
+    width: 40px;
+    height: 20px;
+    background-color: #ccc;
+    border-radius: 4px;
+    text-align: center;
+    line-height: 20px;
+    font-size: 10px;
+}
+
+.header_list11 li {
+    float: left
+}
+.header_list11 .audit_read .add_save{
+    padding-top: 30px;
+}
+.header_list11 .list2_li2{
+    width: 750px;
+    margin-right: 68px;
+}
+
+.header_list11 .change_remark {
+    padding-top: 35px;
+}
+
+.header_list11 .pay_wrong {
+    position: absolute;
+    left: 3px;
+    top: 63px;
+    width: 40px;
+    height: 20px;
+    background-color: #ccc;
+    border-radius: 4px;
+    text-align: center;
+    line-height: 20px;
+    font-size: 10px;
+}
+
+.list2_li1 {
+    height: 110px
+}
+
+.list2_li1 input, .list2_li1 img {
+    vertical-align: top;
+    float: left
+}
+
+.list2_li1 input {
+    margin-right: 25px
+}
+
+.list2_li1 img {
+    width: 180px;
+    height: 110px;
+    display: block
+}
+
+.list2_li2 h4 {
+    line-height: 24px;
+    margin-bottom: 8px;
+    padding-top: 3px;
+    font-size: 16px;
+    line-height: 22px;
+}
+.list2_li2 h4 a{
+    color: #333333;
+}
+.list2_li2 h4 span{
+    background: url(../images/ico.png) -120px -440px no-repeat;
+    width: 53px; 
+    height: 20px;
+    display: inline-block;
+    margin-left: 10px;
+    color: #333333;
+    text-align: center;
+}
+.list2_li2 p {
+    font-size: 14px;
+    line-height: 26px;
+    color: #666
+}
+.list2_li2 p span{
+    display: inline-block;
+    width: 110px;
+}
+.list2_li2 p .useCoupon{
+    border:1px solid #ccc;
+    width:94px; height:22px;
+    background: #fff;
+    float:right;
+    text-align: center;
+}
+.list2_li2 p .useCoupon span{
+    width:100%;
+
+}
+.list2_li2 p .useCoupon .useCoupon_con{
+    background:#fff;
+    border:1px solid #ccc;
+    top:22px;
+    left:-1px;
+    font-size: 12px;
+    text-align:left;
+    padding:4px;
+    width:130px;
+}
+.useCoupon .useCoupon_1bg{ width:5px; height:3px; background: url(../images/ico.png) no-repeat -240px -600px; top:9px; right:5px;}
+.useCoupon .useCoupon_1bg.y{background-position: -280px -600px;}
+.useCoupon .useCoupon_2bg{ width:100%; height:1px; background:#fff;bottom:-1px; left:0px;}
+.list2_li2 p .useCoupon .useCoupon_con label{
+    margin-left: 2px
+}
+
+.list2_li3{
+    color: #999999;
+    font-size: 14px;
+    height: 26px;
+    line-height: 26px;
+    margin-left: 118px;
+}
+
+.list2_li4 {
+    float: right;
+    font-size: 16px;
+    height: 24px;
+    line-height: 27px;
+    color: #ff8000;
+    font-weight: bold;
+        right: 0;
+    top: -35px;
+}
+
+.list2_li5 a {
+    font-size: 14px;
+    height: 24px;
+    line-height: 24px;
+    color: #333333
+}
+
+.list2_li5 a:hover {
+    color: #fcb314 !important;
+    text-decoration: underline
+}
+
+.OK_saveing span {
+    right: 0;
+    top: 0;
+    width: 145px;
+    height: 44px;
+    font-size: 12px;
+    height: 44px;
+    line-height: 44px;
+    color: #656565;
+    background-color: #F1FBD7
+}
+
+.OK_saveing i, .OK_saveing em {
+    vertical-align: middle
+}
+
+.OK_saveing i {
+    width: 22px;
+    height: 22px;
+    margin: 11px 9px 11px 12px
+}
+
+.bg_ok_save {
+    background-position: -360px -120px
+}
+
+.all_chose {
+    height: 50px;
+    background-color: #E5E5E5;
+    padding-left: 20px;
+    margin-bottom: 11px
+}
+
+.left_list li, .right_list li {
+    float: left;
+    font-size: 14px;
+    height: 50px;
+    line-height: 50px;
+    color: #333333
+}
+
+.right_list .right_list_li1 {
+    padding-right: 30px;
+}
+
+.right_list .right_list_li2 {
+    padding-right: 6px;
+    width: auto !important;
+}
+
+.left_list_li1 {
+    width: 95px
+}
+
+.left_list_li1 input, .left_list_li1 em {
+    float: left
+}
+
+.left_list_li1 input {
+    margin-right: 9px;
+    margin-top: 19px;
+    *margin-top: 14px
+}
+
+.left_list_li2 a {
+    color: #333333
+}
+
+.left_list_li2 a:hover {
+    color: #fcb314
+}
+
+.left_list_li3 a:hover {
+    color: #fcb314 !important;
+    text-decoration: underline
+}
+
+.left_list_li2 {
+    width: 80px
+}
+
+.left_list_li3 {
+    width: 145px
+}
+
+.left_list_li3 span {
+    width: 145px;
+    height: 44px;
+    font-size: 12px;
+    height: 44px;
+    line-height: 44px;
+    color: #656565;
+    background-color: #F1FBD7;
+    margin: 3px 0
+}
+
+.left_list_li3 i, .left_list_li3 em {
+    vertical-align: middle
+}
+
+.left_list_li3 i {
+    width: 22px;
+    height: 22px;
+    margin: 11px 9px 11px 12px
+}
+
+.right_list_li1 span, .right_list_li2 span {
+    font-size: 20px;
+    font-weight: bold;
+    color: #FF7F00;
+    margin-right: 10px;
+}
+
+/*.right_list_li1, .right_list_li2{width:135px}*/
+.right_list_li3 {
+    width: 150px
+}
+
+.right_list_li3 a {
+    border-radius: 0;
+    width: 150px;
+    height: 50px !important;
+    line-height: 50px !important;
+    background-color: #FF7F00;
+    font-size: 18px;
+    color: #ffffff;
+    display: inline-block;
+    vertical-align: top
+}
+
+.right_list_li3 a:hover {
+    background-color: #fcb414 !important;
+}
+
+.suggest_class {
+    height: 46px;
+    border-bottom: 2px solid #EDEDED;
+}
+
+.suggest_class h3 {
+    line-height: 44px;
+    color: #333333;
+    float: left
+}
+
+.suggest_class h3 i {
+    width: 23px;
+    height: 23px;
+    margin: 11px 10px 16px 0
+}
+
+.bg_suggest {
+    background-position: -40px -200px
+}
+
+.suggest_class a {
+    font-size: 14px;
+    height: 44px;
+    line-height: 44px;
+    color: #49ABF2;
+    float: right
+}
+
+.suggest_class a:hover {
+    color: #fcb314 !important;
+    text-decoration: underline
+}
+
+.suggest_banner {
+    border-bottom: 2px solid #eee
+}
+
+.suggest_banner_warp {
+    height: 215px;
+    width: 1080px;
+    margin: 0 auto;
+    overflow: hidden
+}
+
+.suggest_list {
+}
+
+.suggest_banner {
+    border-bottom: 1px solid #eee;
+}
+
+.suggest_banner_warp {
+    height: 265px;
+    overflow: hidden;
+    width: 1120px;
+    margin: 10px auto
+}
+
+.suggest_list {
+    width: 2000px
+}
+
+.suggest_list li {
+    float: left;
+    padding: 20px 10px;
+    margin: 10px;
+    *width: 240px;
+}
+
+.suggest_list li:hover {
+    box-shadow: 0px 0px 10px #ccc;
+}
+
+.suggest_list li img {
+    width: 240px;
+    height: 135px;
+    display: block;
+    margin-bottom: 15px
+}
+
+.suggest_list h5 {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 46px;
+    height: 46px;
+    color: #13191E;
+    width: 241px;
+    overflow: hidden;
+    white-space: nowrap;
+
+}
+.suggest_list h5 a{
+    display: block;
+    width: 241px;
+    overflow: hidden;
+    white-space: nowrap;text-overflow: ellipsis}
+.suggest_list p {
+    font-size: 12px;
+    line-height: 1;
+    height: 12px;
+    color: #777D81;
+    width: 241px
+}
+
+.suggest_list p span {
+    float: right;
+    color: #ED4D4D
+}
+
+.suggest_list p b {
+    width: 160px;
+    float: left;
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis
+}
+
+.prev {
+    left: 0;
+    top: 71px;
+    background-position: -40px -440px
+}
+
+.next {
+    right: 0;
+    top: 71px;
+    background-position: -80px -440px
+}
+
+.prev, .next {
+    width: 18px;
+    height: 34px
+}
+
+.questions_wrap {
+    padding: 55px 0
+}
+
+.questions_item {
+    width: 399px;
+    border-right: 1px dashed #CBCBCB;
+    float: left
+}
+
+.questions_item_cont {
+    padding: 0 40px
+}
+
+.questions_item i {
+    width: 120px;
+    height: 120px;
+    float: left;
+    margin-top: 6px
+}
+
+.questions_item_bg1 {
+    background-position: -520px -79px
+}
+
+.questions_item_bg2 {
+    background-position: -519px -240px
+}
+
+.questions_item_bg3 {
+    background-position: -520px -400px
+}
+
+.questions_text {
+    padding: 15px 0 20px 0;
+    margin-left: 144px
+}
+
+.questions_text p {
+    font-size: 14px;
+    height: 24px;
+    line-height: 24px
+}
+
+.questions_text p a {
+    color: #999999
+}
+
+.border_none {
+    border-right: none
+}
+
+.sure_del p {
+    text-align: center;
+    color: #666;
+    font-size: 18px
+}
+
+/*.sure_del p span{color: #FCB314}*/
+/*.sure_del p em{width: 350px; display: inline-block; text-align: left; vertical-align: middle;}*/
+/*.sure_del p i{width: 59px; height: 59px; background:url(../images/ico.png) -440px -520px no-repeat; margin-right: 10px;vertical-align: middle;}*/
+/*-----------shopping_car end-----------*/
+/*----------支付 ly----------*/
+.payment {
+    padding-top: 30px
+}
+
+.payment h3 {
+    line-height: 43px;
+    color: #333333;
+    border-bottom: 4px solid #F4F4F4
+}
+
+.payment .detail_messages {
+    font-size: 16px;
+    line-height: 22px;
+    color: #333333;
+    padding: 24px 0;
+    background-color: #FFF9EA;
+    margin-bottom: 30px
+}
+
+.payment .detail_messages span {
+    padding: 0 27px
+}
+
+.payment .text1 {
+    float: left
+}
+
+.payment .text2 {
+    float: right
+}
+
+.payment .text2 em {
+    font-size: 22px;
+    color: #FF7F00
+}
+
+.payment .text1 em {
+    font-size: 22px;
+    color: #FF7F00
+}
+
+.payment .choice {
+    margin-bottom: 24px
+}
+
+.payment .choice .tabList {
+    height: 32px;
+    margin-bottom: -1px
+}
+
+.payment .choice .tabList a {
+    height: 28px;
+    line-height: 28px;
+    color: #656565
+}
+
+.payment .choice .tabCont {
+    border: 1px solid #ddd
+}
+
+.payment .choice .tabList a {
+    display: inline-block;
+    font-size: 14px;
+    line-height: 28px;
+    height: 28px;
+    border-width: 3px 1px 1px;
+    border-color: #FFFFFF #FFFFFF #E7E7E7;
+    border-style: solid;
+    padding: 7px 28px;
+    margin: -15px 0
+}
+
+.payment .choice .tabList .ac, .payment .choice .tabList a:hover {
+    border: 1px solid #ddd !important;
+    border-top: 6px solid #FCB314 !important;
+    border-bottom: 1px solid #fff !important
+}
+
+.payment .choice .tabList .ac {
+    color: #FBB313 !important
+}
+
+.payment .choice .choice_list_wrap {
+    border: none;
+    height: 32px
+}
+
+.payment .choice .choice_list_wrap h4 {
+    color: #999999;
+    line-height: 28px;
+    margin-right: 10px;
+    border-top: 3px solid #FFFFFF
+}
+
+.payment .choice .choice_cont {
+    border: 1px solid #E7E7E7
+}
+
+.payment .choice_item {
+    padding: 26px 20px 20px
+}
+
+.payment .choice_item li {
+    float: left;
+    margin-right: 115px;
+    margin-bottom: 18px
+}
+
+.payment .choice_item input, .choice_item .bank_img {
+    float: left
+}
+
+.payment .bank_img {
+    width: 160px;
+    height: 40px;
+    border: 1px solid #DCDCDC;
+    background-image: url(../images/bank.png);
+    background-repeat: no-repeat
+}
+
+.payment .ICBC {
+    background-position: 20px 0
+}
+
+.payment .CMBC {
+    background-position: 20px -40px
+}
+
+.payment .CMSB {
+    background-position: 20px -80px
+}
+
+.payment .CCB {
+    background-position: 20px -120px
+}
+
+.payment .SDB {
+    background-position: 20px -160px
+}
+
+.payment .CCB {
+    background-position: 20px -200px
+}
+
+.payment .SPDB {
+    background-position: 20px -240px
+}
+
+.payment .PSBC {
+    background-position: 20px -280px
+}
+
+.payment .CEB {
+    background-position: 20px -320px
+}
+
+.payment .ABC {
+    background-position: 20px -360px
+}
+
+.payment .BOC {
+    background-position: 20px -400px
+}
+
+.payment .BCM {
+    background-position: 20px -440px
+}
+
+.payment .CIB {
+    background-position: 20px -480px
+}
+
+.payment .HXB {
+    background-position: 20px -520px
+}
+
+.payment .BOB {
+    background-position: 20px -560px
+}
+
+.payment .phone_pay {
+    background-position: 20px -600px
+}
+
+.payment .RCB {
+    background-position: 20px -640PX
+}
+
+.payment .CBHC {
+    background-position: 20px -680PX
+}
+
+.payment .GZSNCXYHZS {
+    background-position: 20px -720PX
+}
+
+.payment .GZSYYH {
+    background-position: 20px -760PX
+}
+
+.payment .SRCB {
+    background-position: 20px -800PX
+}
+
+.payment .BEA {
+    background-position: 20px -840px
+}
+
+.payment .NINGBO {
+    background-position: 20px -880px
+}
+
+.payment .HANGZHOU {
+    background-position: 20px -920px
+}
+
+.payment .PINGAN {
+    background-position: 20px -960px
+}
+
+.payment .NANJING {
+    background-position: 20px -1000px
+}
+
+.payment .GUANGDONGFAZHAN {
+    background-position: 20px -1040px
+}
+
+.payment .ZHIFUBAO {
+    background-position: 0 -1080px
+}
+
+.payment .CAIFUTONG {
+    background-position: 15px -1120px
+}
+
+.payment .BAIDU {
+    background-position: 20px -1160px
+}
+
+.payment .choice_item input {
+    margin: 18px 10px 18px 0
+}
+
+.payment .choice_item {
+    margin-right: -82px
+}
+
+.payment .please_password {
+    line-height: 46px;
+    color: #999999;
+    border-bottom: 1px solid #DCDCDC;
+    margin-bottom: 42px
+}
+
+.payment .please_input span {
+    display: inline-block;
+    font-size: 14px;
+    line-height: 36px;
+    color: #575757;
+    width: 118px;
+    text-align: right;
+    margin-right: 15px
+}
+
+.payment .please_input strong {
+    color: #FE0303;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.payment .please_input input {
+    height: 24px;
+    width: 258px;
+    margin-right: 7px;
+    *height: 30px
+}
+
+.payment .please_input li {
+    margin-bottom: 24px;
+    width: 500px
+}
+
+.payment .please_input li .wrong {
+    left: 133px;
+    top: -30px;
+    color: red;
+    display: none
+}
+
+.payment .please_input .pw {
+    margin-bottom: 24px;
+    width: 420px
+}
+
+.payment .please_input .w138 {
+    width: 138px
+}
+
+.payment .please_input button {
+    width: 110px;
+    height: 36px !important;
+    background-color: #FF7F00;
+    border-radius: 3px;
+    font-size: 14px
+}
+
+.payment .please_input .active {
+    background-color: #CBCBCB;
+    color: #333333 !important
+}
+
+.payment .please_input .sure_password {
+    width: 270px;
+    height: 45px !important;
+    background-color: #FBB313;
+    font-size: 18px;
+    border-radius: 5px;
+    margin: 8px 0
+}
+
+.payment .forget_password {
+    line-height: 36px;
+    font-size: 12px
+}
+
+.payment .forget_password:hover {
+    color: #FBB313 !important
+}
+
+.payment .forget_password .forget_password_warp {
+    margin-bottom: 50px
+}
+
+.sure_pay a {
+    width: 150px;
+    height: 50px !important;
+    color: #ffffff;
+    font-size: 20px;
+    line-height: 50px !important;
+    background-color: #FCB314;
+    border-radius: 4px;
+    margin-bottom: 40px
+}
+
+.please_input_warp {
+    border-bottom: 1px solid #DCDCDC
+}
+
+/*----------支付 end----------*/
+/*----------money_enough ly----------*/
+
+/*主体开始*/
+.money_enough {
+    padding-top: 50px !important
+}
+
+.money_enough .payment_title {
+    line-height: 43px;
+    color: #333333;
+    border-bottom: 4px solid #F4F4F4
+}
+
+.money_enough .detail_messages {
+    font-size: 16px;
+    line-height: 22px;
+    color: #333333;
+    padding: 24px 0;
+    margin-bottom: 30px
+}
+
+.money_enough .detail_messages span {
+    padding: 0 27px
+}
+
+.money_enough .text1 {
+    float: left
+}
+
+.money_enough .text2 {
+    float: right
+}
+
+.money_enough .text2 em {
+    font-size: 22px;
+    color: #FF7F00
+}
+
+.money_enough .text1 em {
+    font-size: 22px;
+    color: #FF7F00
+}
+
+.money_enough .please_password {
+    line-height: 46px;
+    color: #333333;
+    border-bottom: 1px solid #F4F4F4
+}
+
+.money_enough .please_input_warp {
+    padding: 60px 0;
+    border-bottom: 4px solid #F4F4F4
+}
+
+.money_enough .please_input {
+    width: 410px;
+    margin: 0 auto
+}
+
+.money_enough .please_input span {
+    display: inline-block;
+    font-size: 14px;
+    line-height: 36px;
+    color: #575757;
+    text-align: right;
+    margin-right: 15px
+}
+
+.money_enough .please_input strong {
+    color: #FE0303;
+    margin-right: 10px
+}
+
+.money_enough .please_input input {
+    height: 18px;
+    width: 258px;
+    margin-right: 7px;
+    *height: 30px
+}
+
+.money_enough .please_input li {
+    margin-bottom: 24px;
+    width: 420px
+}
+
+.money_enough .please_input .w138 {
+    width: 138px
+}
+
+.money_enough .please_input button {
+    width: 114px;
+    height: 36px !important;
+    background-color: #FF7F00;
+    border-radius: 3px;
+    font-size: 14px
+}
+
+.money_enough .please_input .active {
+    background-color: #CBCBCB;
+    color: #333333 !important
+}
+
+.money_enough .please_input .sure_password {
+    width: 270px;
+    height: 45px !important;
+    background-color: #FBB313;
+    font-size: 18px;
+    border-radius: 5px;
+    margin: 8px 0
+}
+
+.money_enough .forget_password {
+    padding-top: 18px
+}
+
+.money_enough .forget_password:hover {
+    color: #FBB313 !important
+}
+
+.money_enough .please_input li .wrong {
+    left: 133px;
+    top: -30px;
+    color: red;
+    display: none
+}
+
+.money_enough .forget_password {
+    padding-top: 3px;
+    font-size: 12px
+}
+
+.money_enough .forget_password .forget_password_warp {
+    margin-bottom: 50px
+}
+
+.sure_pay a {
+    margin-left: 133px;
+    width: 150px;
+    height: 50px !important;
+    color: #ffffff;
+    font-size: 20px;
+    line-height: 50px !important;
+    background-color: #FCB314;
+    border-radius: 4px;
+    margin-bottom: 40px
+}
+
+.money_enough .please_input_warp {
+    border-bottom: 1px solid #DCDCDC;
+    padding-left: 400px
+}
+
+/*----------money_enough end----------*/
+
+/*----------forget_password_page ly----------*/
+/*主体开始*/
+.forget_password_page {
+    min-height: 765px
+}
+
+.forget_password_page .payment_title {
+    line-height: 43px;
+    color: #333333;
+    border-bottom: 4px solid #F4F4F4
+}
+
+.forget_password_page .detail_messages {
+    font-size: 16px;
+    line-height: 22px;
+    color: #333333;
+    padding: 24px 0;
+    background-color: #FFF9EA;
+    margin-bottom: 30px
+}
+
+.forget_password_page .detail_messages span {
+    padding: 0 27px
+}
+
+.forget_password_page .text1 {
+    float: left
+}
+
+.forget_password_page .text2 {
+    float: right
+}
+
+.forget_password_page .text2 em {
+    font-size: 22px;
+    color: #FF7F00
+}
+
+.forget_password_page .text1 em {
+    font-size: 22px;
+    color: #FF7F00
+}
+
+.forget_password_page .please_password {
+    line-height: 46px;
+    color: #333333;
+    border-bottom: 4px solid #F4F4F4;
+    padding-top: 50px;
+}
+
+.forget_password_page .please_input_warp {
+    padding: 60px 0;
+    border-bottom: 4px solid #F4F4F4
+}
+
+.forget_password_page .please_input {
+    width: 410px;
+    margin: 0 auto
+}
+
+.forget_password_page .please_input span {
+    display: inline-block;
+    font-size: 14px;
+    line-height: 36px;
+    color: #575757;
+    width: 118px;
+    text-align: right;
+    margin-right: 15px
+}
+
+.forget_password_page .please_input strong {
+    color: #FE0303;
+    margin-right: 10px;
+}
+
+.forget_password_page .please_input input {
+    height: 24px;
+    width: 258px;
+    margin-right: 7px;
+    *height: 30px
+}
+
+.forget_password_page .please_input li {
+    margin-bottom: 24px;
+    width: 420px
+}
+
+.forget_password_page .please_input .w138 {
+    width: 138px
+}
+
+.forget_password_page .please_input button {
+    width: 114px;
+    height: 36px !important;
+    background-color: #FBB313;
+    border-radius: 3px;
+    font-size: 14px
+}
+
+.forget_password_page .please_input .active {
+    background-color: #CBCBCB;
+    color: #333333 !important
+}
+
+.forget_password_page .please_input .sure_password {
+    width: 270px;
+    height: 45px !important;
+    background-color: #FBB313;
+    font-size: 18px;
+    border-radius: 5px;
+    margin: 8px 0
+}
+
+.forget_password_page .forget_password {
+    padding-top: 18px
+}
+
+.forget_password_page .forget_password:hover {
+    color: #FBB313 !important
+}
+
+/*----------forget_password_page end----------*/
+
+/*----------payment_succeed ly----------*/
+.payment_succeed {
+    padding-top: 50px;
+    min-height: 720px
+}
+
+.payment_succeed h4 {
+    line-height: 46px;
+    color: #333333;
+    border-bottom: 4px solid #F4F4F4
+}
+
+.payment_succeed .have_succeed {
+    padding: 100px 315px 150px;
+    border-bottom: 4px solid #F4F4F4
+}
+
+.payment_succeed .have_succeed i {
+    width: 60px;
+    height: 80px;
+    background: url(../images/ico.png) -440px -279px no-repeat;
+    margin-right: 10px
+}
+.payment_succeed .have_succeed_l{height: 110px;}
+
+.payment_succeed .have_succeed_r p {
+    font-size: 16px;
+    color: #666;
+    padding-bottom: 15px;
+}
+
+.payment_succeed .have_succeed_r p a {
+    color: #49ABF2;
+    text-decoration: underline;
+    padding: 0 5px
+}
+.payment_succeed .have_succeed_r em{color:#ff8000;font-size: 16px;}
+.payment_succeed .have_succeed_r .back_homepage_btn {
+    font-size: 18px;
+    height: 34px !important;
+    line-height: 30px !important;
+    width: 120px;
+    color: #49ABF2 !important;
+    border: 1px solid #49ABF2;
+    background-color: #fff;
+    border-radius: 8px;
+}
+
+.payment_succeed .back_homepage_btn i {
+    width: 15px;
+    height: 15px;
+    background: url(../images/ico.png) -120px -200px no-repeat;
+    margin-left: 6px
+}
+
+.payment_succeed .back_homepage_btn i {
+    vertical-align: baseline
+}
+
+.payment_succeed .back_homepage_btn:hover {
+    background-color: #49ABF2 !important;
+    color: white !important;
+}
+.payment_succeed .back_homepage_btn:hover i {
+    background: url(../images/ico.png) -120px -240px no-repeat
+}
+
+/*----------payment_succeed end----------*/
+
+/* 2015-10-16 蒋淼添加样式 */
+.success_style {
+    border-radius: 4px;
+    border: 1px solid transparent;
+    border-color: #d6e9c6;
+    background-color: #dff0d8
+}
+
+.warning_style {
+    border-radius: 4px;
+    border: 1px solid transparent;
+    border-color: #faebcc;
+    background-color: #fcf8e3;
+}
+
+.danger_style {
+    border-radius: 4px;
+    border: 1px solid transparent;
+    border-color: #ebccd1;
+    background-color: #f2dede;
+}
+
+.msg {font-size:16px;height:340px}
+.msg a{font-weight:bold;font-size:20px;text-decoration:underline;color:indianred}
+
+/* 2015-10-16 蒋淼添加样式 */
+
+.have_expired{
+    margin-bottom: 20px;
+}
+.have_expired h2{
+    font-size: 18px;
+    color: #333333;
+    padding-left: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

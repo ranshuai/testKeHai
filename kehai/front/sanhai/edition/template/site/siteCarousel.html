@@ -1,0 +1,104 @@
+<div class="bannerWrap">
+    <div class="">
+        <div class="banner">
+            <div id="mySiteCarousel">
+
+            </div>
+            <script type="text/template" id="siteCarousel-template">
+                <%
+                var data = this.model.attributes;
+                %>
+                <li class="bannerlist1">
+                    <%
+                    if(data[1]['imgLink']){
+                    %>
+                    <a href="">
+                        <img src="/front/sanhai/edition/images/3.jpg" height="350" width="100%"/>
+                    </a>
+                    <%
+                    }else{
+                    %>
+                    <img src="/file/loadImage/<%= data[1]['imgID']%>.r" height="350" width="100%"/>
+                    <%
+                    }
+                    %>
+                </li>
+                <li class="bannerlist1">
+                    <%
+                    if(data[2]['imgLink']){
+                    %>
+                    <a href="">
+                        <img src="/file/loadImage/<%= data[1]['imgID']%>.r" height="350" width="100%"/>
+                    </a>
+                    <%
+                    }else{
+                    %>
+                    <img src="/file/loadImage/<%= data[1]['imgID']%>.r" height="350" width="100%"/>
+                    <%
+                    }
+                    %>
+                </li>
+                <li class="bannerlist1">
+                    <%
+                    if(data[7]['imgLink']){
+                    %>
+                    <a href="">
+                        <img src="/file/loadImage/<%= data[1]['imgID']%>.r" height="350" width="100%"/>
+                    </a>
+                    <%
+                    }else{
+                    %>
+                    <img src="/file/loadImage/<%= data[1]['imgID']%>.r" height="350" width="100%"/>
+                    <%
+                    }
+                    %>
+                </li>
+            </script>
+
+            <div class="frame_12k pr">
+                <a href="javascript:void(0);" class="prevBtn " style="opacity: 0;"></a>
+                <a href="javascript:void(0);" class="nextBtn " style="opacity: 0;"></a>
+            </div>
+            <div class="slidernav pr">
+                <div class="pa slidernav_shadow"></div>
+                <ul class="slidernav_ul pa">
+                    <li class="ac"></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+            </div>
+            <div class="frame_12k pr">
+                <div class="APPBar">
+                    <div class="APPBar_bg">
+                        <div class="APPBar_bg_top"></div>
+                        <!--<div class="APPBar_bg_btm"></div>下载APP按钮背景-->
+                    </div>
+                    <div class="APPBar_cont">
+                        <h3>先看看这里吧</h3>
+                        <ul class="APPBar_cont_top">
+                            <li style="left: -8.5px;"><a
+                                    href="/site/webBottomLink/toindustryinformation_1.htm"><i></i><span>限时限额发放免费学习卡</span></a>
+                            </li>
+                            <li style="left: -8.5px;"><a
+                                    href="/site/webBottomLink/toindustryinformation_2.htm"><i></i><span>让孩子学习“一对一”的优势</span></a>
+                            </li>
+                            <li style="left: -8.5px;"><a
+                                    href="/site/webBottomLink/toindustryinformation_3.htm"><i></i><span>老师们，应聘时间到了......</span></a>
+                            </li>
+                            <li style="left: -8.5px;"><a
+                                    href="/site/webBottomLink/toindustryinformation_4.htm"><i></i><span>再不入驻课海网，你就OUT了......</span></a>
+                            </li>
+                            <li style="left: -8.5px;"><a
+                                    href="/site/webBottomLink/toindustryinformation_5.htm"><i></i><span>高考学习攻略</span></a>
+                            </li>
+                            <li style="left: -8.5px;"><a
+                                    href="/site/webBottomLink/toindustryinformation_6.htm"><i></i><span>奥数想拿高分的同学过来看看吧！</span></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>

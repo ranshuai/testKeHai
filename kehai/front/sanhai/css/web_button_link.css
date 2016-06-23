@@ -1,0 +1,39 @@
+@charset "utf-8";
+/*student ly*/
+.fb{font-weight: bold}
+.line{margin-bottom: 30px;}
+.l270{width: 268px; height: 680px; background-color: #F4F4F4;border: 1px solid #DCDCDC; float: left;}
+.l270 ul li{height: 43px; font-size: 16px; line-height: 43px; border-bottom: 1px solid #eeeeee; }
+.l270 ul li a{display: block; width: 236px; height: 100%; padding-left: 31px; color: #4aacf3;}
+.l270 ul li a:hover{background-color: #ffffff; color: #fcb314 !important; border-left: 4px solid #fcb314; padding-left: 28px; margin-left: -1px;}
+.l270 ul li a i{margin-left: 138px; width: 7px; height: 10px; margin-top: 17px; margin-bottom: 16px; background: url(../images/ico.png) 0px -480px no-repeat;}
+.l270 ul li a:hover i{background-position: -40px -480px;}
+.l270 ul li .ac{background-color: #ffffff; color: #fcb314 !important; border-left: 4px solid #fcb314; padding-left: 28px; margin-left: -1px;}
+.l270 ul li .ac i{background-position: -40px -480px;}
+.r910{width: 888px; margin-left: 290px;min-height: 520px;}
+.r910 h2{font-size: 24px; height: 34px; border-bottom: 1px solid #dcdcdc; color: #666666;}
+.r910 .item{margin-bottom: 37px;}
+.r910 .item h3{font-size: 18px; line-height: 65px; height: 65px; color: #333333; margin-left: 30px;}
+.r910 .item h3 i{width: 8px; height: 6px; background: url(../images/ico.png) -80px -480px no-repeat; margin-right: 7px;}
+.r910 .item p{height: 30px; line-height: 30px; margin-left: 46px;}
+.r910 .item p a{font-size: 14px; color:#4aacf3; margin-right: 79px; white-space: nowrap;}
+/*student end*/
+/*student11 ly*/
+.r910 .all_text{width: 826px; margin: 0 auto;padding-bottom: 23px;}
+.r910 .all_text h3{font-size: 18px; line-height: 65px; height: 65px; color: #333333; margin-bottom: 3px;}
+.r910 .all_text h4{font-size: 14px; color: #666666; text-indent: 2em; line-height: 24px;margin-bottom: 23px; font-weight: bold}
+.r910 .all_text p{font-size: 14px; color: #666666; text-indent: 2em; line-height: 24px;margin-bottom: 23px;}
+.r910 .all_text p span{color: #999999;}
+.all_text textarea{width: 460px; border-color: #DCDCDC;display: block; margin-bottom: 10px;}
+.all_text input{width: 460px; border:1px solid #DCDCDC;display: block;margin-bottom: 10px; padding: 5px;}
+.all_text button{margin-left: 362px;width: 110px; height: 46px!important; font-size: 18px; line-height: 46px!important; background-color: #fcb314!important;}
+.all_text button:hover{background-color: #ff8000!important;}
+.freeStudy h1{font-weight: bold;color: #ff8000;text-indent: 1.1em; line-height: 24px;margin-bottom: 23px;}
+.freeStudy p.orange,.freeStudy em.orange{font-weight: bold;}
+.oto p.orange{font-size: 16px}
+.oto img{width: 590px;height: 224px;padding-left: 75px}
+.tch img{width: 825px}
+.tch p{font-size: 16px !important;}
+
+
+

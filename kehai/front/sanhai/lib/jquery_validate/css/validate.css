@@ -1,0 +1,27 @@
+input{ box-sizing: inherit;}
+/* 输入控件验证出错*/
+form input.error{border: 1px solid #ff8000 !important;}
+form input.valid{border: 1px solid #8dd3bf !important;}
+form input[type=checkbox].error,form input[type=radio].error,
+form input[type=checkbox].valid,form input[type=radio].valid{border: none !important;}
+
+/* 验证错误提示信息*/
+.error_show {position: relative;}
+form em.error{position: absolute;top: 35px;right:110px;*right:101px;color: #ff8000;display:block;*zoom:1}
+form em.error i{width: 13px;height: 15px;background: url(/front/sanhai/images/ico.png) -310px -200px no-repeat;padding: 0px 6px;}
+form .lastError em.error{top: 29px;right:113px;*right:102px;}
+form .errorPic em.checked{right: 35px;*right: 25px;}
+/*老师完善信息校验*/
+form .basicName em.error{top: 7px;right:275px;}
+form .basiCity em.error{top: 7px;right:5px;}
+form .basiCurriculum em.error{top: 7px;right:124px;}
+form .basicSubject em.error{top: 7px;right:119px;}
+form .grade em.error{top: 148px;right:120px;}
+/*个人中心老师资格认证校验*/
+form .seniority em.error{top: 7px;right:227px;}
+/*老师基本信息校验*/
+form .teaching em.error{top: 132px;right:0px;}
+form .myName em.error{top: 7px;right:148px;}
+
+
+

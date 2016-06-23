@@ -1,0 +1,30 @@
+<div class="oneTones pr">
+    <h2>一对一</h2>
+    <a href="/site/course/selectCourse.htm" class="more pa">更多<em>&gt;</em></a>
+    <hr>
+    <div class="oneToneMains clearfix" id="onetooneCour">
+        <script type="text/template" id="onetooneCourItem">
+            <% var dataArr = data;
+                for(var i=0;i<4; i++){
+                    var item = dataArr[i];
+                    var duration = Number(item.duration)/60;
+                    var price = this.model.money.fmoney(Number(item.price) / 100, 2);
+            %>
+            <dl class="terdayCour">
+                <dt>
+                    <a href="/site/course/<%= item.courseId %>/courseContent.htm">
+                        <img style="width:240px; height: 135px;" src="/file/loadImage/<%= item.advertiseResId %>/240/135.r"/>
+                    </a>
+                </dt>
+                <dd>
+                    <h5>
+                        <a title="<%= item.courseTitle %>" href="/site/course/<%= item.courseId %>/courseContent.htm"><%= item.courseTitle %></a>
+                    </h5>
+                    <span class="fl"><%= duration %>课时 | <%= item.buyCount %>人在学</span>
+                    <span class="red fr"><%= price %></span>
+                </dd>
+            </dl>
+            <% } %>
+        </script>
+    </div>
+</div>

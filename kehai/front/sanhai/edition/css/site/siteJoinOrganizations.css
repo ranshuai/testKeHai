@@ -1,0 +1,57 @@
+#siteJoinOrganizations .enter_organization h3 {
+    font-size: 22px;
+    height: 42px;
+    line-height: 42px;
+    color: #575757;
+    border-bottom: 2px solid #EEEEEE;
+}
+#siteJoinOrganizations .organization_banner_wrap .prev {
+    left: 12px;
+    top: 65px;
+    background-position: -467px 9px;
+}
+#siteJoinOrganizations .organization_banner_wrap .prev, #siteJoinOrganizations .organization_banner_wrap .next {
+    display: inline-block;
+    width: 36px;
+    height: 36px;
+    background-color: #ccc;
+}
+#siteJoinOrganizations .bg {
+    background-image: url(/front/sanhai/edition/images/ico.png);
+    background-repeat: no-repeat;
+}
+#siteJoinOrganizations .organization_banner_wrap .next {
+    right: 12px;
+    top: 65px;
+    background-position: -507px 9px;
+}
+#siteJoinOrganizations .organization_banner {
+    width: 998px;
+    margin: 0 auto;
+    overflow: hidden;
+    height: 164px;
+}
+#siteJoinOrganizations .organization_banner_list {
+    position: absolute;
+    left: 0px;
+    top: 0;
+    width: 40000px;
+}
+#siteJoinOrganizations .organization_banner_list li {
+    width: 170px;
+    height: 146px;
+}
+#siteJoinOrganizations .organization_banner_list li {
+    float: left;
+}
+#siteJoinOrganizations .organization_banner_list li a {
+    display: inline-block;
+    width: 140px;
+    height: 140px;
+}
+#siteJoinOrganizations .organization_banner_list img {
+    display: block;
+    width: 140px;
+    height: 115px;
+    padding: 40px 10px;
+}

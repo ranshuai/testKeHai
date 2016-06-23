@@ -1,0 +1,76 @@
+@charset "utf-8";
+/* reset */
+html { -webkit-text-size-adjust: none; -webkit-font-smoothing: antialiased; color: #666; word-wrap: break-word; word-break: break-all; overflow-x: hidden; }
+html, body, p, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, form, input, texarea, button, th, td { margin: 0; padding: 0; }
+body, button, input, select, textarea { font: 12px/1.5 "\5FAE\8F6F\96C5\9ED1", "宋体", Arial, Helvetica, sans-serif; }
+h1, h2, h3, h4, h5, h6 { font-size: 100%; font-weight: normal; }
+img, button, textarea, input { border: 0 none; outline: none; }
+table { border-collapse: collapse; border-spacing: 0; }
+th { text-align: inherit; }
+ul, ol { list-style: none; }
+a { text-decoration: none; color: #0055a2; outline: none; }
+a:hover { text-decoration: none; }
+b, strong { font-weight: normal; }
+i, em { font-style: normal; }
+/* User-defined */
+.clearfix { zoom: 1; }
+.clearfix:after { visibility: hidden; display: block; font-size: 0; content: ""; clear: both; height: 0; line-height: 0; }
+.fl, .fr { _display: inline; }
+.fl { float: left; }
+.fr { float: right; }
+/*基础样式*/
+.none { display: none; }
+.dib { display: inline-block; }
+.inline { display: inline; }
+.fms { font-family: "宋体"; }
+/* frame */
+.header { position: relative; }
+.header_top { height: 34px; background: #f4f4f4; line-height: 34px; }
+.header_mid { }
+.header_menu { }
+.header_top_center, .header_mid_center, .header_menu_center { width: 1200px; margin: 0 auto; }
+.content { width: 1200px; margin: 100px auto; }
+.content_left { float: left; display: inline; width: 240px; }
+.content_right { float: right; display: inline; width: 940px; }
+
+.footer { margin-top: 90px; line-height: 40px; text-align: center; font-size: 14px; }
+.footer_top { }
+.footer_mid { }
+.footer_bot { }
+.footer_top_center, .footer_mid_center, .footer_bot_center { width: 1200px; margin: 0 auto; }
+
+/*左侧导航开始*/
+.left_menu { }
+.left_menu li { border-bottom: 1px solid #d28f00; }
+.left_menu li .li_1 { height: 50px; line-height: 50px; }
+.left_menu li .li_1 span { display: inline-block; background: url(../images/icon1.png) no-repeat; padding-left: 40px; }
+.left_menu li .li_1 span.menu_icon_1 { background-position: 0 0 }
+.left_menu li .li_1 span.menu_icon_2 { background-position: 0 -50px }
+.left_menu li .li_1 span.menu_icon_3 { background-position: 0 -100px }
+.left_menu li .li_1 span.menu_icon_4 { background-position: 0 -150px }
+.left_menu li .li_1 span.menu_icon_5 { background-position: 0 -200px }
+.left_menu li .li_1 span.menu_icon_6 { background-position: 0 -250px }
+.left_menu li { position: relative; }
+.left_menu li .li_1 a i { display: inline-block; background: url(../images/ico.png) -360px -80px no-repeat; width: 10px; height: 15px; right: 30px; top: 20px; position: absolute; }
+.left_menu li .li_1 a .ac { background: url(../images/ico.png) -400px -80px no-repeat; width: 15px; height: 10px; right: 30px; top: 20px; position: absolute; }
+.left_menu li .li_1 a { display: block; background: #fcb314; font-size: 16px; color: #ffffff; padding: 0 20px; }
+.left_menu li:hover { border-bottom: 1px solid #ff7f00; }
+.left_menu li .li_1 a:hover { background: #ff7f00; text-decoration: none; color: #ffffff; }
+.left_menu li .li_2 { display: none; background: #fff9eb; text-align: center; }
+.left_menu li .li_2 a { display: inline-block; width: 180px; height: 50px; line-height: 50px; border-bottom: 1px solid #ffffff; color: #666666; font-size: 14px; }
+.left_menu li .li_2 a.last { border: none; }
+.left_menu li .li_2 a.cur { color: #ff7f00; }
+.left_menu li .li_2 a:hover { color: #ff7f00; text-decoration: none; }
+.left_menu li .li_2 .ac { color: #ff7f00; }
+.left_menu li.cur .li_1 a { background: #ff7f00; }
+.left_menu li.cur .li_2 { display: block; }
+.left_menu li.last { border-bottom: none; }
+
+/*右侧边框*/
+.right_main { border: 1px solid #fcb314; background: #ffffff; }
+.right_main_top { margin: 20px 25px; background: #ffffff; font-size: 16px; border-bottom: 2px solid #dcdcdc; }
+.right_main_top a { display: inline-block; margin-right: 28px; padding: 0 15px; line-height: 56px; color: #666666; }
+.right_main_top a.cur { color: #ff7f00; }
+.right_main_top a:hover { color: #ff7f00; text-decoration: none; }
+.right_main_mid { margin: 0 25px; padding: 35px 0; }
+

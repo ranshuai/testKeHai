@@ -1,0 +1,69 @@
+
+<div>
+    <!--<script type="test/template" id="siteToDataCourItem">-->
+    <div class="tody_r frame_r_l pr tab">
+        <ul class="tabList noBorder clearfix">
+            <li><a class="ac">语文</a>
+            </li>
+            <li><a class="">数学</a>
+            </li>
+            <li><a class="">英语</a>
+            </li>
+            <li><a class="">物理</a>
+            </li>
+            <li><a class="">化学</a>
+            </li>
+        </ul>
+
+
+        <a href="/site/course/selectCourse.htm" class="more pa">更多<em>&gt;</em></a>
+        <hr>
+        <div class="tabCont noBorder" id="siteToDataCour1">
+            <script type="test/template" id="siteToDataCourItem1">
+                <div class="tabItem clearfix"><!--id="siteToDataCour"-->
+                    <!--<dl class="terdayCour" id="siteTerDataCour">-->
+                    <% var dataArr = data;
+                    for(var i=0;i<6; i++){
+                    var item = dataArr[i];
+                    var price = this.model.money.fmoney(Number(item.price) / 100, 2);
+                    if(item.orgEntity){
+                        var orgName = item.orgEntity.orgName;
+                        var orgId = item.orgEntity.orgId;
+                    }else{
+                        var orgName = '';
+                        var orgId = '';
+                    }
+                    if(item.advertiseResId){
+                        var _src = "/file/loadImage/"+item.advertiseResId+"/240/135.r";
+                    }else{
+                        var _src = "/front/sanhai/images/course.png";
+                    }
+                    %>
+                    <dl class="terdayCour">
+                        <dt>
+                            <a href="/site/course/<%= item.courseId%>/courseContent.htm">
+                                <img style="width:240px; height: 135px;"
+                                     src="<%= _src%>"/>
+                            </a>
+                        </dt>
+                        <dd>
+                            <h5>
+                                <a title="<%= item.courseTitle %>"
+                                   href="/site/course/<%= item.courseId%>/courseContent.htm"><%= item.courseTitle %></a>
+                            </h5>
+                        <span class="fl">
+                            <a title="<%= item.orgEntity.orgName%>" href="/site/shool/<%= item.orgEntity.orgId%>/findCourseByorgId.htm"><%= item.orgEntity.orgName%></a>
+                        </span>
+                        <span class="red fr">
+                            <%= price%>
+                        </span>
+                        </dd>
+                    </dl>
+                    <% } %>
+                    </dl>
+                </div>
+            </script>
+        </div>
+    </div>
+
+</div>

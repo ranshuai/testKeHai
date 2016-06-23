@@ -1,0 +1,125 @@
+input{border:none;outline:none;background-color:transparent}
+td{padding:0 0}
+/*导航条*/
+.homePage .class_type li p a:hover{color:#ffffff!important;text-decoration:underline!important}
+.homePage .class_type .active{background-color:#FF7F00;margin:0px  -2px 0 -2px;*margin:0}
+.homePage .class_type .active .class_type_content{border-bottom-color:#FF7F00}
+.homePage .class_type .active .more_class{background-position:-50px -100px}
+.homePage .class_type .active h3, .homePage .class_type .active p a{color:#ffffff}
+.homePage .class_type_content .more_class_cont li a:hover{color:#FF7F00!important}
+.homePage .border_none{border-bottom:none}
+/*导航条结束*/
+/*banner*/
+.homePage .bannerWrap{height:350px;}
+.homePage .banner{height:350px;overflow:hidden;position:relative}
+.homePage .banner .APPBar{height:220px;width:220px;position:absolute;z-index:1;top:30px;right:0}
+.homePage .banner .APPBar_bg, .homePage .banner .APPBar_cont{width:100%;height:100%;position:absolute;left:0;top:0}
+.homePage .banner .APPBar_bg_top{background-color:#676b65;opacity:.8;filter:alpha(opacity=80); height: 100%}
+.homePage .banner .APPBar_bg_btm{height:110px;background-color:#3f413e;opacity:.9;filter:alpha(opacity=90)}
+.homePage .banner .APPBar_cont_btm .app_icon{padding:26px 20px}
+/*暂时需要*/
+/*app*/
+.banner .APPBar_cont h3{font-size: 16px; line-height: 16px; padding-top: 16px; padding-bottom: 8px;color: #fff;padding-left: 18px;}
+.banner .APPBar_cont_top{padding:7px 18px}
+.banner .APPBar_cont_top li{margin-bottom: 10px;*margin-bottom: 16px;}
+.banner .APPBar_cont_top li a{font-size:12px;line-height:24px;color:#fff;display:inline-block}
+.banner .APPBar_cont_top li a:hover{color:#bcbfb9!important}
+.banner .APPBar_cont_top li i{float:left;width:5px;height:5px;overflow:hidden;background-color:#fff;margin:9px 12px 0 0}
+.banner .APPBar_cont_top li span{float: left; width: 162px; position: relative}
+.banner .APPBar_cont_top li span strong{position: absolute; right: 0;*top: 24px;font-size:12px;line-height:24px;}
+/*暂时需要*/
+.homePage .banner .app_icon a{display:block;width:176px;height:54px;border:2px solid #bcbfb9;border-radius:30px;font-size:20px;line-height:54px;color:#fff}
+.homePage .banner .app_icon a:hover{color:#bcbfb9!important}
+.homePage .banner .app_icon a i{width:20px;height:30px;background:url(../images/ico.png) -640px 0 no-repeat;margin:10px 10px 12px 33px}
+.homePage .banner .prevBtn{width:28px;height:62px;background:url(../images/ico.png) no-repeat -558px 0;position:absolute;top:181px;left:240px;margin-top:-31px;opacity: 0;filter:alpha(opacity=0)}
+.homePage .banner .nextBtn{width:28px;height:62px;background:url(../images/ico.png) no-repeat -600px 0;position:absolute;top:181px;right:230px;margin-top:-31px;opacity: 0;filter:alpha(opacity=0)}
+.homePage .banner .bannerList{position:absolute;top:0;left:0;width:100%;height:100%}
+.homePage .banner .bannerList li{position:absolute;top:0;left:0; width: 100%; height: 350px;}
+.homePage .banner .slidernav{position:absolute;bottom:0;left:50%;width:100px;margin-left:-50px;height:24px;line-height:24px;cursor:pointer;}
+.homePage .banner .slidernav_shadow{ top:0; left:0; width:100%; height:100%; background:#000; opacity: 0.5; filter:alpha(opacity=50);border-radius:24px;}
+.homePage .banner .slidernav .slidernav_ul{height:100%; width:70px; left:50%; margin-left: -35px; overflow: hidden;}
+.homePage .banner .slidernav .slidernav_ul li{width:10px;height:10px;border:1px solid #fff;margin-left:9px;border-radius:50%; margin-top: 5px; float:left;}
+.homePage .banner .slidernav .slidernav_ul li.ac{background:#fff}
+/*banner下边ly*/
+.homePage .banner_bottom{height:135px}
+.homePage .banner_cont{margin-left:240px}
+.homePage .banner_item{width:310px;margin-right: 7px;border:1px solid #ffffff}
+.homePage .banner_item_img, .homePage .banner_item_img img{width:316px;height:130px;*height: 134px;}
+.homePage .banner_item_img img{display:block;}
+.homePage .banner_item_text{width:160px;padding:37px 10px 0 10px}
+.homePage .banner_item_text h3{font-size:20px;height:40px;line-height:40px}
+.homePage .banner_item_text p{font-size:12px;height:12px;line-height:12px;color:#656565}
+.homePage .banner_item_text .color_r1{color:#AA3138}
+.homePage .banner_item_text .color_r1:hover{color:#ff8000!important}
+.homePage .banner_item_text .color_r2{color:#E62516}
+.homePage .banner_item_text .color_r2:hover{color:#ff8000!important}
+.homePage .banner_item_text .color_r3{color:#425C75}
+.homePage .banner_item_text .color_r3:hover{color:#ff8000!important}
+/*今日推荐     slg*/
+.homePage .hotClasses{margin-top: 20px !important}
+.homePage .todyRecommend{margin-top:46px}
+.homePage .todyRecommend .tody_l{margin-right:0}
+.homePage .todyRecommend .tody_l h2,.oneTone h2{color: #666;font-size: 22px}
+.homePage .todyRecommend .tody_l img,.homePage .hotClasses .tody_l img{margin-top:16px;padding-bottom:23px}
+.homePage .todyRecommend .tody_r{margin-left:20px}
+.homePage .todyRecommend .tody_r ul{margin-left:60px}
+/*.homePage .todyRecommend .tody_r ul .ac{border-bottom:2px solid #ff8000 !important;color:#ff8000}*/
+/*.tab .tabList li .ac{color:#ff8000!important}*/
+.homePage .todyRecommend .tody_r ul li{float:left;line-height:39px;padding-right:85px}
+.homePage .more{line-height:39px;right:0px;top:0px;position:absolute;color:#ff8000}
+.homePage .more em{font-family: '宋体';font-weight: bold;}
+.homePage .todyRecommend .tody_r hr{border:1px solid #eee!important;width:958px;margin-left:-20px;margin-bottom:20px;*margin-top:-8px}
+.homePage .todyRecommend .tody_r dl{float:left;width:240px;height:226px;padding:13px 20px 0px;margin-left:33px}
+.homePage .todyRecommend .tody_r dl dd{margin-top:10px}
+.homePage .todyRecommend .tody_r dl dd span{color: #787d82;}
+.homePage .todyRecommend .tody_r dl h5 a{display: inline-block;width: 240px;font-weight:bold;color: #14191e;overflow: hidden;white-space: nowrap;text-overflow: ellipsis}
+.homePage .todyRecommend .tody_r dl h5 a:hover,.homePage .oneTone dl h5 a:hover{color: #FF8000;}
+.homePage .todyRecommend .tody_r dl:hover{background:white;box-shadow:0 0 10px #ccc }
+.homePage .tab .tabCont .tabItem {padding:0}
+.homePage .tab .tabList li a {padding:0 40px;border:none;background:white}
+/*热门课程*/
+.homePage .hotClasses dl,.homePage .todyRecommend dl{position:relative}
+/*一对一*/
+.homePage .oneTone hr{border:1px solid #eee!important;width:100%;margin-top:10px;margin-bottom:20px}
+.homePage .oneTone .oneToneMains{margin-left: -20px;}
+.homePage .oneTone dl{float:left;width:240px;height:205px;padding:20px 20px;position:relative;margin-left: 25px;*margin-left: 20px;}
+.homePage .oneTone dl:hover{height:205px;background:white;box-shadow:0 0 10px #ccc }
+.homePage .oneTone dl dd span{color: #787d82;}
+.homePage .oneTone dl h5 a{margin-top:10px;display: inline-block;width: 240px;font-weight:bold;color: #14191e;overflow: hidden;white-space: nowrap;text-overflow: ellipsis}
+.homePage .oneTone dd i{width:60px;height:60px;background:url(../images/ico.png) -440px -40px no-repeat;display:inline-block;position:absolute;bottom:65px;right:40px}
+.homePage .oneTone dd i:hover{width:65px;height:65px;background:url(../images/ico.png) -440px -360px}
+/*最新评论 ly*/
+.homePage .newest_discuss_top{padding-top:17px;border-bottom:2px solid #eee}
+.homePage .newest_discuss_top h3{font-size:22px;height:50px;line-height:50px;color:#575757}
+.homePage .dialogCont{width:780px}
+/*入驻机构 ly*/
+.homePage .enter_organization h3{font-size:22px;height:42px;line-height:42px;color:#575757;border-bottom:2px solid #EEEEEE}
+.homePage .prev, .homePage .next{display:inline-block;width:36px;height:36px;background-color:#ccc}
+.homePage .prev:hover, .homePage .next:hover{background-color:#fcb414}
+.homePage .prev{left:12px;top:65px;background-position:-467px 9px}
+.homePage .next{right:12px;top:65px;background-position:-507px 9px}
+.homePage .organization_banner{width:998px;margin:0 auto;overflow:hidden;height:164px}
+.homePage .organization_banner_list{position:absolute;left:0px;top:0;width:40000px}
+.homePage .organization_banner_list li{float:left}
+.homePage .organization_banner_list li{width:170px;height:146px}
+.homePage .organization_banner_list li a{display: inline-block;width:140px;height:140px}
+.homePage .organization_banner_list img{display:block;width: 140px;height: 115px;padding: 40px 10px}
+.homePage .enter_organization hr{border-top:none;}
+/*学生举手*/
+.hands_up{width: 162px;height: 179px;background: url(../images/handsup.png) no-repeat;background: url(../images/handsup1.png) no-repeat\0;background-size: 100%;position: fixed;bottom: 112px;right: 6%;z-index: 100;cursor: pointer}
+.cht_dialog_box{position: relative;background: #fff;border-radius: 10px}
+.cht_dialog_box .ui-widget-header{height: 80px;overflow: hidden;line-height: 80px;background: transparent !important;color: #333 !important;font-size: 18px}
+.cht_dialog_box .ui-widget-content{background: transparent !important}
+.cht_dialog_box .ui-dialog-content{padding: 0 20px !important}
+.cht_dialog_box .ui-dialog-buttonpane{padding-top: 0 !important}
+.cht_dialog_box .ui-button{background: transparent !important;margin: 31px 22px 0 0 !important}
+.cht_dialog_box .ui-button:hover{background: transparent !important}
+.cht_dialog_box .ui-dialog-title{padding-left: 18px;color: #444}
+.cht_dialog_box .w80{color: #333}
+.cht_dialog_box .headsup{width: 282px;height: 311px;background: url(../images/handsup.png) no-repeat;position: absolute;top: -155px;right: 60px}
+.cht_dialog_box .select_plus{margin-right: 2px}
+.cht_dialog_box .popCont{padding-top: 0 !important}
+.cht_dialog_box .popbox_item{padding: 0 !important}
+.cht_dialog_box .ui-button-icon-only .ui-icon{display: inline-block;top: 0;margin: 0;width: 22px;height: 22px;padding: 0;background: url(../images/ico.png) no-repeat -360px -560px !important}
+.cht_dialog_box .error_message_phone em.error{left: 200px}
+.cht_dialog_box .ui-dialog-buttonpane{display: none}

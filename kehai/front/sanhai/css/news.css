@@ -1,0 +1,19 @@
+.news .main_cont30{padding: 25px 40px;}
+.news .left_menu li{border-bottom: none;}
+.news .left_menu li .li_1 .menu_icon_1 {background: url(../images/icon.png) -14px -185px no-repeat;}
+.news .no_read{top: 13px;right: 40px;}
+.news .news_main ul{margin-top: -20px;}
+.news .news_main ul li{border-bottom: 1px solid #dcdcdc;padding: 20px 2px;position: relative;}
+.news .news_main ul li h5{width: 715px;padding-bottom: 3px;}
+.news .news_main ul li h5 i{position: absolute;top: 28px;left: -12px; width: 6px;height: 6px;background: url(../images/ico.png) -80px -480px no-repeat;display: inline-block;vertical-align: middle;}
+.news .news_main ul li h5 a{padding-left: 35px;color: #ff8000;}
+.news .news_main ul li .deleteBtn{position: absolute;right: 0px;top: 20px; width: 10px;height: 16px;background: url(../images/ico.png) -120px -514px no-repeat;display: inline-block;cursor: pointer;}
+.news .news_main ul li .delete_new{width: 126px;border: 1px solid #dcdcdc;position: absolute;right: -30px;top: 45px; background: white;padding: 6px 0px;}
+.news .news_main ul li .delete_new span{color: #666;cursor: pointer;text-align: center;display: block;}
+.news .news_main ul li .delete_new span:hover{color: #ff8000;}
+.news .news_main ul li .news_time{color: #999;line-height: 20px;}
+.news .news_main ul li .news_time em{padding-left: 13px;}
+.confirm_dialog_box .popCont p{text-align: center;}
+.pushDelete .popCont{height: 190px;}
+
+

@@ -1,0 +1,105 @@
+<div class="classes_sel_sel">
+    <div class="sele_cont clearfix">
+        <div class="sele_c_tit">
+            所选分类 <span class="bracket">&gt;</span>
+            <!-- 选课所有内容查询都使用 -->
+            <input type="hidden" id="courseMode" value="ignore">
+            <input type="hidden" id="courseType" value="ignore">
+            <input type="hidden" id="gradeId" value="ignore">
+            <input type="hidden" id="subjectId" value="ignore">
+            <input type="hidden" id="addressCode" value="ignore">
+            <input type="hidden" id="orgname" value="ignore">
+            <input type="hidden" id="versionId" value="ignore">
+            <input type="hidden" id="sortType" value="000">
+            <input type="hidden" id="courseTitle" value="ignore">
+            <input type="hidden" id="theme" value="ignore">
+
+            <!--课表旁听-->
+            <input type="hidden" id="stuScore" value="ignore">
+            <input type="hidden" id="teachTime" value="ignore">
+            <input type="hidden" id="searchtype" value="Topic">
+            <input type="hidden" id="dataId" value="ignore">
+            <!-- 选课所有内容查询都使用 -->
+        </div>
+        <ul class="sele_c_list">
+            <script type="text/template" id="selTemplate">
+                <%
+                    var data = this.model.attributes
+                %>
+                <span class="span_bor">
+                    <span data="0"><%= data.title%></span>
+                    <span class="after">:</span>
+                    <span class="ac"><%= data.val%></span>
+                    <i class="del" data="<%= data['type']%>" num="<%= data['num'] %>"></i>
+                </span>
+            </script>
+        </ul>
+    </div>
+    <div class="sele_list_warp">
+        <div class="sele_list no_border_t">
+            <div class="sele_li_tit" data="courseType">课程分类</div>
+            <ul class="sele_li_list">
+                <li><a href="javascript:;" code="1">小学</a></li>
+                <li><a href="javascript:;" code="2">小升初</a></li>
+                <li><a href="javascript:;" code="3">初中</a></li>
+                <li><a href="javascript:;" code="4">中考</a></li>
+                <li><a href="javascript:;" code="5">高中</a></li>
+                <li><a href="javascript:;" code="6">高考</a></li>
+            </ul>
+        </div>
+        <div class="sele_list">
+            <div class="sele_li_tit" data="subjectId">培训科目</div>
+            <ul class="sele_li_list">
+                <li><a href="javascript:;" code="10010">语文</a></li>
+                <li><a href="javascript:;" code="10011">数学</a></li>
+                <li><a href="javascript:;" code="10012">英语</a></li>
+                <li><a href="javascript:;" code="10013">生物</a></li>
+                <li><a href="javascript:;" code="10014">物理</a></li>
+                <li><a href="javascript:;" code="10015">化学</a></li>
+                <li><a href="javascript:;" code="10016">地理</a></li>
+                <li><a href="javascript:;" code="10018">政治</a></li>
+                <li><a href="javascript:;" code="10017">历史</a></li>
+            </ul>
+        </div>
+        <div class="sele_list">
+            <div class="sele_li_tit" data="addressCode">学校地区</div>
+            <ul class="sele_li_list">
+                <li><a href="javascript:;" code="001">北京</a></li>
+                <li><a href="javascript:;" code="002">天津</a></li>
+                <li><a href="javascript:;" code="003">河北</a></li>
+                <li><a href="javascript:;" code="004">山西</a></li>
+                <li><a href="javascript:;" code="005">内蒙古</a></li>
+                <li><a href="javascript:;" code="006">辽宁</a></li>
+                <li><a href="javascript:;" code="007">吉林</a></li>
+                <li><a href="javascript:;" code="008">黑龙江</a></li>
+                <li><a href="javascript:;" code="009">上海</a></li>
+                <li><a href="javascript:;" code="010">江苏</a></li>
+                <li><a href="javascript:;" code="011">浙江</a></li>
+                <li><a href="javascript:;" code="012">安徽</a></li>
+                <li><a href="javascript:;" code="013">福建</a></li>
+                <li><a href="javascript:;" code="014">江西</a></li>
+                <li><a href="javascript:;" code="015">山东</a></li>
+                <li><a href="javascript:;" code="016">河南</a></li>
+                <li><a href="javascript:;" code="017">湖北</a></li>
+                <li><a href="javascript:;" code="018">湖南</a></li>
+                <li><a href="javascript:;" code="019">广东</a></li>
+                <li><a href="javascript:;" code="020">广西</a></li>
+                <li><a href="javascript:;" code="021">海南</a></li>
+                <li><a href="javascript:;" code="022">重庆</a></li>
+                <li><a href="javascript:;" code="023">四川</a></li>
+                <li><a href="javascript:;" code="024">贵州</a></li>
+                <li><a href="javascript:;" code="025">云南</a></li>
+                <li><a href="javascript:;" code="026">西藏</a></li>
+                <li><a href="javascript:;" code="027">陕西</a></li>
+                <li><a href="javascript:;" code="028">甘肃</a></li>
+                <li><a href="javascript:;" code="029">青海</a></li>
+                <li><a href="javascript:;" code="030">宁夏</a></li>
+                <li><a href="javascript:;" code="031">新疆</a></li>
+                <li><a href="javascript:;" code="032">台湾</a></li>
+                <li><a href="javascript:;" code="033">香港</a></li>
+                <li><a href="javascript:;" code="034">澳门</a></li>
+            </ul>
+            <div class="sel_more pr"><span style="cursor: pointer;">更多<i></i></span></div>
+        </div>
+    </div>
+</div>

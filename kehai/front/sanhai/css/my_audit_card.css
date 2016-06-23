@@ -1,0 +1,9 @@
+ .audit_card_cont{ padding:20px 20px; border:1px solid #dcdcdc; font-size: 14px; margin-bottom: 50px;}
+.audit_card_cont .audit_card_cont_l{ border-right:1px solid #dcdcdc; width:500px; line-height: 30px; }
+.audit_card_cont .audit_card_cont_r{ width:334px; text-align: center;}
+.audit_card_cont .audit_card_cont_r .select_plus{ text-align: left;}
+.audit_card_cont .audit_card_cont_r .select_plus{ width:128px;}
+.audit_card_cont .audit_card_cont_btn{ margin-top:20px; text-align: center;}
+.audit_card_cont .place_hide{ visibility: hidden;}
+.audit_card_cont .all_record {height: 48px;line-height: 48px; border-bottom: 2px solid #dcdcdc;color: #666666!important;}
+.audit_card_cont_record .sh_table{ margin-top: 0}

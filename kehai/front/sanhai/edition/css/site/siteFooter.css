@@ -1,0 +1,22 @@
+
+#siteFooter .footer {
+    text-align: center;
+    background: #23282c;
+    font-size: 14px;
+    padding: 20px 0;
+}
+#siteFooter .footer ul {
+    float: left;
+    left: 50%;
+}
+#siteFooter .footer ul li, #siteFooter .footer ul li a, #siteFooter .footer p {
+    color: white;
+}
+#siteFooter .footer ul li {
+    float: left;
+    position: relative;
+    right: 50%;
+}
+#siteFooter .clearBoth {
+    clear: both;
+}

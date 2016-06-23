@@ -1,0 +1,56 @@
+#siteHelp .enter_organization hr {
+    border-top: none;
+}
+#siteHelp .organization_banner_wrap hr {
+    border: 2px solid #EEEEEE;
+}
+#siteHelp .questions_wrap {
+    padding: 55px 0;
+}
+#siteHelp .questions_item {
+    width: 399px;
+    border-right: 1px dashed #CBCBCB;
+    float: left;
+}
+#siteHelp .questions_item_cont {
+    padding: 0 40px;
+}
+#siteHelp .questions_item i {
+    width: 120px;
+    height: 120px;
+    float: left;
+    margin-top: 6px;
+    background-image: url(/front/sanhai/edition/images/ico.png);
+}
+#siteHelp .questions_text {
+    padding: 15px 0 20px 20px;
+    margin-left: 124px;
+}
+#siteHelp .questions_text p {
+    font-size: 14px;
+    height: 24px;
+    line-height: 24px;
+}
+#siteHelp .questions_text .questions_head a {
+    color: #333333;
+    font-size: 16px;
+}
+#siteHelp .border_none {
+    border-bottom: none;
+}
+#siteHelp .bg {
+    background-image: url(/front/sanhai/edition/images/ico.png);
+    background-repeat: no-repeat;
+}
+#siteHelp .questions_item_bg1 {
+    background-position: -520px -80px;
+}
+#siteHelp .questions_item_bg2 {
+    background-position: -520px -240px;
+}
+#siteHelp .questions_item_bg3 {
+    background-position: -520px -400px;
+}
+#siteHelp .questions_text p a:hover {
+    color: #ff8000 !important;
+}

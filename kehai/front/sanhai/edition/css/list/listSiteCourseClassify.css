@@ -1,0 +1,90 @@
+.classes_sel_sel {
+    width: 1200px;
+    margin: 0 auto;
+    font-family: 微软雅黑;
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 14px;
+}
+.classes_sel_sel .sele_cont {
+    line-height: 50px;
+    /* overflow: hidden; */
+}
+
+.bracket {
+    font-family: "宋体";
+}
+.classes_sel_sel .sele_cont .sele_c_list {
+    float: left;
+    width: 1080px;
+}
+.classes_sel_sel .sele_list_warp {
+    border: 1px solid #dcdcdc;
+}
+.classes_sel_sel .no_border_t {
+    border-top: none !important;
+}
+.classes_sel_sel .sele_list {
+    overflow: hidden;
+    border-top: 1px dashed #ccc;
+}
+.classes_sel_sel .sele_list .sele_li_list {
+    float: left;
+    width: 1010px;
+    padding: 8px 0px;
+    height: 24px;
+}
+.classes_sel_sel .sele_list .sele_li_list li {
+    float: left;
+    margin: 1px 21px;
+}
+.classes_sel_sel .sele_list .sel_more {
+    float: left;
+    padding-top: 8px;
+}
+.classes_sel_sel .sele_list .sel_more span {
+    display: inline-block;
+}
+.classes_sel_sel .sel_more i {
+    background: url(../../images/select_classes.png) no-repeat 0 -50px;
+    width: 10px;
+    height: 10px;
+    top: 50%;
+    margin-left: 6px;
+}
+
+.classes_sel_sel .span_bor {
+    border: 1px solid #dcdcdc;
+    padding: 4px 0px 4px 6px;
+    display: inline-block;
+    height: 22px;
+    line-height: 22px;
+}
+.classes_sel_sel .after {
+    padding: 0 4px;
+}
+.classes_sel_sel .ac {
+    color: #ff8000 !important;
+}
+.classes_sel_sel .sele_cont .sele_c_list li .span_bor .del {
+    vertical-align: middle;
+    display: inline-block;
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+    background: url(/front/sanhai/images/select_classes.png) no-repeat 5px 5px;
+}
+.classes_sel_sel .sele_cont .sele_c_tit {
+    margin-left: 37px;
+    color: #999;
+    text-align: right;
+    float: left;
+}
+.classes_sel_sel .sele_list .sele_li_tit {
+    margin-left: 37px;
+    width: 74px;
+    color: #ff8000;
+    text-align: left;
+    float: left;
+    padding-top: 8px;
+}

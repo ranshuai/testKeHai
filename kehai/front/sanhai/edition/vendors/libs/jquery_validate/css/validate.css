@@ -1,0 +1,14 @@
+input{ box-sizing: inherit;}
+/* 输入控件验证出错*/
+form input.error{border: 1px solid #ff8000 !important;}
+form input.valid{border: 1px solid #8dd3bf !important;}
+
+/* 验证错误提示信息*/
+.error_show {position: relative;}
+form em.error{position: absolute;top: 37px;right:110px;*right:101px;color: #ff8000;display:block;*zoom:1}
+form em.error i{width: 13px;height: 15px;background: url(/front/sanhai/images/ico.png) -310px -200px no-repeat;padding: 0px 10px;display: inline-block;
+    line-height: 16px;vertical-align: middle;}
+form .lastError em.error{top: 29px;right:113px;*right:102px;}
+form em.checked{width: 20px;height: 20px;background: url(/front/sanhai/images/ico.png) -240px -440px;margin-left: 10px;position: absolute;top: 8px;right: 82px;*right: 70px;}
+form .errorPic em.checked{right: 35px;*right: 25px;}
+

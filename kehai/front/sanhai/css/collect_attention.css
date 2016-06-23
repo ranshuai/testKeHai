@@ -1,0 +1,95 @@
+@charset "utf-8";
+.attention_org{padding: 20px 0;border-bottom: 1px solid #DCDCDC;}
+.org_logo{margin-right: 17px;}
+.org_logo a{width: 120px; height: 80px; display: block;}
+.org_logo a img{width: 120px; height: 80px;}
+.attention_org .org_detail{ width: 630px;}
+.attention_org .org_detail h3{ background-color: #ffffff!important; font-size: 18px; line-height: 18px; height: 20px;color: #333333; text-indent: 0;}
+.attention_org .evaluationSmall li{margin: 5px 0;}
+.attention_org .evaluationSmall li span{margin-left: 0;}
+.attention_org  .evaluationsMain{display: block; width: 160px; height: 36px;}
+.org_detail h3 .no_attention{margin-left: 14px; height: 20px!important; width: 70px; font-size: 12px; line-height: 20px!important; border-radius: 2px;}
+.attention_org .org_buttons .go_consult{width: 90px; height: 28px!important; font-size: 14px; line-height: 28px!important; margin-top: 26px; border-radius: 2px; background-color: #ff8000;margin-right: 4px;}
+.attention_tea{padding: 26px 0;}
+.attention_tea .tea_logo{margin-right: 26px;}
+.attention_tea .tea_logo a{width: 110px; height: 110px; display: block; margin-bottom: 14px;}
+.attention_tea .tea_logo a img{width: 110px; height: 110px; border-radius: 55px;}
+.attention_tea .tea_logo button{height: 20px!important; width: 70px; font-size: 12px; line-height: 20px!important; margin: 0 20px; border-radius: 2px;}
+.attention_tea .tea_detail{width: 630px;}
+.attention_tea .tea_detail h4{font-size: 16px; line-height: 28px; height: 28px; margin-bottom: 8px;}
+.attention_tea .tea_detail h4 a{margin-right: 22px;}
+.tea_detail div i{width: 30px; height: 25px; background-image:url(../images/ico.png); background-repeat: no-repeat;margin-right: 16px;}
+.tea_detail div .td1{background-position: 0 -280px;}
+.tea_detail div .td2{background-position: -75px -280px;}
+.tea_detail div .td3{background-position: -36px -280px;}
+.tea_detail div .td4{background-position: -116px -280px;}
+.tea_detail div{margin-bottom: 10px;}
+.tea_detail p{color: #666666;}
+.attention_tea{border-bottom: 1px solid #DCDCDC;}
+.attention_tea .org_buttons .go_consult{width: 90px; height: 28px!important; font-size: 14px; line-height: 28px!important; margin-top: 60px; border-radius: 2px; background-color: #ff8000;margin-right: 4px;}
+.attention_stu .stu_detail h3{ background-color: #ffffff!important; font-size: 18px; line-height: 28px; height: 28px;color: #333333; text-indent: 0; margin-bottom: 14px;}
+.attention_stu .stu_logo{margin-right: 27px;}
+.attention_stu .stu_logo a{width: 110px; height: 110px;display: block;}
+.attention_stu .stu_logo a img{width: 110px; height: 110px; border-radius: 55px;}
+.attention_stu{padding: 28px 0;}
+.attention_stu .stu_detail p{font-size: 14px; line-height: 26px; height: 26px; color: #666666;}
+.attention_stu .stu_buttons button{font-size: 12px; line-height: 20px!important; height: 20px!important; width: 70px; padding: 0; background-color: #ff8000; margin-top: 45px;}
+.attention_stu .stu_buttons .together_attention i{width: 11px; height: 11px; background: url(../images/ico.png) -40px -520px no-repeat;}
+.attention_stu{border-bottom: 1px solid #DCDCDC;}
+.attention_stu .stu_buttons .attentioned i{width: 16px; height: 11px;background: url(../images/ico.png) -80px -520px no-repeat; margin-right: 3px;}
+.attention_stu .stu_buttons .cancle_attention{background-color: #cccccc;}
+
+
+/*收藏*/
+.main_l_nav_cont_row .class_detail h3{ background-color: #ffffff!important; font-size: 18px; line-height: 24px; height: auto;color: #333333; text-indent: 0;}
+.class_detail_l{width: 300px;}
+.r_roles{margin-right: 18px; padding-top: 8px;}
+.r_roles a{width: 60px; height: 60px;display: block;}
+.r_roles a img{width: 60px; height: 60px; border-radius: 30px;}
+.class_detail .r_roles_name{display: block; width: 60px; text-align: center; height: 18px; font-size: 12px; line-height: 18px; color: #666666;}
+.class_money_b strong{font-size: 18px; color: #ff8000;}
+.main_l_nav_cont_row dl dt i{display: none;width: 36px; height: 32px; background: url(../images/ico.png) -320px -640px; left: 0; bottom: 0;cursor: pointer}
+.main_l_nav_cont_row{border-bottom: 1px solid #DCDCDC; padding: 13px 0}
+.main_l_nav_cont_row dt, .main_l_nav_cont_row dt img{width:180px; height:110px}
+.main_l_nav_cont_row dt{margin-right:15px}
+.main_l_nav_cont_row dt img{display:block}
+.main_l_nav_cont_row dd{width:540px}
+.class_detail h3{font-size:16px; line-height:24px; margin-bottom:8px}
+.class_detail h3 em{ vertical-align: middle;width: 53px; height: 20px; display: inline-block; background: url(../images/ico.png) -120px -440px no-repeat; text-align: center; margin-left: 8px; font-size: 12px; line-height: 20px; color: #999999; white-space: nowrap;}
+.class_detail h3 a{vertical-align: middle;color:#333}
+.class_detail h3 a:hover{color:#FF7F00 !important}
+.class_detail p{font-size:14px; line-height:26px; color:#666; width: 430px;}
+
+.mouseOver .main_l_nav_sel{display:block}
+.main_l_nav_cont_row dl{padding:6px 0;}
+.class_money strong{float:left;font-size:18px; line-height:34px; color:#FF7F00;display: inline-block; width: 128px;text-align: left}
+.class_money em{float: left;font-size:14px; line-height:34px; color:#666; width: 90px;text-align: left}
+.class_evaluate{display:block; padding:7px 0; width:120px; text-align:center}
+.persent{display:block;font-size:20px; line-height:20px;  color:#7DCCF3}
+.myd{display:block; font-size:14px; line-height:30px; height: 30px; width: 120px;color:#999;margin-bottom:30px}
+.class_evaluate strong{display:block; font-size:14px; line-height:20px;  color:#999999;font-weight: normal}
+.class_evaluate strong span{color:#7DCCF3; font-weight: bold}
+.the_last_div{width:140px; padding: 16px 0;}
+.main_l_nav_cont_row .the_last_div button{padding:0; margin:0 20px 10px 20px; font-size:14px; line-height:34px !important; color:#FF7F00 !important; text-align:center; background-color:#ffffff; width:98px; height:34px !important; border:1px solid #FF7F00; border-radius:2px}
+.main_l_nav_cont_row .to_ask:hover{background-color:#FF8000 !important;  color:#FFF !important}
+.main_l_nav_cont_row .the_last_div a{background-color: #FF8000 !important; color: #FFF !important;margin:0 20px 10px 20px; font-size:14px; line-height:32px !important; text-align:center;display: block; width:98px; height:32px !important; border:1px solid #FF7F00; border-radius:2px}
+
+.tab .careful_l a{font-weight: bold; color: #ff8000; text-decoration: underline;}
+.tab .careful_l i{background: url(../images/ico.png) -520px -560px no-repeat; width: 60px; height: 60px; margin-right: 10px;}
+.tab .careful_l{font-size: 22px; line-height: 60px; height: 60px; color: #666666; font-weight: bold; text-align: center; padding-top: 20px;}
+
+.pop_box_btns button{margin: 0 32px;}
+
+
+
+.att_sch, .att_class, .att_course{width: 22px; height: 22px; background-image: url(../images/ico.png); background-repeat: no-repeat; margin-right: 8px;}
+.att_sch {background-position: -160px -320px;}
+.att_class {background-position: -239px -317px;}
+.att_course{background-position: -239px -278px;}
+
+
+
+
+
+
+

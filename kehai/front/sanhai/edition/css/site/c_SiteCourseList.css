@@ -1,0 +1,91 @@
+.terdayCour{
+    float: left;
+    width: 240px;
+    height: 226px;
+    padding: 13px 20px 0px;
+    margin-left: 33px;
+}
+.terdayCour:hover {
+    background: white;
+    box-shadow: 0 0 10px #ccc;
+}
+
+/*.todyRecommend .tody_r dl dd {*/
+    /*margin-top: 10px;*/
+/*}*/
+
+.terdayCour h5 a {
+    display: inline-block;
+    width: 240px;
+    font-weight: bold;
+    color: #14191e;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.terdayCour h5 a:hover{
+    color: #FF8000;
+}
+/*.todyRecommend a:hover {*/
+    /*color: #ff8000;*/
+/*}*/
+.terdayCour h5 {
+    font-size: 14px;
+}
+#content .tody_r ul {
+    margin-left: 60px;
+}
+#content .tody_r ul li {
+    float: left;
+    line-height: 39px;
+    /*padding-right: 85px;*/
+}
+#content .tody_r ul li a {
+    padding: 0 40px;
+    border: none;
+    background: white;
+    display: block;
+    height: 38px;
+    line-height: 38px;
+    position: relative;
+    top: 2px;
+    font-size: 16px;
+}
+
+#content .tody_r .more {
+    line-height: 39px;
+    right: 0px;
+    top: 0px;
+    position: absolute;
+    color: #ff8000;
+}
+#content .tody_r hr {
+    border: 1px solid #eee!important;
+    width: 958px;
+    margin-left: -20px;
+    margin-bottom: 20px;
+}
+#content .frame_l_s {
+    margin-right: 0;
+}
+#content .frame_r_l{
+    margin-left: 20px;
+}
+#content .tab .tabList li .ac {
+    background: none;
+    border-bottom: 2px solid #ff7f00!important;
+    color: #ff7f00!important;
+}
+#content .tab .tabList li a:hover {
+    border-bottom: 2px solid #ff7f00!important;
+    color: #ff7f00!important;
+}
+
+
+.terdayCour h5{
+    font-size: 14px;
+}
+
+.terdayCour dd {
+    margin-top: 10px;
+}

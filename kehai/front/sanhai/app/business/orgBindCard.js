@@ -1,0 +1,1 @@
+require(["app/business/orgBindCardDo"]);
